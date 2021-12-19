@@ -8,6 +8,28 @@
     "1639939892fe3cb110": {
       "type": "generic-content",
       "blocks": {
+        "3948a536-f484-45af-9f4b-dd04d637c6e6": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nicolezizistudio_purpose_factory_1200x_586486e9-1898-4275-bccf-32ede776ebff.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#ffffff",
+            "link": ""
+          }
+        },
         "6942b1ca-14cb-49d8-a967-a64df0bf2c6f": {
           "type": "generic-content",
           "settings": {
@@ -30,10 +52,10 @@
             "link": ""
           }
         },
-        "3948a536-f484-45af-9f4b-dd04d637c6e6": {
+        "636fbf97-f30a-4715-97ff-400d1506c14a": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/nicolezizistudio_purpose_factory_1200x_586486e9-1898-4275-bccf-32ede776ebff.jpg",
+            "image": "shopify:\/\/shop_images\/6B2E1679-C5B1-4A4D-82A5-8FDC54E20B22-56A0025E-BB7C-4967-BC26-C252290DD004.jpg",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -73,40 +95,18 @@
             "cta_text_color": "#ffffff",
             "link": ""
           }
-        },
-        "636fbf97-f30a-4715-97ff-400d1506c14a": {
-          "type": "generic-content",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pf-87874ad0--img513.jpg",
-            "cropped": true,
-            "video_url": "",
-            "highlighter_color": "#000000",
-            "bg_color": "#ffffff",
-            "highlighter_opacity": 0,
-            "text_color": "#ffffff",
-            "blur_effect": false,
-            "has_overlay": false,
-            "vertical_text_alignment": "bottom",
-            "horizontal_text_alignment": "left",
-            "highlighter_text": "",
-            "body_text": "",
-            "cta": "",
-            "has_arrow": false,
-            "cta_text_color": "#ffffff",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "6942b1ca-14cb-49d8-a967-a64df0bf2c6f",
         "3948a536-f484-45af-9f4b-dd04d637c6e6",
-        "cc5313b4-e5c6-4121-b6f7-4a095f30d555",
-        "636fbf97-f30a-4715-97ff-400d1506c14a"
+        "6942b1ca-14cb-49d8-a967-a64df0bf2c6f",
+        "636fbf97-f30a-4715-97ff-400d1506c14a",
+        "cc5313b4-e5c6-4121-b6f7-4a095f30d555"
       ],
       "settings": {
         "section_margin": "small",
         "height": "medium",
-        "hide": false,
+        "hide": true,
         "gutter": true,
         "block_size": "medium"
       }
