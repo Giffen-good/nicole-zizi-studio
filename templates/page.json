@@ -2,16 +2,18 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
     "1639939892fe3cb110": {
       "type": "generic-content",
+      "disabled": true,
       "blocks": {
         "6942b1ca-14cb-49d8-a967-a64df0bf2c6f": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/16by9_DSC_3813.png",
+            "image": "shopify:\/\/shop_images\/ZiZi_Edits-21.jpg_2_2x_01038833-b74b-4cbe-b628-914f9689473e.png",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -52,10 +54,10 @@
             "link": ""
           }
         },
-        "636fbf97-f30a-4715-97ff-400d1506c14a": {
+        "cc5313b4-e5c6-4121-b6f7-4a095f30d555": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pf-87874ad0--img513.jpg",
+            "image": "shopify:\/\/shop_images\/ZiZi-Edits-17-v2.png",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -74,10 +76,10 @@
             "link": ""
           }
         },
-        "cc5313b4-e5c6-4121-b6f7-4a095f30d555": {
+        "636fbf97-f30a-4715-97ff-400d1506c14a": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZiZi-Edits-17-v2.png",
+            "image": "shopify:\/\/shop_images\/pf-87874ad0--img513.jpg",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -100,8 +102,8 @@
       "block_order": [
         "6942b1ca-14cb-49d8-a967-a64df0bf2c6f",
         "3948a536-f484-45af-9f4b-dd04d637c6e6",
-        "636fbf97-f30a-4715-97ff-400d1506c14a",
-        "cc5313b4-e5c6-4121-b6f7-4a095f30d555"
+        "cc5313b4-e5c6-4121-b6f7-4a095f30d555",
+        "636fbf97-f30a-4715-97ff-400d1506c14a"
       ],
       "settings": {
         "section_margin": "small",
