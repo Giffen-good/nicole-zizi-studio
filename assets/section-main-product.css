@@ -16,6 +16,9 @@
   padding-bottom: 0;
 }
 
+.desktop-made-to-measure {
+  display:none;
+}
 @media screen and (max-width: 749px) {
   .product-section {
     margin-top: 0;
@@ -28,6 +31,10 @@
     top: 3rem;
     z-index: 2;
   }
+
+.desktop-made-to-measure {
+  display:block;
+}
 
   .product__info-wrapper {
     padding-left: 5rem;
@@ -77,9 +84,7 @@
 .large-screen-price .price--on-sale .price__sale {
   justify-content: flex-end;
 }
-.price-item--sale {
-  color: var(--gradient-base-accent-2);
-}
+
 @media screen and (min-width:1400px) {
   .product__info-container {
     justify-content: space-between;

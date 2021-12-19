@@ -3,11 +3,8 @@
   overflow: hidden;
   text-decoration: none;
 }
-
-@media screen and (min-width: 750px) {
-  .card-information + .card {
-    margin-bottom: 0.7rem;
-  }
+.card-information + .card {
+  margin-bottom: 0.7rem;
 }
 
 .card.card--soft {
@@ -311,5 +308,11 @@
   .card-wrapper:hover .card--soft {
     background-color: rgba(var(--color-card-hover), 0.06);
     transition: background-color var(--duration-long) ease;
+  }
+}
+@media screen and (max-width:440px) {
+  .product-grid .grid__item {
+     width:100%;
+     max-width: 100%;
   }
 }

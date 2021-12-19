@@ -64,3 +64,8 @@ h1, .h0 {
     color: var(--gradient-base-accent-2);
     @apply text-4xl mb-1;
   }
+.collection .icon-arrow {
+    display: inline-block;
+    width:1.2rem;
+    margin-left:0.5rem;
+}

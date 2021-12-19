@@ -72,7 +72,9 @@
   display: flex;
   justify-content: center;
 }
-
+.price-item--sale {
+  color: var(--gradient-base-accent-2);
+}
 .price--on-sale .price-item--regular {
   text-decoration: line-through;
   color: rgba(var(--color-foreground), 0.75);
