@@ -2,11 +2,20 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "1639949883b61a037e": {
+      "type": "page",
+      "settings": {
+        "page": "terms-and-conditions",
+        "alt-header": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1639949883b61a037e"
   ]
 }
