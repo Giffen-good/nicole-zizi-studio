@@ -247,7 +247,12 @@
                       {{ product.variants | json }}
                     </script>
                   </variant-selects>
+                  {%- if product.metafields.my_fields.made_to_measure -%}
                   <a class="uppercase button flex-1" href="/pages/made-to-measure">Made to Measure</a>
+
+                  {% else %}
+<div class="button flex-1"></div>
+                  {% endif %}
                   </div>
                 {%- else -%}
                   <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
@@ -336,7 +341,9 @@
                             </svg>
                           </div>
                       </button>
-                      <a href="/pages/made-to-measure" class="desktop-made-to-measure button made-to-measure button--full-width"><span>Made-to-measure</span></a>
+                {%- if product.metafields.my_fields.made_to_measure -%}
+                      <a href="/pages/made-to-measure" class="product-form__submit desktop-made-to-measure button made-to-measure button--full-width"><span>Made-to-measure</span></a>
+                      {% endif %}
                       {%- if block.settings.show_dynamic_checkout -%}
                         {{ form | payment_button }}
                       {%- endif -%}

@@ -18,6 +18,7 @@
 
 .desktop-made-to-measure {
   display:none;
+  white-space: nowrap;
 }
 @media screen and (max-width: 749px) {
   .product-section {
@@ -33,7 +34,7 @@
   }
 
 .desktop-made-to-measure {
-  display:block;
+  display:flex;
 }
 
   .product__info-wrapper {
@@ -423,6 +424,7 @@ variant-radios {
   }
 .mobile-variant .button  {
   font-size: 1rem;
+  display: initial !important;
   box-shadow: none !important;
   border: none;
   border-left:solid 1px #000;
