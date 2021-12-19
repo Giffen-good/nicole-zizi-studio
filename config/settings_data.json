@@ -34,7 +34,7 @@
           "announcement-bar-2": {
             "type": "announcement",
             "settings": {
-              "text": "Collection  1 Now Available",
+              "text": "Denim Capsule Collection Now Available",
               "font_color": "#ffffff",
               "color_scheme": "accent-2",
               "link": ""
@@ -43,7 +43,7 @@
           "announcement-bar-3": {
             "type": "announcement",
             "settings": {
-              "text": "Collection  1 Now Available",
+              "text": "Denim Capsule Collection Now Available",
               "font_color": "#ffffff",
               "color_scheme": "accent-2",
               "link": ""
