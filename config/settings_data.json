@@ -65,7 +65,7 @@
         "settings": {
           "logo_width": 220,
           "logo_position": "top-center",
-          "menu": "main-menu",
+          "menu": "main-menu-new",
           "show_line_separator": false,
           "enable_sticky_header": false
         }
