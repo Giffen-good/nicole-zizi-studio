@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1639950054bbbfd081": {
+      "type": "page",
+      "settings": {
+        "page": "terms-privacy",
+        "alt-header": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1639950054bbbfd081"
+  ]
+}
