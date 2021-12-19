@@ -73,7 +73,7 @@
             "cta": "Shop now",
             "has_arrow": true,
             "cta_text_color": "#fff",
-            "link": ""
+            "link": "shopify:\/\/collections\/denim-capsule-collection"
           }
         },
         "8a30eb51-1a8e-47fc-b7e1-d824105dffec": {
@@ -95,7 +95,7 @@
             "cta": "View",
             "has_arrow": true,
             "cta_text_color": "#fff",
-            "link": ""
+            "link": "shopify:\/\/collections\/capsule-collection"
           }
         }
       },
