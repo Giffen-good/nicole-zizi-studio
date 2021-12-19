@@ -86,9 +86,12 @@
 }
 .section-height--small {
   height: 20vw;
+  max-height:calc(var(--page-width)/ 5);
+
 }
 .section-height--medium {
   height: 30vw;
+  max-height:calc(var(--page-width)/ 3);
 }
 .section-height--large {
   height: 40vw;
