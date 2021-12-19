@@ -2,12 +2,116 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "settings": {
-        "image_ratio": "square"
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "image_padding": false
+      }
+    },
+    "163993900260f2fdc2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "box-logo-collection",
+        "products_to_show": 3,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1639939013cbf43a23": {
+      "type": "generic-content",
+      "blocks": {
+        "9a7a33b4-da58-44e3-b17b-370a29dbdcc1": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZiZi_Edits-21.jpg_2.png",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "middle",
+            "horizontal_text_alignment": "center",
+            "highlighter_text": "Capsules",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": "shopify:\/\/collections\/capsule-collection"
+          }
+        },
+        "44a5f813-fe04-4bdd-9144-729dea65be62": {
+          "type": "generic-content",
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Header",
+            "body_text": "",
+            "cta": "Read More",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        },
+        "cbd9fe20-380c-4d46-8f99-84db20bd0980": {
+          "type": "generic-content",
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Header",
+            "body_text": "",
+            "cta": "Read More",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "9a7a33b4-da58-44e3-b17b-370a29dbdcc1",
+        "44a5f813-fe04-4bdd-9144-729dea65be62",
+        "cbd9fe20-380c-4d46-8f99-84db20bd0980"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "163993900260f2fdc2",
+    "1639939013cbf43a23"
   ]
 }
