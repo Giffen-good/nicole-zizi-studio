@@ -62,7 +62,7 @@ h1, .h0 {
 
 .alt-header h2 {
     color: var(--gradient-base-accent-2);
-    @apply text-4xl mb-1;
+    @apply text-4xl mb-1.5;
   }
 .collection .icon-arrow {
     display: inline-block;
