@@ -615,7 +615,7 @@ variant-radios {
 }
 
 @media screen and (min-width: 750px) {
-  .product__media-item:first-child {
+  .product__media-item:first-child, .grid--2-col-tablet .product__media-item{
     width: 100%;
   }
 
