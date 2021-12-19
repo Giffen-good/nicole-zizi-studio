@@ -151,13 +151,13 @@ article .image-first {
 @media screen and (max-width: 749px) {
 
   .ha--left .text-wrapper {
-    left:1.5rem;
+    left:1rem;
     padding-right:1.5rem;
   }
 
   .ha--right .text-wrapper {
-    right:1.5rem;
-    padding-left:1.5rem;
+    right:1rem;
+    padding-left:1rem;
   }
 }
 @media screen and (max-width:764px) {
