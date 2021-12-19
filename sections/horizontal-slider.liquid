@@ -11,10 +11,14 @@
                   <a href="{{ product.url | default: '#' }}" class="full-unstyled-link">
                   <img class="inner" src="{{ product.featured_image | img_url: '1200x1200' }}" alt="{{product.featured_image.alt}}" />
                   <div class="text-box">
+                    <h3>
+                      {{ product.title }}
+                    </h3>
+                  {%- if product.metafields.my_fields.product_fabric != blank -%}
+                  <h4 class="font-light italic normal-case mt-1">{{  product.metafields.my_fields.product_fabric  }}</h4>
+                  {% endif %}
                   </div>
-                  <h3>
-                    {{ product.title }}
-                  </h3>
+                  
                 </a>
                 
                 </div>
