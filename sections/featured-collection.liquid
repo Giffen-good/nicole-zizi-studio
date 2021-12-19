@@ -33,7 +33,7 @@
   </div>
 
   <slider-component class="slider-mobile-gutter">
-    <ul class="grid grid--2-col product-grid grid--3-col-desktop grid--3-col-tablet grid--one-third-max grid--4-col-display {% if section.setting.show_4_product_grid %}grid--quarter-max {% endif %}{% if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and section.settings.products_to_show > 2 %} slider slider--tablet grid--peek{% endif %}{% if section.settings.show_view_all == false or section.settings.collection.products.size < section.settings.products_to_show %} negative-margin{% endif %}{% if section.settings.show_view_all and section.settings.collection.products.size > section.settings.products_to_show %} negative-margin--small{% endif %}" role="list">
+    <ul class="grid grid--2-col product-grid grid--3-col-desktop grid--3-col-tablet grid--one-third-max grid--4-col-display {% if section.setting.show_four_product_grid %}grid--quarter-max {% endif %}{% if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and section.settings.products_to_show > 2 %} slider slider--tablet grid--peek{% endif %}{% if section.settings.show_view_all == false or section.settings.collection.products.size < section.settings.products_to_show %} negative-margin{% endif %}{% if section.settings.show_view_all and section.settings.collection.products.size > section.settings.products_to_show %} negative-margin--small{% endif %}" role="list">
       {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
         <li class="grid__item{% if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and section.settings.products_to_show > 2 %} slider__slide{% endif %}">
           {% render 'product-card',
@@ -108,7 +108,7 @@
     },
     {
       "type": "checkbox",
-      "id": "show_4_product_grid",
+      "id": "show_four_product_grid",
       "label": "Display 4 product grid on large screens",
       "default": false,
       "info": "Will fallback to 3 product grid if false"
