@@ -48,6 +48,9 @@
   }
   
 }
+.contact .rich-text__text:not(:last-child) {
+  margin-bottom:2rem;
+}
 @media screen and (max-width:800px) {
   .contact-text {
     flex: 1 0 100%;
@@ -58,6 +61,7 @@
   .contact-form {
     padding-top:1rem;
   }
+  
 }
 .grecaptcha-badge {
   visibility: hidden;

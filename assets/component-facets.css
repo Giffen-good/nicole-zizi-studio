@@ -65,7 +65,7 @@
 }
 
 .facet-filters__field {
-  align-items: center;
+  align-items: baseline;
   display: flex;
   flex-grow: 1;
   justify-content: flex-end;
@@ -839,6 +839,7 @@ input.mobile-facets__checkbox {
 }
 
 .product-count {
+  display:none;
   align-self: center;
   position: relative;
   text-align: right;

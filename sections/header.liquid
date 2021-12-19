@@ -32,6 +32,7 @@
     justify-content: end;
   }
   @media screen and (min-width: 990px) {
+   
     .header__icon--search > span:first-child, .header__icon:not(.header__icon--summary){
       display:flex;
     }
@@ -112,6 +113,18 @@
   }
   .header-logo svg { 
       margin-top:-76px;
+  }
+  @media screen and (max-width: 975px) {
+    .header-logo {
+      width:157px;
+      height:66px;
+    }
+    .header-logo svg {
+      margin-top:-47px
+    }
+    .header {
+      padding-bottom: 0rem;
+    }
   }
 </style>
 

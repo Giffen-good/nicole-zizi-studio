@@ -219,7 +219,9 @@ html.no-js .no-js-hidden {
 .spaced-section {
   margin-top: 5rem;
 }
-
+main > .spaced-section:first-child {
+  margin-top:2rem;
+}
 .spaced-section:last-child {
   margin-bottom: 5rem;
 }
