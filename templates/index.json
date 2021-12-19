@@ -1,106 +1,135 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "settings": {
-        "desktop_content_position": "middle-center"
-      },
+    "163993857803f831c6": {
+      "type": "generic-content",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "36c7a85d-08a9-4fe5-9b65-6917cb88cf71": {
+          "type": "generic-content",
           "settings": {
-            "heading": "Talk about your brand"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_label_2": ""
+            "image": "shopify:\/\/shop_images\/ZiZi-Edits-5_2x_994fe8fa-fe39-4f7f-9299-1f09703e96d1.png",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Denim Collection",
+            "body_text": "",
+            "cta": "Shop Now",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
-      ]
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading"
-        },
-        "text": {
-          "type": "text"
-        },
-        "button": {
-          "type": "button"
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ]
-    },
-    "featured_products": {
-      "type": "featured-collection",
+        "36c7a85d-08a9-4fe5-9b65-6917cb88cf71"
+      ],
       "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
+        "section_margin": "none",
+        "height": "large",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
       }
     },
-    "collage": {
-      "type": "collage",
+    "1639938599ef30f08e": {
+      "type": "horizontal-slider",
+      "settings": {
+        "title": "Denim Collection",
+        "collection": "denim-capsule-collection",
+        "products_to_show": 12,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1639938668eff14c97": {
+      "type": "generic-content",
       "blocks": {
-        "video": {
-          "type": "video"
+        "d6cb64c1-4646-4676-a778-812688b65474": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZiZi-Edits-9.png",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "top",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Denim Collection",
+            "body_text": "",
+            "cta": "Shop now",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
         },
-        "product": {
-          "type": "product"
-        },
-        "collection": {
-          "type": "collection"
+        "8a30eb51-1a8e-47fc-b7e1-d824105dffec": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZiZi_Edits-21.jpg_2_2x_01038833-b74b-4cbe-b628-914f9689473e.png",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Capsule Collection",
+            "body_text": "",
+            "cta": "View",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "video",
-        "product",
-        "collection"
-      ]
+        "d6cb64c1-4646-4676-a778-812688b65474",
+        "8a30eb51-1a8e-47fc-b7e1-d824105dffec"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
     },
-    "video": {
-      "type": "video"
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column"
-        },
-        "column2": {
-          "type": "column"
-        },
-        "column3": {
-          "type": "column"
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ]
+    "1639938714e1783b31": {
+      "type": "horizontal-slider",
+      "settings": {
+        "title": "Box Logo Collection",
+        "collection": "box-logo-collection",
+        "products_to_show": 6,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_products",
-    "collage",
-    "video",
-    "multi_column"
+    "163993857803f831c6",
+    "1639938599ef30f08e",
+    "1639938668eff14c97",
+    "1639938714e1783b31"
   ]
 }
