@@ -17,6 +17,7 @@
         "title": "Box Logo Collection",
         "collection": "box-logo-collection",
         "products_to_show": 3,
+        "show_4_product_grid": false,
         "show_view_all": false,
         "swipe_on_mobile": false,
         "image_ratio": "portrait",
@@ -115,7 +116,8 @@
       "settings": {
         "title": "Denim Capsule Collection",
         "collection": "denim-capsule-collection",
-        "products_to_show": 3,
+        "products_to_show": 12,
+        "show_4_product_grid": true,
         "show_view_all": false,
         "swipe_on_mobile": false,
         "image_ratio": "portrait",
