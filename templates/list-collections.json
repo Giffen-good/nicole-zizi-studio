@@ -14,7 +14,7 @@
     "163993900260f2fdc2": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Box Logo Collection",
         "collection": "box-logo-collection",
         "products_to_show": 3,
         "show_view_all": false,
@@ -37,9 +37,9 @@
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "highlighter_opacity": 0,
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "blur_effect": false,
             "has_overlay": true,
             "vertical_text_alignment": "middle",
@@ -48,7 +48,7 @@
             "body_text": "",
             "cta": "",
             "has_arrow": true,
-            "cta_text_color": "#fff",
+            "cta_text_color": "#ffffff",
             "link": "shopify:\/\/collections\/capsule-collection"
           }
         },
@@ -59,9 +59,9 @@
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "highlighter_opacity": 0,
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "blur_effect": false,
             "has_overlay": true,
             "vertical_text_alignment": "middle",
@@ -70,7 +70,7 @@
             "body_text": "",
             "cta": "",
             "has_arrow": false,
-            "cta_text_color": "#fff",
+            "cta_text_color": "#ffffff",
             "link": "shopify:\/\/collections\/bags"
           }
         },
@@ -81,9 +81,9 @@
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "highlighter_opacity": 0,
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "blur_effect": false,
             "has_overlay": true,
             "vertical_text_alignment": "middle",
@@ -92,7 +92,7 @@
             "body_text": "",
             "cta": "",
             "has_arrow": false,
-            "cta_text_color": "#fff",
+            "cta_text_color": "#ffffff",
             "link": "shopify:\/\/collections\/candles"
           }
         }
