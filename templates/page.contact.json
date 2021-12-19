@@ -1,17 +1,98 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
-    },
-    "form": {
-      "type": "contact-form",
+      "type": "main-page",
       "settings": {
-        "heading": ""
+      }
+    },
+    "1639940091bfaff3f2": {
+      "type": "custom-contact-section",
+      "blocks": {
+        "936bb367-9f55-4176-9d42-b6b843e29500": {
+          "type": "heading",
+          "settings": {
+            "heading": "Made-to-measure",
+            "large-heading": true
+          }
+        },
+        "89e2618a-7c67-4185-bee9-0cfa03433eee": {
+          "type": "body",
+          "settings": {
+            "body": "<p><a href=\"mailto:contact@nicolezizistudio.com\" title=\"mailto:contact@nicolezizistudio.com\">contact@nicolezizistudio.com<\/a><\/p>"
+          }
+        },
+        "8df74295-6e55-4cd4-9427-9a459e681925": {
+          "type": "heading",
+          "settings": {
+            "heading": "Customer Support",
+            "large-heading": true
+          }
+        },
+        "6ec3b3d2-9cb1-4bba-bb2d-4e651580b79d": {
+          "type": "body",
+          "settings": {
+            "body": "<p><a href=\"mailto:contact@nicolezizistudio.com\" title=\"mailto:contact@nicolezizistudio.com\">contact@nicolezizistudio.com<\/a><\/p>"
+          }
+        },
+        "24130618-073d-40e3-93d5-e19cb7add521": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wholesale\/stockist",
+            "large-heading": true
+          }
+        },
+        "8e4a44d9-00a5-4733-8471-0a9b5151d3f2": {
+          "type": "body",
+          "settings": {
+            "body": "<p><a href=\"mailto:contact@nicolezizistudio.com\" title=\"mailto:contact@nicolezizistudio.com\">contact@nicolezizistudio.com<\/a><\/p>"
+          }
+        },
+        "008103c7-bcfd-4174-ae4a-1d58ae245d32": {
+          "type": "heading",
+          "settings": {
+            "heading": "Press",
+            "large-heading": true
+          }
+        },
+        "95ce91c7-7847-4aac-ad55-887248623696": {
+          "type": "body",
+          "settings": {
+            "body": "<p><a href=\"mailto:contact@nicolezizistudio.com\" title=\"mailto:contact@nicolezizistudio.com\">contact@nicolezizistudio.com<\/a><\/p>"
+          }
+        },
+        "a9bc0e18-4089-4f2b-9883-c0702aa1e3a5": {
+          "type": "heading",
+          "settings": {
+            "heading": "Collaborations",
+            "large-heading": true
+          }
+        },
+        "f54ba20d-4647-4730-ae76-13f1768d9784": {
+          "type": "body",
+          "settings": {
+            "body": "<p><a href=\"mailto:contact@nicolezizistudio.com\" title=\"mailto:contact@nicolezizistudio.com\">contact@nicolezizistudio.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "936bb367-9f55-4176-9d42-b6b843e29500",
+        "89e2618a-7c67-4185-bee9-0cfa03433eee",
+        "8df74295-6e55-4cd4-9427-9a459e681925",
+        "6ec3b3d2-9cb1-4bba-bb2d-4e651580b79d",
+        "24130618-073d-40e3-93d5-e19cb7add521",
+        "8e4a44d9-00a5-4733-8471-0a9b5151d3f2",
+        "008103c7-bcfd-4174-ae4a-1d58ae245d32",
+        "95ce91c7-7847-4aac-ad55-887248623696",
+        "a9bc0e18-4089-4f2b-9883-c0702aa1e3a5",
+        "f54ba20d-4647-4730-ae76-13f1768d9784"
+      ],
+      "settings": {
+        "section_margin": "large"
       }
     }
   },
   "order": [
     "main",
-    "form"
+    "1639940091bfaff3f2"
   ]
 }

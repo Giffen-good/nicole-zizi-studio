@@ -15,9 +15,9 @@
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "highlighter_opacity": 0,
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "blur_effect": false,
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
@@ -26,7 +26,7 @@
             "body_text": "",
             "cta": "",
             "has_arrow": false,
-            "cta_text_color": "#fff",
+            "cta_text_color": "#ffffff",
             "link": ""
           }
         },
@@ -37,9 +37,9 @@
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "highlighter_opacity": 0,
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "blur_effect": false,
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
@@ -48,7 +48,7 @@
             "body_text": "",
             "cta": "",
             "has_arrow": false,
-            "cta_text_color": "#fff",
+            "cta_text_color": "#ffffff",
             "link": ""
           }
         },
@@ -59,9 +59,9 @@
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "highlighter_opacity": 0,
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "blur_effect": false,
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
@@ -70,7 +70,7 @@
             "body_text": "",
             "cta": "",
             "has_arrow": false,
-            "cta_text_color": "#fff",
+            "cta_text_color": "#ffffff",
             "link": ""
           }
         },
@@ -81,9 +81,9 @@
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "highlighter_opacity": 0,
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "blur_effect": false,
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
@@ -92,7 +92,7 @@
             "body_text": "",
             "cta": "",
             "has_arrow": false,
-            "cta_text_color": "#fff",
+            "cta_text_color": "#ffffff",
             "link": ""
           }
         }
@@ -110,10 +110,36 @@
         "gutter": true,
         "block_size": "medium"
       }
+    },
+    "1639940021bf1b5e7f": {
+      "type": "custom-contact-section",
+      "blocks": {
+        "d95fc60e-f705-4f67-9832-77938c34c765": {
+          "type": "heading",
+          "settings": {
+            "heading": "Made-to-measure",
+            "large-heading": false
+          }
+        },
+        "e71bb58e-2120-4f0b-8c6b-c906e5321c6a": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Do you want the perfect fit garment? Let's make the perfect fit with the most sustainable fabric and the exact details for you! Custom-made garments using your exact measurements and specifications.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d95fc60e-f705-4f67-9832-77938c34c765",
+        "e71bb58e-2120-4f0b-8c6b-c906e5321c6a"
+      ],
+      "settings": {
+        "section_margin": "large"
+      }
     }
   },
   "order": [
     "main",
-    "1639939892fe3cb110"
+    "1639939892fe3cb110",
+    "1639940021bf1b5e7f"
   ]
 }
