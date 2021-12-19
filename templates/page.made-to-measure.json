@@ -106,7 +106,7 @@
       "settings": {
         "section_margin": "small",
         "height": "medium",
-        "hide": false,
+        "hide": true,
         "gutter": true,
         "block_size": "medium"
       }
