@@ -14,9 +14,14 @@
                     <h3>
                       {{ product.title }}
                     </h3>
-                  {%- if product.metafields.my_fields.product_fabric != blank -%}
+                   
+                  {%- if product.metafields.my_fields.product_fabric != blank and section.settings.include_fabric -%}
                   <h4 class="font-light italic normal-case mt-1">{{  product.metafields.my_fields.product_fabric  }}</h4>
                   {% endif %}
+                  {% if section.settings.include_price %}
+                  {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+  
+                      {% endif %}
                   </div>
                   
                 </a>
@@ -215,6 +220,18 @@
       "step": 1,
       "default": 6,
       "label": "t:sections.featured-collection.settings.products_to_show.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "include_fabric",
+      "label": "Include fabric type",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "include_price",
+      "label": "Include price data",
+      "default": true
     },
     {
       "type": "header",
