@@ -5,6 +5,7 @@
 .text-wrapper {
   position:absolute;
   max-width:700px;
+  width:90%;
 }
 .ha--center .text-wrapper {
   transform: translateX(-50%);
