@@ -1,5 +1,112 @@
 {
-  "current": "Default",
+  "current": {
+    "colors_solid_button_labels": "#FFFFFF",
+    "colors_accent_1": "#121212",
+    "colors_accent_2": "#0671b9",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#ecece7",
+    "colors_background_2": "#F3F3F3",
+    "type_header_font": "futura_n5",
+    "type_body_font": "poppins_n5",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Collection  1 Now Available",
+              "font_color": "#fff",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
+          },
+          "announcement-bar-1": {
+            "type": "announcement",
+            "settings": {
+              "text": "Collection  1 Now Available",
+              "font_color": "#fff",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
+          },
+          "announcement-bar-2": {
+            "type": "announcement",
+            "settings": {
+              "text": "Collection  1 Now Available",
+              "font_color": "#fff",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
+          },
+          "announcement-bar-3": {
+            "type": "announcement",
+            "settings": {
+              "text": "Collection  1 Now Available",
+              "font_color": "#fff",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0",
+          "announcement-bar-1",
+          "announcement-bar-2",
+          "announcement-bar-3"
+        ],
+        "settings": {
+          "link": ""
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_width": 220,
+          "logo_position": "top-center",
+          "menu": "main-menu-new",
+          "show_line_separator": false,
+          "enable_sticky_header": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "footer-menu-left"
+            }
+          },
+          "79c7b3cf-79b7-4cd5-83bc-c19a4f45680e": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "footer-menu-right"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "79c7b3cf-79b7-4cd5-83bc-c19a4f45680e"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Email",
+          "show_social": false,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
   "presets": {
     "Default": {
       "colors_solid_button_labels": "#FFFFFF",
@@ -26,7 +133,8 @@
               "settings": {
                 "color_scheme": "accent-2"
               }
-            },"announcement-bar-2": {
+            },
+            "announcement-bar-2": {
               "type": "announcement",
               "settings": {
                 "color_scheme": "accent-2"
@@ -44,7 +152,9 @@
             "announcement-bar-1",
             "announcement-bar-2",
             "announcement-bar-3"
-          ]
+          ],
+          "settings": {
+          }
         }
       }
     },
@@ -61,21 +171,25 @@
       "sections": {
         "footer": {
           "type": "footer",
-          "settings": {
-            "color_scheme": "accent-1"
-          },
           "blocks": {
             "menu": {
-              "type": "link_list"
+              "type": "link_list",
+              "settings": {
+              }
             },
             "text": {
-              "type": "text"
+              "type": "text",
+              "settings": {
+              }
             }
           },
           "block_order": [
             "menu",
             "text"
-          ]
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
         }
       }
     }
