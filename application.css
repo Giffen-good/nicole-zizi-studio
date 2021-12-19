@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.link { 
+    font-size: 1rem;
+    @apply uppercase;
+}
+
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+html {font-size:12px}
+body {font-family:var(--font-body-family)}
+
+.cta svg {display:inline-block; width:1.3rem; margin-left:6px;}
+.skip-to-content-link {
+    background-color:var(--color-background-2)
+}
+.link {
+    text-decoration: none;
+}
+.link:hover {
+   color: var(--gradient-base-accent-2);
+}
+.grid {
+    display: flex;
+}
+header {
+    @apply uppercase;
+}
+p {
+    font-size: 1.2rem;
+    line-height:1.5;
+    @apply font-light normal-case;
+}
+h1, .h0 {
+    @apply text-4xl uppercase;
+}
+.product-section {
+    @apply text-xl font-medium;
+}
+.button {
+    @apply uppercase
+}
+.article-card-alt .text-2xl {
+    @apply text-4xl
+}
+.remove-overflow {
+    overflow-x: hidden;
+    max-width:100%;
+}

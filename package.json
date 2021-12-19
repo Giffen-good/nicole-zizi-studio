@@ -1,0 +1,15 @@
+{
+  "name": "nicole-zizi",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npx tailwindcss -i application.css -o assets/application.css.liquid -w --minify",
+    "build": "postcss -i tailwind.css -o build.css --minify"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+  }
+}

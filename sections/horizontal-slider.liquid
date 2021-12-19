@@ -1,0 +1,277 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<h2 class="mt-3 pt-4 mb-1 page-width ml-2">{{section.settings.title}}</h2>
+<div class="relative">
+  <div class="main-carousel page-width" id="horizontal-carousel--{{section.id}}">
+      {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+                <div class="carousel-cell carousel-img-container">
+                  <a href="{{ product.url | default: '#' }}" class="full-unstyled-link">
+                  <img class="inner" src="{{ product.featured_image | img_url: '1200x1200' }}" alt="{{product.featured_image.alt}}" />
+                  <div class="text-box">
+                  </div>
+                  <h3>
+                    {{ product.title }}
+                  </h3>
+                </a>
+                
+                </div>
+      {%- else -%}
+              {%- for i in (1..4) -%}
+                  <li class="grid__item">f
+                      {% render 'product-card-placeholder' %}
+                  </li>
+              {%- endfor -%}
+      {%- endfor -%}
+  </div>
+  <div class="custom-arrows" id="arrow-container--{{section.id}}">
+    <div class="prev--arrow">{% render 'icon-arrow' %}</div>
+    <div class="next--arrow">{% render 'icon-arrow' %}</div>
+
+  </div>
+</div>
+<style>
+  .custom-arrows {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 19px;
+    margin-top: -19px;
+  }
+  .prev--arrow svg, .next--arrow svg {
+    cursor: pointer;
+    
+  }
+  .prev--arrow, .next--arrow {
+    cursor: pointer;
+    display: inline-block;
+    transform: rotate(0deg);
+
+  }
+  .prev--arrow {
+    transform: rotate(180deg);
+  }
+  #MainContent {
+    max-width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+  }
+  .flickity-page-dots {
+    display:flex;
+    padding-top:40px;
+    width:initial;
+    position:initial;
+    margin-left:0.5rem;
+  }
+
+  .flickity-page-dots .dot {
+    margin: 0;
+    border-radius: 0;
+    flex-grow: 1;
+    height:21px;
+    background:black;
+    opacity:1;
+    background-clip: content-box;
+    padding: 10px 0;
+
+  }
+  .flickity-page-dots .dot.is-selected {
+    background-color: var(--gradient-base-accent-2);
+    height:24px;
+    border-radius: 5px;
+    margin-top: -1px;
+
+  }
+  .flickity-viewport {
+    padding: 0 5rem;
+  }
+  .flickity-viewport {
+    overflow: visible;
+  }
+  .main-carousel {
+  }
+  .main-carousel:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+  .carousel-img-container {
+    width: calc(50vw - 0.5rem / 2);
+    padding:0.5rem;
+  }
+  .carousel-img-container img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border: solid 1px var(--gradient-base-accent-2);
+    padding-bottom:5%;
+    margin-bottom:0.5rem;
+  }
+  @media screen and (min-width:750px) {
+    .main-carousel {
+    }
+    .carousel-img-container {
+      width: calc(33vw - 0.5rem / 2);
+      padding:0.5rem;
+    }
+  }
+  @media screen and (min-width:990px) {
+    
+    .carousel-img-container {
+      width: calc(25vw - 0.5rem / 2);
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    
+    .carousel-img-container {
+      padding:0;
+      width: calc(100vw - 0.5rem / 2);
+    }
+    .main-carousel.page-width {
+      padding-left:0;
+    }
+    .flickity-page-dots {
+      display: none;
+    }
+    .custom-arrows {
+      margin-top:0;
+      top:50%;
+      transform:translateY(-50%);
+      position: absolute;
+      width:100%;
+    }
+    .prev--arrow, .next--arrow {
+      align-items: center;
+      display:inline-flex;
+      width:75px;
+      height:50px;
+      justify-content: end;
+    }
+  }
+</style>
+<script>
+  (function() {
+    var options = {
+      // options
+          cellAlign: 'left',
+          contain: true,
+          dragThreshold: 10,
+          freeScroll: true,
+          freeScrollFriction: 0.2,
+          resize: true,
+          groupCells: 2,
+          prevNextButtons: false
+
+      }
+      // enable prev/next buttons at 768px
+    if ( matchMedia('screen and (max-width: 768px)').matches ) {
+      options.groupCells = 1;
+      options.freeScroll = false;
+    }
+    var img = new Image();
+    img.onload = function() { 
+      var flkty = new Flickity( elem, options);
+      var arrows = document.querySelector('#arrow-container--{{section.id}}');
+      arrows.querySelector('.prev--arrow').addEventListener('click', function() {
+        flkty.previous()
+      })
+      arrows.querySelector('.next--arrow').addEventListener('click', function() {
+        flkty.next()
+      })
+    }
+    var elem = document.querySelector("#horizontal-carousel--{{section.id}}")
+    img.src = elem.querySelector('img.inner').src
+
+  })();
+</script>
+{% schema %}
+{
+  "name": "Collection Slider",
+  "tag": "section",
+  "class": "horizontal-slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Collection Slider",
+      "label": "Collection Slider"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "t:sections.featured-collection.settings.collection.label"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 5,
+      "max": 12,
+      "step": 1,
+      "default": 6,
+      "label": "t:sections.featured-collection.settings.products_to_show.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.featured-collection.settings.header.content"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__3.label"
+        }
+      ],
+      "default": "portrait",
+      "label": "t:sections.featured-collection.settings.image_ratio.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_secondary_image",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.show_secondary_image.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "add_image_padding",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.add_image_padding.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image_outline",
+      "default": true,
+      "label": "t:sections.featured-collection.settings.show_image_outline.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rating",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.show_rating.label",
+      "info": "t:sections.featured-collection.settings.show_rating.info"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.featured-collection.presets.name"
+    }
+  ]
+}
+{% endschema %}

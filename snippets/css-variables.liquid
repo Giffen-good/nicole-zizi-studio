@@ -1,0 +1,47 @@
+{% comment %}
+  This is used to create CSS custom variables with Liquid references
+  The file variables.scss is referring these CSS custom variables as Sass variables
+  to use throughout the stylesheet
+{% endcomment %}
+
+{%- assign header_font = settings.type_header_font -%}
+{%- assign header_font_light = settings.type_header_font_light  -%}
+{%- assign base_font = settings.type_base_font -%}
+{%- assign base_font_light = base_font | font_modify: 'weight', 'light' -%}
+
+{%- assign base_font_bolder = base_font | font_modify: 'weight', 'bolder' -%}
+{%- assign base_font_bold = base_font | font_modify: 'weight', 'bold' -%}
+{%- assign base_font_italic = base_font | font_modify: 'style', 'italic' -%}
+{%- assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic' -%}
+<script>console.log({{base_font_light}})</script>
+<link rel="preload" as="font" href="{{ base_font_light | font_url }}" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="{{ header_font | font_url }}" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="{{ header_font_light | font_url }}" type="font/woff2" crossorigin>
+
+<link rel="preload" as="font" href="{{ base_font | font_url }}" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="{{ base_font_bold | font_url }}" type="font/woff2" crossorigin>
+ 
+
+{% style %}
+    {{ header_font | font_face: font_display: 'swap' }}
+    {{ header_font_light | font_face: font_display: 'swap' }}
+    {{ base_font | font_face: font_display: 'swap' }}
+    {{ base_font_light | font_face: font_display: 'swap' }}
+    {{ base_font_bold | font_face: font_display: 'swap' }}
+    {{ base_font_bolder | font_face: font_display: 'swap' }}
+    {{ base_font_italic | font_face: font_display: 'swap' }}
+    {{ base_font_bold_italic | font_face: font_display: 'swap' }}
+
+   :root {
+    --font-weight-body--bold: {{ base_font_bold.weight | default: 700 }};
+    --font-weight-body--bolder: {{ base_font_bolder.weight | default: 700 }};
+    --font-weight-body--light: {{ base_font_light.weight | default: 300 }};
+    --font-stack-header: {{ header_font.family }}, {{ header_font.fallback_families }};
+    --font-style-header: {{ header_font.style }};
+    --font-weight-header: {{ header_font.weight }};
+   
+    --font-stack-body: {{ base_font.family }}, {{ base_font.fallback_families }};
+    --font-style-body: {{ base_font.style }};
+    --font-weight-body: {{ base_font.weight }};
+    }
+{% endstyle %}

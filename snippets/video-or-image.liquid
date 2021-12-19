@@ -1,0 +1,26 @@
+{% comment %} 
+    PARAMS:
+      - link
+      - bg_color
+      - blur_effect
+      - text_color
+      - highlighter_text
+      - cta
+      - cta_text_color
+      - image
+      - video_url
+ {% endcomment %}
+
+    <div class="image-container object-cover">
+        {% if video_url != blank %} 
+            <video class="psa" height="100%" width="100%" background autoplay muted playsinline controls="false">
+                <source src="{{ video_url }}">
+            </video>
+        {% endif %}
+            {% liquid 
+                if image != blank
+                 render 'responsive-image', image: image, custom_classes: 'overlay-img '
+                endif 
+            %}
+         
+    </div>

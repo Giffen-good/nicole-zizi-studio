@@ -1,0 +1,279 @@
+<div class="
+    generic-content-section relative flex section-margin--{{section.settings.section_margin}} 
+    {% if section.settings.hide %} hide-on-mobile{% endif %}
+    {% if section.settings.gutter  %} page-width {% endif %}
+    {% if section.settings.block_size == "small" %}has-large-gaps {% endif %}
+    {% if section.settings.block_size == "medium" %}has-small-gaps {% endif %}
+    {% if section.settings.height != blank %}section-height--{{ section.settings.height }}{% endif %}
+    ">
+
+      {% assign i = 0 %}
+        {% for block in section.blocks %}
+          <div style="background-color:{{ block.settings.bg_color }};" class="generic-content-wrapper flex-1 
+          {% if block.settings.cropped %}cropped-image{% endif %}
+          {% if block.settings.has_overlay %} has-overlay-effect{% endif %}">
+
+            {% assign i = i | plus: 1 %}
+            {% capture classes %}flex items-center w-full h-full block generic-block  relative block-size-{{ block.settings.block_size }} psr va--{{ block.settings.vertical_text_alignment }} ha--{{ block.settings.horizontal_text_alignment }} generic-block-{{ i }}{% endcapture %}
+        
+            {%  if block.settings.link != blank %}
+            <a class="{{ classes }}" href="{{ block.settings.link }}" rel="noopener noreferrer">
+            {% else %}
+            <div class=" {{ classes }}">
+            {% endif %}
+              {% if block.settings.has_overlay %}<div class="cxy w-full h-full absolute opass-overlay"></div> {% endif %}
+              {% liquid
+                if block.settings.image != blank or  block.settings.video_url != blank
+                render "video-or-image", video_url: block.settings.video_url, image: block.settings.image
+              endif
+              if block.settings.highlighter_text != blank
+                render 'highlighter-text', body_text: block.settings.body_text, highlighter_text: block.settings.highlighter_text, blur_effect: block.settings.blur_effect, text_color: block.settings.text_color, cta: block.settings.cta, cta_text_color: block.settings.cta_text_color, has_arrow: block.settings.has_arrow, blur_effect: block.settings.blur_effect
+              endif
+              %}
+              <script>
+                (function() {
+                  var bgColor = {{ block.settings.highlighter_color | json }};
+                  function hexToRgb(hex) {
+                    var result = /^#?([a-f\d]{2})([a-f\ds]{2})([a-f\d]{2})$/i.exec(hex);
+                    return result ? {
+                      r: parseInt(result[1], 16),
+                      g: parseInt(result[2], 16),
+                      b: parseInt(result[3], 16)
+                    } : null;
+                  }
+                  var rgb = hexToRgb(bgColor);
+                  var background = 'rgba(' + rgb.r + ',' + rgb.g + ',' + rgb.b + ',' + {{ block.settings.highlighter_opacity }} + ')';
+                  var highlighter = document.getElementById('shopify-section-{{section.id}}').querySelector('.generic-block-{{i}}');
+
+                  {% if block.settings.highlighter_opacity != 0 or  block.settings.blur_effect %} highlighter.querySelector('.highlighter-text').style.padding = '0 10px'; {% endif %}
+                  {% if block.settings.blur_effect != true and block.settings.highlighter_opacity != 0 %}
+                    highlighter.querySelector('.highlighter-bg').style.background = background;
+                  {% endif %}
+                })();
+              </script>
+            {%  if block.settings.link != blank %}
+            </a>
+            {% else %}
+            </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+</div>
+{{ 'generic-content.css' | asset_url | stylesheet_tag }}
+    
+    {% schema %}
+      {
+        "name": "Generic Grid Content",
+        "class": "generic-content three-up-section",
+        "tag": "section",
+        "max_blocks": 4,
+        "settings": [
+          {
+            "type": "radio",
+            "id": "section_margin",
+            "label": "Section Margin",
+            "info": "Defines the margin between this section and the one above it.",
+            "options": [
+              { "value": "none", "label": "None" },
+              { "value": "small", "label": "Small" },
+              { "value": "medium", "label": "Medium" },
+              { "value": "large", "label": "Large" }
+            ],
+            "default": "large"
+          },
+          {
+            "type": "radio",
+            "id": "height",
+            "label": "Section Height",
+            "info": "Select the height of your content",
+            "options": [
+              { "value": "small", "label": "Small" },
+              { "value": "medium", "label": "Medium" },
+              { "value": "large", "label": "Large" },
+              { "value": "extra-large", "label": "Extra Large" }
+            ],
+            "default": "medium"
+          },
+          {
+            "type": "checkbox",
+            "id": "hide",
+            "label": "Hide Element on Mobile",
+            "default": false
+          },
+          {
+            "type": "checkbox",
+            "id": "gutter",
+            "label": "Add section gutter",
+            "default": false,
+            "info": "Adds padding between section and the window's border"
+
+          },
+          {
+            "type": "radio",
+            "id": "block_size",
+            "label": "Block Size",
+            "info": "Add Gaps between Blocks",
+            "options": [
+              { "value": "small", "label": "Small" },
+              { "value": "medium", "label": "Medium" },
+              { "value": "large", "label": "Large" }
+            ],
+            "default": "large"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "generic-content",
+            "name": "Block",
+            "settings": [
+              {
+                "type": "image_picker",
+                "id": "image",
+                "label": {
+                  "cs": "Obrázek",
+                  "da": "Billede",
+                  "de": "Foto",
+                  "en": "Image",
+                  "es": "Imagen",
+                  "fi": "Kuva",
+                  "fr": "Image",
+                  "it": "Immagine",
+                  "ja": "画像",
+                  "ko": "이미지",
+                  "nb": "Bilde",
+                  "nl": "Afbeelding",
+                  "pl": "Obraz",
+                  "pt-BR": "Imagem",
+                  "pt-PT": "Imagem",
+                  "sv": "Bild",
+                  "th": "รูปภาพ",
+                  "tr": "Görsel",
+                  "vi": "Hình ảnh",
+                  "zh-CN": "图片",
+                  "zh-TW": "圖片"
+                }
+              },
+              {
+                "type": "checkbox",
+                "id": "cropped",
+                "label": "Crop Image to fit",
+                "default": true
+              },
+              {
+                "id": "video_url",
+                "type": "text",
+                "label": "Video URL",
+                "info": "Insert self-hosted video URL here",
+                "placeholder": "text"
+              }, 
+              {
+                "type":      "color",
+                "id":        "highlighter_color",
+                "label":     "Text Highlighter Color",
+                "default":   "#000000"
+              },
+              {
+                "type":      "color",
+                "id":        "bg_color",
+                "label":     "Background Color",
+                "default":   "#fff"
+              },
+              {
+                "type": "range",
+                "id": "highlighter_opacity",
+                "min": 0,
+                "max": 1,
+                "step": 0.1,
+                "label": "Highlighter Opacity",
+                "default": 0
+              },
+              {
+                "type":      "color",
+                "id":        "text_color",
+                "label":     "Text Color",
+                "default":   "#fff",
+                "info":      "Select text color"
+              },
+                {
+                "type": "checkbox",
+                "id": "blur_effect",
+                "label": "Has Blur Effect",
+                "default": false
+              },
+               {
+                "type": "checkbox",
+                "id": "has_overlay",
+                "label": "Has Overlay Effect on hover",
+                "info": "This effect hides the text so it will only appear on hover",
+                "default": false
+              },
+              {
+                "type": "select",
+                "id": "vertical_text_alignment",
+                "options": [
+                  { "value": "top", "label": "Top"},
+                  { "value": "middle", "label": "Middle"},
+                  { "value": "bottom", "label": "Bottom"}
+                ],
+                "default": "bottom",
+                "label": "Vertical Text Alignment"
+              },
+              {
+                "type": "select",
+                "id": "horizontal_text_alignment",
+                "options": [
+                  { "value": "left", "label": "Left-aligned"},
+                  { "value": "center", "label": "Centered"},
+                  { "value": "right", "label": "Right-aligned"}
+                ],
+                "label": "Horizontal Text alignment"
+              },
+              {
+                "type": "textarea",
+                "id": "highlighter_text",
+                "label": "Header",
+                "default": "Header"
+              },
+              {
+                "type": "textarea",
+                "id": "body_text",
+                "label": "Body"
+              },
+              {
+                "type": "text",
+                "id": "cta",
+                "label": "Call to Action",
+                "default": "Read More",
+                "info": "Renders if no image/video is specified",
+                "placeholder": "text"
+              },
+              {
+                "type": "checkbox",
+                "id": "has_arrow",
+                "default": true,
+                "label": "Add Arrow Icon",
+                "info": "Includes an arrow icon next to the call to action"
+              },
+              {
+                "type":      "color",
+                "id":        "cta_text_color",
+                "label":     "Call to Action Text Color",
+                "default":   "#fff",
+                "info":      "Select text color"
+              },
+              {
+                "id": "link",
+                "type": "url",
+                "label": "Section Link"
+              }
+            ]
+          }
+        ],
+        "presets": [
+          {
+            "name": "Generic Content Blocks",
+            "category": "Generic Content"
+          }
+        ]
+      }
+    {% endschema %}

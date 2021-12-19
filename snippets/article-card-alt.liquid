@@ -1,0 +1,35 @@
+{% comment %}
+    Renders an article card for a given blog with settings to either show the image or not.
+
+    Accepts:
+    - blog: {Object} Blog object
+    - article: {Object} Article object
+    - image_height: {String} The setting changes the height of the article image, if shown
+    - show_image: {String} The setting either show the article image or not. If it's not included it will show the image by default
+    - show_date: {String} The setting either show the article date or not. If it's not included it will not show the image by default
+    - show_author: {String} The setting either show the article author or not. If it's not included it will not show the author by default
+
+    Usage:
+    {% render 'article-card' blog: blog, article: article, show_image: section.settings.show_image %}
+{% endcomment %}
+
+<article class="va--middle  article-card article-card-alt h-full" aria-labelledby="Article-{{ article.id }}">
+    <div  class="mx-0 grid article-content motion-reduce absolute w-full h-full ">
+        {% capture title %}{{ article.title | escape }}{% endcapture %}
+        {% capture excerpt %}  {%- if article.excerpt.size > 0 -%}
+        {{ article.excerpt | strip_html | truncatewords: 130 }}
+      {%- else -%}
+        {{ article.content | strip_html | truncatewords: 130 }}
+      {%- endif -%}{% endcapture %}
+            {% if article.image != blank %}
+        <div class="grid__item h-full {% if image_first == false %} order-3{% endif %}">
+            {% render "video-or-image", video_url: blank, image: article.image %}
+        </div>
+        <div class="gap-el"></div>
+            {% endif %}
+        <div class="grid__item relative text-box {% if image_first == false %} text-first {% else %} image-first {% endif %}">
+         {% render 'highlighter-text', link: article.url, cta_text_color: "#fff", body_text: excerpt, cta_text_color: "#000", text_color: "#000", highlighter_text: title, cta: "Read More" , has_arrow: true %}
+        </div>
+    </div>
+</article>
+  

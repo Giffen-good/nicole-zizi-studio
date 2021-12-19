@@ -1,0 +1,6 @@
+
+<picture>
+    <source media="(max-width: 768px)" srcset='{{ image | img_url: "800x" }}''>
+    <source media="(min-width: 769px)" srcset='{{ image | img_url: "1999x" }}''>
+    <img loading="lazy" src='{{ image | img_url: "1999x" }}' alt="{{ image.alt }}" class="{{ custom_classes }}" />
+</picture>

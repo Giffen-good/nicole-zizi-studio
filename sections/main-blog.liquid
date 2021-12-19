@@ -1,0 +1,42 @@
+{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
+{{ 'generic-content.css' | asset_url | stylesheet_tag }}
+
+{%- paginate blog.articles by 8 -%}
+
+  <div class="main-blog">
+
+    <div class=" {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+      {% assign i = 1 %}
+      {%- for article in blog.articles -%}
+        {% assign divisibleByThree = i | modulo: 3 %}
+        {% assign image_first = false %}
+        {% if divisibleByThree == 2 %}
+          {% assign image_first = true %}
+        {% endif %}
+        <div class="generic-content-section section-margin--large blog-articles__article section-height--extra-large relative cropped-image">
+          
+          {% liquid
+              if divisibleByThree == 0
+                render 'article-card-alt-full-width', article: article
+              else 
+                render "article-card-alt", article: article, image_first: image_first
+              endif
+            %}
+        </div>
+        {% assign i = i | plus: 1 %}
+      {%- endfor -%}
+    </div>
+
+    {%- if paginate.pages > 1 -%}
+      {%- render 'pagination', paginate: paginate -%}
+    {%- endif -%}
+  </div>
+{%- endpaginate -%}
+
+{% schema %}
+{
+  "name": "t:sections.main-blog.name",
+  "tag": "section",
+  "class": "spaced-section"
+}
+{% endschema %}

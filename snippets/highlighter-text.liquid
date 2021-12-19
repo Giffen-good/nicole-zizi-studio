@@ -1,0 +1,26 @@
+<div class="absolute  text-wrapper uppercase">
+    {% if highlighter_text != blank %}
+        <div class="highlighter-text-wrapper">
+            <div {% if blur_effect %} style="backdrop-filter:blur(4px);-webkit-backdrop-filter: blur(4px);"{% endif %}class="highlighter-bg"></div>
+            <h2 
+                class="text-4xl highlighter-text fsB  druk  di {{custom_classes}}"
+                style="color:{{ text_color }}; ">
+                {{ highlighter_text }}
+            </h2>
+        </div>
+    {% endif %}
+    {% if body_text != blank %}
+        <div class="body-text" style="color:{{ text_color }}; ">{{ body_text }}</div>
+    {% endif %}
+    {%  if link != blank %}
+        <a class="cta-link" href="{{ link }}" rel="noopener noreferrer">
+            {% endif %}
+            {% if cta != blank %}
+                <h3 class="cta text-2xl " style="color:{{ cta_text_color }}">{{ cta }}
+                    {%  if has_arrow == true %}<span class=" inline-flex align-middle">{% render 'icon-arrow' %}</span>{% endif %} 
+                </h3>
+            {% endif %}
+            {%  if link != blank %}
+        </a>
+            {% endif %}
+</div>

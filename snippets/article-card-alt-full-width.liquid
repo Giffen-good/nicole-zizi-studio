@@ -1,0 +1,27 @@
+{% comment %}
+    Renders an article card for a given blog with settings to either show the image or not.
+
+    Accepts:
+    - blog: {Object} Blog object
+    - article: {Object} Article object
+    - image_height: {String} The setting changes the height of the article image, if shown
+    - show_image: {String} The setting either show the article image or not. If it's not included it will show the image by default
+    - show_date: {String} The setting either show the article date or not. If it's not included it will not show the image by default
+    - show_author: {String} The setting either show the article author or not. If it's not included it will not show the author by default
+
+    Usage:
+    {% render 'article-card' blog: blog, article: article, show_image: section.settings.show_image %}
+{% endcomment %}
+
+<article class="va--bottom ha--left full-width article-card aria-labelledby="Article-{{ article.id }}">
+    <a href="{{ article.url }}" class="article-content motion-reduce absolute w-full h-full">
+        {% capture title %}{{article.title | escape}}{% endcapture %}
+        {% liquid
+            if article.image != blank
+             render "video-or-image", video_url: blank, image: article.image
+            endif
+            render 'highlighter-text', body_text: blank, cta_text_color: "#fff", text_color: "#fff", highlighter_text: title, cta: "Read More" , has_arrow: true
+        %}
+    </a>
+</article>
+  
