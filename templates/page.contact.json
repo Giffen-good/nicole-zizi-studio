@@ -19,7 +19,7 @@
         "89e2618a-7c67-4185-bee9-0cfa03433eee": {
           "type": "body",
           "settings": {
-            "body": "<p>made<a href=\"mailto:contact@nicolezizistudio.com\" title=\"mailto:contact@nicolezizistudio.com\">@nicolezizistudio.com<\/a><\/p>"
+            "body": "<p><a href=\"mailto:contact@nicolezizistudio.com\" target=\"_blank\" title=\"mailto:made@nicolezizistudio.com\">made@nicolezizistudio.com<\/a><\/p>"
           }
         },
         "8df74295-6e55-4cd4-9427-9a459e681925": {
@@ -32,7 +32,7 @@
         "6ec3b3d2-9cb1-4bba-bb2d-4e651580b79d": {
           "type": "body",
           "settings": {
-            "body": "<p><a href=\"mailto:contact@nicolezizistudio.com\" title=\"mailto:contact@nicolezizistudio.com\">contact@nicolezizistudio.com<\/a><\/p>"
+            "body": "<p><a href=\"mailto:contact@nicolezizistudio.com\" target=\"_blank\" title=\"mailto:contact@nicolezizistudio.com\">contact@nicolezizistudio.com<\/a><\/p>"
           }
         },
         "24130618-073d-40e3-93d5-e19cb7add521": {
@@ -45,7 +45,7 @@
         "8e4a44d9-00a5-4733-8471-0a9b5151d3f2": {
           "type": "body",
           "settings": {
-            "body": "<p><a href=\"mailto:contact@nicolezizistudio.com\" title=\"mailto:contact@nicolezizistudio.com\">contact@nicolezizistudio.com<\/a><\/p>"
+            "body": "<p><a href=\"mailto:contact@nicolezizistudio.com\" title=\"mailto:sales@nicolezizistudio.com\">sales@nicolezizistudio.com<\/a><\/p>"
           }
         },
         "008103c7-bcfd-4174-ae4a-1d58ae245d32": {
