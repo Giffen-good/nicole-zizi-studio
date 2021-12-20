@@ -114,8 +114,8 @@
     "1639939312f59fc00d": {
       "type": "featured-collection",
       "settings": {
-        "title": "Denim Capsule Collection",
-        "collection": "denim-capsule-collection",
+        "title": "Capsule Collection",
+        "collection": "capsule-collection",
         "products_to_show": 12,
         "show_four_product_grid": true,
         "show_view_all": false,
