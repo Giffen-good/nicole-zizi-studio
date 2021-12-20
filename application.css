@@ -69,3 +69,6 @@ h1, .h0 {
     width:1.2rem;
     margin-left:0.5rem;
 }
+b, strong {
+    @apply font-semibold;
+}

@@ -424,7 +424,7 @@ variant-radios {
   }
 .mobile-variant .button  {
   font-size: 1rem;
-  display: initial !important;
+  display: inline-flex !important;
   box-shadow: none !important;
   border: none;
   border-left:solid 1px #000;
