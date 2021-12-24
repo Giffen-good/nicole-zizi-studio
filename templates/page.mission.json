@@ -425,6 +425,164 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "16403578051bd1a472": {
+      "type": "generic-content",
+      "blocks": {
+        "4300bb92-6849-4675-b7a2-af647c14b670": {
+          "type": "generic-content",
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#121212",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Materials",
+            "body_text": "We take pride in our research and development process. One of the greatest ways manufacturers can control their carbon footprint is by using more sustainable materials.",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "4300bb92-6849-4675-b7a2-af647c14b670"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
+    "164035731409d1ae3e": {
+      "type": "generic-content",
+      "disabled": true,
+      "blocks": {
+        "703696b5-b865-4498-9fbe-ef1f8a2e877e": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nicolezizistudio_purpose_factory_1200x_586486e9-1898-4275-bccf-32ede776ebff.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#121212",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        },
+        "c22320f5-6fa4-4700-986d-02bf836cb5d9": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Background.png",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#121212",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "middle",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Cotton",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#121212",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "703696b5-b865-4498-9fbe-ef1f8a2e877e",
+        "c22320f5-6fa4-4700-986d-02bf836cb5d9"
+      ],
+      "settings": {
+        "section_margin": "small",
+        "height": "small",
+        "hide": false,
+        "gutter": true,
+        "block_size": "large"
+      }
+    },
+    "16403573385ac39c58": {
+      "type": "generic-content",
+      "disabled": true,
+      "blocks": {
+        "528c75d2-0c87-47e5-9472-9d9beac3a9ba": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/44573543_318038609035031_6640236102987186686_n.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        },
+        "b70c01e7-24a0-423b-b143-e197aa990a61": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Background.png",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#121212",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "middle",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Recycled Polyester",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#121212",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "528c75d2-0c87-47e5-9472-9d9beac3a9ba",
+        "b70c01e7-24a0-423b-b143-e197aa990a61"
+      ],
+      "settings": {
+        "section_margin": "small",
+        "height": "small",
+        "hide": false,
+        "gutter": true,
+        "block_size": "large"
+      }
     }
   },
   "order": [
@@ -438,6 +596,9 @@
     "1640355634e301cd30",
     "16403566281083394c",
     "16403562593e5b457c",
-    "16403571540d1f1101"
+    "16403571540d1f1101",
+    "16403578051bd1a472",
+    "164035731409d1ae3e",
+    "16403573385ac39c58"
   ]
 }
