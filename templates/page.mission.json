@@ -414,11 +414,20 @@
           "settings": {
             "text": "<p>We only partner with manufacturers that uphold ethical standards. Too often workers are mistreated and subject to terrible working conditions. It is our mission to uplift the workers behind our products by ensuring a safe, healthy, and equitable working environment throughout our supply chain. Any vendors we partner with we ensure are upholding the same practices. We conduct on-site visits and oversee all manufacturers, ensuring workers have input regarding practices within our company.<\/p>"
           }
+        },
+        "c818630c-8752-4d4c-833b-61223f202705": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": true
+          }
         }
       },
       "block_order": [
         "164035715414d08c8c-0",
-        "164035715414d08c8c-1"
+        "164035715414d08c8c-1",
+        "c818630c-8752-4d4c-833b-61223f202705"
       ],
       "settings": {
         "section_margin": "large",
@@ -594,11 +603,34 @@
             "cta_text_color": "#121212",
             "link": ""
           }
+        },
+        "47889bc5-173d-43d9-baa0-3b6d5910a52a": {
+          "type": "generic-content",
+          "disabled": true,
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Header",
+            "body_text": "",
+            "cta": "Read More",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "528c75d2-0c87-47e5-9472-9d9beac3a9ba",
-        "b70c01e7-24a0-423b-b143-e197aa990a61"
+        "b70c01e7-24a0-423b-b143-e197aa990a61",
+        "47889bc5-173d-43d9-baa0-3b6d5910a52a"
       ],
       "settings": {
         "section_margin": "small",
