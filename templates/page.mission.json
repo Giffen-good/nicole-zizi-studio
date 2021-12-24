@@ -428,10 +428,33 @@
     },
     "16403578051bd1a472": {
       "type": "generic-content",
+      "disabled": true,
       "blocks": {
+        "b346c976-b329-4ef2-b531-93ac77310d0d": {
+          "type": "generic-content",
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Header",
+            "body_text": "",
+            "cta": "Read More",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        },
         "4300bb92-6849-4675-b7a2-af647c14b670": {
           "type": "generic-content",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Background.png",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -440,8 +463,8 @@
             "text_color": "#121212",
             "blur_effect": false,
             "has_overlay": false,
-            "vertical_text_alignment": "bottom",
-            "horizontal_text_alignment": "left",
+            "vertical_text_alignment": "middle",
+            "horizontal_text_alignment": "center",
             "highlighter_text": "Materials",
             "body_text": "We take pride in our research and development process. One of the greatest ways manufacturers can control their carbon footprint is by using more sustainable materials.",
             "cta": "",
@@ -452,13 +475,14 @@
         }
       },
       "block_order": [
+        "b346c976-b329-4ef2-b531-93ac77310d0d",
         "4300bb92-6849-4675-b7a2-af647c14b670"
       ],
       "settings": {
         "section_margin": "large",
         "height": "medium",
         "hide": false,
-        "gutter": false,
+        "gutter": true,
         "block_size": "large"
       }
     },
@@ -583,6 +607,70 @@
         "gutter": true,
         "block_size": "large"
       }
+    },
+    "164035831004613e81": {
+      "type": "rich-text",
+      "blocks": {
+        "16403583100a61a74a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Materials",
+            "heading_size": "h1"
+          }
+        },
+        "16403583100a61a74a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We take pride in our research and development process. One of the greatest ways manufacturers can control their carbon footprint is by using more sustainable materials. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16403583100a61a74a-0",
+        "16403583100a61a74a-1"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1640358318610d993d": {
+      "type": "generic-content",
+      "disabled": true,
+      "blocks": {
+        "435b4d39-5e64-4ecc-a3c4-7131240908be": {
+          "type": "generic-content",
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Header",
+            "body_text": "",
+            "cta": "Read More",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "435b4d39-5e64-4ecc-a3c4-7131240908be"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
     }
   },
   "order": [
@@ -599,6 +687,8 @@
     "16403571540d1f1101",
     "16403578051bd1a472",
     "164035731409d1ae3e",
-    "16403573385ac39c58"
+    "16403573385ac39c58",
+    "164035831004613e81",
+    "1640358318610d993d"
   ]
 }
