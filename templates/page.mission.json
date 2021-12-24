@@ -1,12 +1,5 @@
 {
   "sections": {
-    "163994290650b4033d": {
-      "type": "page",
-      "settings": {
-        "page": "terms-and-conditions",
-        "alt-header": true
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -119,11 +112,48 @@
         "gutter": true,
         "block_size": "medium"
       }
+    },
+    "1640355631fac97b99": {
+      "type": "rich-text",
+      "blocks": {
+        "16403556312c3faa24-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE'RE ABOUT PROGESSIVE DESIGN.",
+            "heading_size": "h1"
+          }
+        },
+        "16403556312c3faa24-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16403556312c3faa24-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16403556312c3faa24-0",
+        "16403556312c3faa24-1",
+        "16403556312c3faa24-2"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
-    "163994290650b4033d",
     "main",
-    "1639939892fe3cb110"
+    "1639939892fe3cb110",
+    "1640355631fac97b99"
   ]
 }
