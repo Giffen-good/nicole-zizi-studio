@@ -186,12 +186,49 @@
         "gutter": false,
         "block_size": "large"
       }
+    },
+    "1640356014fc41a409": {
+      "type": "rich-text",
+      "blocks": {
+        "164035601429e33835-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CIRCULARITY",
+            "heading_size": "h1"
+          }
+        },
+        "164035601429e33835-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We focus on developing products with recycled, alternative, and natural materials. We aim to develop products that uplift our communities and minimize negative environmental impact.<\/p>"
+          }
+        },
+        "164035601429e33835-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "164035601429e33835-0",
+        "164035601429e33835-1",
+        "164035601429e33835-2"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "main",
     "1639939892fe3cb110",
     "1640355631fac97b99",
-    "1640355634e301cd30"
+    "1640355634e301cd30",
+    "1640356014fc41a409"
   ]
 }
