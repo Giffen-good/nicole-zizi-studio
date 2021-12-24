@@ -230,7 +230,7 @@
         "cdd48216-eafe-4820-bf70-fa16acff7f55": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/black-fashion-fair-nicole-zizi.jpg",
+            "image": "shopify:\/\/shop_images\/nicole-zizi-studio-ashley-mclean.png",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -254,8 +254,8 @@
         "cdd48216-eafe-4820-bf70-fa16acff7f55"
       ],
       "settings": {
-        "section_margin": "large",
-        "height": "medium",
+        "section_margin": "small",
+        "height": "extra-large",
         "hide": false,
         "gutter": false,
         "block_size": "large"
