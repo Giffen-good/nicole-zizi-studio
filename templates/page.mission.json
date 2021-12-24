@@ -150,13 +150,13 @@
         "full_width": true
       }
     },
-    "1640355634e301cd30": {
+    "1640356205581866ed": {
       "type": "generic-content",
       "blocks": {
-        "125de623-999f-4836-8cc9-7c9f6e62bf1a": {
+        "c19e1b06-6366-4715-8540-15e6cbb85489": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZiZi_PS-6.jpg",
+            "image": "shopify:\/\/shop_images\/247399676_418691666486955_7247317961024639816_n.jpg",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -177,7 +177,7 @@
         }
       },
       "block_order": [
-        "125de623-999f-4836-8cc9-7c9f6e62bf1a"
+        "c19e1b06-6366-4715-8540-15e6cbb85489"
       ],
       "settings": {
         "section_margin": "large",
@@ -260,14 +260,184 @@
         "gutter": false,
         "block_size": "large"
       }
+    },
+    "16403562036210573b": {
+      "type": "rich-text",
+      "blocks": {
+        "1640356202367f859b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Values",
+            "heading_size": "h1"
+          }
+        },
+        "1640356202367f859b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Innovation, Community, Honesty, Ethical Labor, Fair Trade, and Excellent Quality.<\/p>"
+          }
+        },
+        "1640356202367f859b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1640356202367f859b-0",
+        "1640356202367f859b-1",
+        "1640356202367f859b-2"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1640355634e301cd30": {
+      "type": "generic-content",
+      "blocks": {
+        "125de623-999f-4836-8cc9-7c9f6e62bf1a": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZiZi_PS-6.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "125de623-999f-4836-8cc9-7c9f6e62bf1a"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
+    "16403566281083394c": {
+      "type": "rich-text",
+      "blocks": {
+        "1640356628bad15837-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Community",
+            "heading_size": "h1"
+          }
+        },
+        "1640356628bad15837-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Design manufacturing is one of the most resource-intensive industries and most polluting. Pollutants from manufacture lower the quality of life for the people that live within the area and have a disproportionate impact of environmental hazards on BIPOC.  We aim to develop systems that enhance our communities, product safety and minimize negative environmental impact.<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1640356628bad15837-0",
+        "1640356628bad15837-1"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16403562593e5b457c": {
+      "type": "generic-content",
+      "blocks": {
+        "92d78bd8-05ef-442a-88a2-cf599b08cc05": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/122115654_144238000736625_7838875943939806306_n.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "92d78bd8-05ef-442a-88a2-cf599b08cc05"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
+    "16403571540d1f1101": {
+      "type": "rich-text",
+      "blocks": {
+        "164035715414d08c8c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Manufactures",
+            "heading_size": "h1"
+          }
+        },
+        "164035715414d08c8c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We only partner with manufacturers that uphold ethical standards. Too often workers are mistreated and subject to terrible working conditions. It is our mission to uplift the workers behind our products by ensuring a safe, healthy, and equitable working environment throughout our supply chain.Any vendors we partner with we ensure are upholding the same practices.We conduct on-site visits and oversee all manufacturers we partner with, ensuring workers have input regarding practices within our company.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164035715414d08c8c-0",
+        "164035715414d08c8c-1"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "main",
     "1639939892fe3cb110",
     "1640355631fac97b99",
-    "1640355634e301cd30",
+    "1640356205581866ed",
     "1640356014fc41a409",
-    "16403560163d4f80f1"
+    "16403560163d4f80f1",
+    "16403562036210573b",
+    "1640355634e301cd30",
+    "16403566281083394c",
+    "16403562593e5b457c",
+    "16403571540d1f1101"
   ]
 }
