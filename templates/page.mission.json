@@ -634,42 +634,6 @@
         "color_scheme": "background-1",
         "full_width": true
       }
-    },
-    "1640358318610d993d": {
-      "type": "generic-content",
-      "blocks": {
-        "435b4d39-5e64-4ecc-a3c4-7131240908be": {
-          "type": "generic-content",
-          "settings": {
-            "cropped": true,
-            "video_url": "",
-            "highlighter_color": "#000000",
-            "bg_color": "#fff",
-            "highlighter_opacity": 0,
-            "text_color": "#121212",
-            "blur_effect": false,
-            "has_overlay": false,
-            "vertical_text_alignment": "middle",
-            "horizontal_text_alignment": "center",
-            "highlighter_text": "Our Certifications",
-            "body_text": "",
-            "cta": "",
-            "has_arrow": true,
-            "cta_text_color": "#121212",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "435b4d39-5e64-4ecc-a3c4-7131240908be"
-      ],
-      "settings": {
-        "section_margin": "large",
-        "height": "medium",
-        "hide": false,
-        "gutter": true,
-        "block_size": "large"
-      }
     }
   },
   "order": [
@@ -687,7 +651,6 @@
     "16403578051bd1a472",
     "164035731409d1ae3e",
     "16403573385ac39c58",
-    "164035831004613e81",
-    "1640358318610d993d"
+    "164035831004613e81"
   ]
 }
