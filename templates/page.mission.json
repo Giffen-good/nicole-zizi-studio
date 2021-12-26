@@ -670,6 +670,7 @@
     },
     "1640555230169447ec": {
       "type": "generic-content",
+      "disabled": true,
       "blocks": {
         "51ee07cc-6e69-4812-a6f6-9a5809e3b2e9": {
           "type": "generic-content",
@@ -753,6 +754,7 @@
     },
     "164055526030178571": {
       "type": "generic-content",
+      "disabled": true,
       "blocks": {
         "851cbfd7-9b1e-4142-8965-6ea862d3f10c": {
           "type": "generic-content",
