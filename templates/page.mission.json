@@ -744,8 +744,8 @@
         "e924172e-72ea-426a-b1ab-413659e96e21"
       ],
       "settings": {
-        "section_margin": "large",
-        "height": "medium",
+        "section_margin": "none",
+        "height": "small",
         "hide": false,
         "gutter": true,
         "block_size": "small"
