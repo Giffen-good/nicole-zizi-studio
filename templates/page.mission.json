@@ -827,7 +827,7 @@
         "90b380ce-b0ce-4195-8e92-a2543b794867"
       ],
       "settings": {
-        "section_margin": "large",
+        "section_margin": "small",
         "height": "small",
         "hide": false,
         "gutter": true,
