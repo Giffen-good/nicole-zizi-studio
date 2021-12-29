@@ -417,6 +417,7 @@
         },
         "c818630c-8752-4d4c-833b-61223f202705": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections",
@@ -898,7 +899,7 @@
       ],
       "settings": {
         "link": "",
-        "section_margin": "large",
+        "section_margin": "small",
         "height": "medium"
       }
     }
