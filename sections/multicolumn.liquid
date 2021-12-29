@@ -2,8 +2,10 @@
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
-  <div class="page-width">
+<div class="
+relative flex section-margin--{{section.settings.section_margin}} 
+ background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
+  <div class="{% if section.settings.page_width == 'narrow' %} page-width--narrow{% endif %} page-width">
     <div class="title-wrapper-with-link title-wrapper--self-padded-mobile{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}">
       <h2 class="title">
         {{ section.settings.title | escape }}
@@ -26,7 +28,10 @@
           endfor
         -%}
         {%- for block in section.blocks -%}
-          <li class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}" {{ block.shopify_attributes }}>
+          <li class="
+          {% if block.settings.border != 'none' %} has-custom-border{% endif %}
+          custom-border--{{block.settings.border}}
+          multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}" {{ block.shopify_attributes }}>
             <div class="multicolumn-card">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
@@ -93,13 +98,72 @@
     </div>
   </div>
 </div>
-
+{% stylesheet %}
+  .custom-border--top  > div { 
+    border-top:solid 1px;
+  }
+  .custom-border--bottom  > div{
+    border-bottom: solid 1px;
+  }
+  .custom-border--top_and_bottom  > div{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+  }
+  .has-custom-border {
+    padding-left:2.5rem;
+    padding-right:2.5rem;
+  }
+  .has-custom-border > div {
+    padding-top:2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .custom-border--top .multicolumn-card__info,
+  .custom-border--bottom .multicolumn-card__info,
+  .custom-border-top_and_bottom .multicolumn-card__info {
+    padding-left:0;
+    padding-right:0;
+  }
+  @media screen and (max-width:749px){
+    .title-wrapper-with-link--no-heading {
+      display:none !important;
+    }
+    .custom-border--top_and_bottom > div {
+      border-bottom: none;
+    }
+    .has-custom-border {
+      margin-bottom: 0 !important;
+    }
+  }
+{% endstylesheet %}
 {% schema %}
 {
   "name": "t:sections.multicolumn.name",
-  "class": "spaced-section spaced-section--full-width",
+  "class": "spaced-section--full-width",
   "tag": "section",
   "settings": [
+    {
+      "type": "radio",
+      "id": "section_margin",
+      "label": "Section Margin",
+      "info": "Defines the margin between this section and the one above it.",
+      "options": [
+        { "value": "none", "label": "None" },
+        { "value": "small", "label": "Small" },
+        { "value": "medium", "label": "Medium" },
+        { "value": "large", "label": "Large" }
+      ],
+      "default": "large"
+    },
+    {
+      "type": "radio",
+      "id": "page_width",
+      "label": "Width",
+      "options": [
+        { "value": "narrow", "label": "Narrow" },
+        { "value": "wide", "label": "Wide" }
+      ],
+      "default": "wide"
+    },
     {
       "type": "text",
       "id": "title",
@@ -214,6 +278,19 @@
           "id": "image",
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
         },
+         {
+            "type": "radio",
+            "id": "border",
+            "label": "Border Top/Bottom",
+            "info": "Add border to top or bottom of block",
+            "options": [
+              { "value": "none", "label": "None" },
+              { "value": "top", "label": "Top" },
+              { "value": "bottom", "label": "Bottom" },
+              { "value": "top_and_bottom", "label": "Top and Bottom" }
+            ],
+            "default": "none"
+          },
         {
           "type": "text",
           "id": "title",
