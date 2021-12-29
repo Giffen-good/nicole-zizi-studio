@@ -1,12 +1,5 @@
 {
   "sections": {
-    "163994290650b4033d": {
-      "type": "page",
-      "settings": {
-        "page": "terms-and-conditions",
-        "alt-header": true
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -119,11 +112,748 @@
         "gutter": true,
         "block_size": "medium"
       }
+    },
+    "1640355631fac97b99": {
+      "type": "rich-text",
+      "blocks": {
+        "16403556312c3faa24-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE'RE ABOUT PROGESSIVE DESIGN.",
+            "heading_size": "h1"
+          }
+        },
+        "16403556312c3faa24-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Focused on eco-conscious, sustainability, and innovation in gender-free premium streetwear, accessories, and home products. <\/p>"
+          }
+        },
+        "16403556312c3faa24-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16403556312c3faa24-0",
+        "16403556312c3faa24-1",
+        "16403556312c3faa24-2"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1640356205581866ed": {
+      "type": "generic-content",
+      "blocks": {
+        "c19e1b06-6366-4715-8540-15e6cbb85489": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/247399676_418691666486955_7247317961024639816_n.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#ffffff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c19e1b06-6366-4715-8540-15e6cbb85489"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
+    "1640356014fc41a409": {
+      "type": "rich-text",
+      "blocks": {
+        "164035601429e33835-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CIRCULARITY",
+            "heading_size": "h1"
+          }
+        },
+        "164035601429e33835-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We focus on developing products with recycled, alternative, and natural materials. We aim to develop products that uplift our communities and minimize negative environmental impact.<\/p>"
+          }
+        },
+        "164035601429e33835-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "164035601429e33835-0",
+        "164035601429e33835-1",
+        "164035601429e33835-2"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16403560163d4f80f1": {
+      "type": "generic-content",
+      "blocks": {
+        "cdd48216-eafe-4820-bf70-fa16acff7f55": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nicole-zizi-studio-ashley-mclean.png",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#ffffff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "cdd48216-eafe-4820-bf70-fa16acff7f55"
+      ],
+      "settings": {
+        "section_margin": "small",
+        "height": "extra-large",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
+    "16403562036210573b": {
+      "type": "rich-text",
+      "blocks": {
+        "1640356202367f859b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Values",
+            "heading_size": "h1"
+          }
+        },
+        "1640356202367f859b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Innovation, Community, Honesty, Ethical Labor, Fair Trade, and Excellent Quality.<\/p>"
+          }
+        },
+        "1640356202367f859b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1640356202367f859b-0",
+        "1640356202367f859b-1",
+        "1640356202367f859b-2"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1640355634e301cd30": {
+      "type": "generic-content",
+      "blocks": {
+        "125de623-999f-4836-8cc9-7c9f6e62bf1a": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZiZi_PS-6.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#ffffff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "125de623-999f-4836-8cc9-7c9f6e62bf1a"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
+    "16403566281083394c": {
+      "type": "rich-text",
+      "blocks": {
+        "1640356628bad15837-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Community",
+            "heading_size": "h1"
+          }
+        },
+        "1640356628bad15837-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Design manufacturing is one of the most resource-intensive industries and most polluting. Pollutants from manufacturers often lower the quality of life for the people living within the area. These environmental hazards disproportionately impact BIPOC. We aim to develop systems that enhance our communities, product safety and minimize negative environmental impact.<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1640356628bad15837-0",
+        "1640356628bad15837-1"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16403562593e5b457c": {
+      "type": "generic-content",
+      "blocks": {
+        "92d78bd8-05ef-442a-88a2-cf599b08cc05": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/122115654_144238000736625_7838875943939806306_n.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#ffffff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "92d78bd8-05ef-442a-88a2-cf599b08cc05"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "large",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
+    "16403571540d1f1101": {
+      "type": "rich-text",
+      "blocks": {
+        "164035715414d08c8c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Manufactures",
+            "heading_size": "h1"
+          }
+        },
+        "164035715414d08c8c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We only partner with manufacturers that uphold ethical standards. Too often workers are mistreated and subject to terrible working conditions. It is our mission to uplift the workers behind our products by ensuring a safe, healthy, and equitable working environment throughout our supply chain. Any vendors we partner with we ensure are upholding the same practices. We conduct on-site visits and oversee all manufacturers, ensuring workers have input regarding practices within our company.<\/p>"
+          }
+        },
+        "c818630c-8752-4d4c-833b-61223f202705": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "164035715414d08c8c-0",
+        "164035715414d08c8c-1",
+        "c818630c-8752-4d4c-833b-61223f202705"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16403578051bd1a472": {
+      "type": "generic-content",
+      "disabled": true,
+      "blocks": {
+        "b346c976-b329-4ef2-b531-93ac77310d0d": {
+          "type": "generic-content",
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Header",
+            "body_text": "",
+            "cta": "Read More",
+            "has_arrow": true,
+            "cta_text_color": "#ffffff",
+            "link": ""
+          }
+        },
+        "4300bb92-6849-4675-b7a2-af647c14b670": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Background.png",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#121212",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "middle",
+            "horizontal_text_alignment": "center",
+            "highlighter_text": "Materials",
+            "body_text": "We take pride in our research and development process. One of the greatest ways manufacturers can control their carbon footprint is by using more sustainable materials.",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#ffffff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b346c976-b329-4ef2-b531-93ac77310d0d",
+        "4300bb92-6849-4675-b7a2-af647c14b670"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": true,
+        "block_size": "large"
+      }
+    },
+    "164035731409d1ae3e": {
+      "type": "generic-content",
+      "disabled": true,
+      "blocks": {
+        "703696b5-b865-4498-9fbe-ef1f8a2e877e": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nicolezizistudio_purpose_factory_1200x_586486e9-1898-4275-bccf-32ede776ebff.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#121212",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#ffffff",
+            "link": ""
+          }
+        },
+        "c22320f5-6fa4-4700-986d-02bf836cb5d9": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Background.png",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#121212",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "middle",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Cotton",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#121212",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "703696b5-b865-4498-9fbe-ef1f8a2e877e",
+        "c22320f5-6fa4-4700-986d-02bf836cb5d9"
+      ],
+      "settings": {
+        "section_margin": "small",
+        "height": "small",
+        "hide": false,
+        "gutter": true,
+        "block_size": "large"
+      }
+    },
+    "16403573385ac39c58": {
+      "type": "generic-content",
+      "disabled": true,
+      "blocks": {
+        "528c75d2-0c87-47e5-9472-9d9beac3a9ba": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/44573543_318038609035031_6640236102987186686_n.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#ffffff",
+            "link": ""
+          }
+        },
+        "b70c01e7-24a0-423b-b143-e197aa990a61": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Background.png",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#121212",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "middle",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Recycled Polyester",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#121212",
+            "link": ""
+          }
+        },
+        "47889bc5-173d-43d9-baa0-3b6d5910a52a": {
+          "type": "generic-content",
+          "disabled": true,
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Header",
+            "body_text": "",
+            "cta": "Read More",
+            "has_arrow": true,
+            "cta_text_color": "#ffffff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "528c75d2-0c87-47e5-9472-9d9beac3a9ba",
+        "b70c01e7-24a0-423b-b143-e197aa990a61",
+        "47889bc5-173d-43d9-baa0-3b6d5910a52a"
+      ],
+      "settings": {
+        "section_margin": "small",
+        "height": "small",
+        "hide": false,
+        "gutter": true,
+        "block_size": "large"
+      }
+    },
+    "164035831004613e81": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16403583100a61a74a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Materials",
+            "heading_size": "h1"
+          }
+        },
+        "16403583100a61a74a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We take pride in our research and development process. One of the greatest ways manufacturers can control their carbon footprint is by using more sustainable materials. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16403583100a61a74a-0",
+        "16403583100a61a74a-1"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1640555230169447ec": {
+      "type": "generic-content",
+      "disabled": true,
+      "blocks": {
+        "51ee07cc-6e69-4812-a6f6-9a5809e3b2e9": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RB9lMRQw.png",
+            "cropped": false,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ecece7",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        },
+        "6974edcf-2663-4707-8a18-761cfab933d8": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cL6tLB6Q.png",
+            "cropped": false,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ecece7",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        },
+        "e924172e-72ea-426a-b1ab-413659e96e21": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RB9lMRQw.png",
+            "cropped": false,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ecece7",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "51ee07cc-6e69-4812-a6f6-9a5809e3b2e9",
+        "6974edcf-2663-4707-8a18-761cfab933d8",
+        "e924172e-72ea-426a-b1ab-413659e96e21"
+      ],
+      "settings": {
+        "section_margin": "none",
+        "height": "small",
+        "hide": false,
+        "gutter": true,
+        "block_size": "small"
+      }
+    },
+    "164055526030178571": {
+      "type": "generic-content",
+      "disabled": true,
+      "blocks": {
+        "851cbfd7-9b1e-4142-8965-6ea862d3f10c": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vbfEe61X.png",
+            "cropped": false,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ecece7",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        },
+        "90b380ce-b0ce-4195-8e92-a2543b794867": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vqu_W_1Q.png",
+            "cropped": false,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ecece7",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        },
+        "a6bc4a66-eb4f-4bdf-86b2-9581f621c24f": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lk_dhips.png",
+            "cropped": false,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ecece7",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "851cbfd7-9b1e-4142-8965-6ea862d3f10c",
+        "90b380ce-b0ce-4195-8e92-a2543b794867",
+        "a6bc4a66-eb4f-4bdf-86b2-9581f621c24f"
+      ],
+      "settings": {
+        "section_margin": "small",
+        "height": "small",
+        "hide": false,
+        "gutter": true,
+        "block_size": "small"
+      }
     }
   },
   "order": [
-    "163994290650b4033d",
     "main",
-    "1639939892fe3cb110"
+    "1639939892fe3cb110",
+    "1640355631fac97b99",
+    "1640356205581866ed",
+    "1640356014fc41a409",
+    "16403560163d4f80f1",
+    "16403562036210573b",
+    "1640355634e301cd30",
+    "16403566281083394c",
+    "16403562593e5b457c",
+    "16403571540d1f1101",
+    "16403578051bd1a472",
+    "164035731409d1ae3e",
+    "16403573385ac39c58",
+    "164035831004613e81",
+    "1640555230169447ec",
+    "164055526030178571"
   ]
 }
