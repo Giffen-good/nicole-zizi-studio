@@ -1,7 +1,9 @@
-  class GgMarquee extends HTMLElement {
-        constructor() {
-            super()
-            this.marquee = {
+  class GgMarquee {
+        constructor(el){
+	    this.el = el
+       }
+	buildMarquee() {
+	    this.marquee = {
               m1: {
                 pos: 0,
                 inMotion: true,
@@ -13,7 +15,7 @@
                 html: null
               },
               clones: 0,
-              items: this.querySelectorAll(':scope > * '),
+              items: this.el.querySelectorAll(':scope > * '),
               width: 0
             }
             // this.appendChild(marqueeEl);
@@ -28,7 +30,7 @@
             this.marquee.m1.html.classList.add('gg-inner');
             this.marquee.m2.html = this.marquee.m1.html.cloneNode(true)
             this.marquee.m2.html.classList.add('gg-alternate-inner')
-            for (let m of [this.marquee.m1, this.marquee.m2]) this.appendChild(m.html);
+            for (let m of [this.marquee.m1, this.marquee.m2]) this.el.appendChild(m.html);
             for (const m of this.getMarquees()) this.setMarqueePos(m);            
             this.startMarquee();
             const resize = debounce(this.calculateResize.bind(this), 250)
@@ -37,7 +39,8 @@
                 resize.bind(ctx)
                 resize()
             })
-        }
+	    this.el.classList.add('gg-marquee-initialized'); 
+	}
         calculateResize() {
             // console.log('calculateResize', [this])
             this.getMarqueeWidth(this.marquee.m1.html.children)
@@ -176,9 +179,20 @@ function debounce(func, wait, immediate) {
 };
 if (!Shopify.designMode) {
     // This will only render in the theme editor
-    const imgs = document.querySelector('gg-marquee').querySelectorAll('img')
-    const imgUrls = [...imgs].map(i => i.src)
-    loadImages(imgUrls).then(() => {
-        customElements.define("gg-marquee", GgMarquee);
-    })
+    customElements.define("gg-marquee", GgMarquee);
+   const marquees = document.querySelectorAll('.gg-marquee')
+    for (let i = 0; i < marquees.length; i++) {
+	    const ggMarquee = new GgMarquee(marquees[i]);
+	    const imgs = marquees[i].querySelectorAll('img')
+	    const imgUrls = [...imgs].map(i => i.src)
+	    if (imgs) { 
+		loadImages(imgUrls).then(() => {
+		    
+			ggMarquee.buildMarquee();
+	    })
+	    } else {
+		    ggMarquee.buildMarquee();
+	    }
+
+     }
 }
