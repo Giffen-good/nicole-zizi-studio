@@ -1,5 +1,27 @@
 {
   "sections": {
+    "16409005273141708f": {
+      "type": "marquee",
+      "blocks": {
+        "11e7466a-fc42-4117-a946-af9397b0aa2a": {
+          "type": "marquee-text",
+          "settings": {
+            "text": "Denim Capsule Collection Now Available",
+            "font_color": "#fff",
+            "color_scheme": "accent-2",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "11e7466a-fc42-4117-a946-af9397b0aa2a"
+      ],
+      "settings": {
+        "link": "shopify:\/\/collections\/denim-capsule-collection",
+        "section_margin": "none",
+        "marquee_height": 30
+      }
+    },
     "163993857803f831c6": {
       "type": "generic-content",
       "blocks": {
@@ -131,6 +153,7 @@
     }
   },
   "order": [
+    "16409005273141708f",
     "163993857803f831c6",
     "1639938599ef30f08e",
     "1639938668eff14c97",
