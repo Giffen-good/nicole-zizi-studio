@@ -45,7 +45,7 @@
 
 .gg-marquee {
 visibility:hidden;
-height:100px;
+height:{{ section.settings.marquee_height }}px;
 position:relative;
 min-width:10000px
 }
@@ -55,7 +55,7 @@ min-width:initial;
 }
 .gg-marquee > .gg-inner {
   display:block;
-  height:100px;
+  height:{{ section.settings.marquee_height}}px;
   overflow:hidden;
   padding:0;
   position:absolute;
@@ -102,19 +102,16 @@ min-width:initial;
     ],
     "default": "large"
   },
-  {
-    "type": "radio",
-    "id": "height",
-    "label": "Section Height",
-    "info": "Select the height of your content",
-    "options": [
-      { "value": "small", "label": "Small" },
-      { "value": "medium", "label": "Medium" },
-      { "value": "large", "label": "Large" },
-      { "value": "extra-large", "label": "Extra Large" }
-    ],
-    "default": "medium"
-  }
+    {
+      "type": "range",
+      "id": "marquee_height",
+      "min": 10,
+      "max": 200,
+      "step": 10,
+      "default": 100,
+      "unit": "px",
+      "label": "Marquee Height"
+    }
   ],
   "blocks": [
     {
@@ -244,44 +241,3 @@ min-width:initial;
   ]
 }
 {% endschema %}
-{% style %}
-
-
-.marquee {
-  width: 100%;
-  height:30px;
-  overflow: hidden;
-  position: relative;
-  display:block;
-}
-.announcement-bar {
-  height: 100%;
-  display:inline-block;
-  float: left;
-  width: 25%;
-}
-.marquee > div {
-  display: block;
-  width: 200%;
-  height: 30px;
-
-  position: absolute;
-  overflow: hidden;
-
-  animation: marquee 10s linear infinite;
-}
-@media screen and (min-width:1200px) {
-  .marquee > div {
-    animation: marquee 16s linear infinite;
-    
-  }
-}
-.marquee a, .marquee p {
- 
-}
-
-@keyframes marquee {
-  0% { left: 0; }
-  100% { left: -100%; }
-}
-{% endstyle %}
