@@ -697,9 +697,9 @@
         "164080575995a6493a-2"
       ],
       "settings": {
-        "section_margin": "large",
+        "section_margin": "small",
         "page_width": "narrow",
-        "title": "Our Materials",
+        "title": "",
         "image_width": "half",
         "image_ratio": "adapt",
         "column_alignment": "left",
