@@ -900,7 +900,7 @@
       "settings": {
         "link": "",
         "section_margin": "small",
-        "marquee_speed": 4,
+        "marquee_speed": 3,
         "marquee_height": 100,
         "color_scheme": "background-2"
       }
