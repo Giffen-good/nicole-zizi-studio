@@ -31,11 +31,10 @@
         },
         "1640960852a55159cc-2": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "border": "none",
-            "title": "",
-            "text": "",
+            "title": "Shoe Gallery Miami",
+            "text": "<p>shoegallerymiami.com<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -102,7 +101,7 @@
       ],
       "settings": {
         "section_margin": "large",
-        "page_width": "narrow",
+        "page_width": "wide",
         "title": "In-store",
         "image_width": "half",
         "image_ratio": "adapt",
