@@ -713,7 +713,7 @@
           "settings": {
             "border": "top",
             "title": "Denim",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Our denim is made of recycled textiles from fabric cutting waste of indigo denim garment and environmental clean-up initiatives.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -722,8 +722,8 @@
           "type": "column",
           "settings": {
             "border": "top",
-            "title": "Organic Cotton",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Combed Organic Cotton",
+            "text": "<p>Our combed organic cotton sweatshirts are harvested from cotton in India. The production process is audited and certified in compliance with GOTS standards.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -737,12 +737,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "b3812151-0dd9-49dd-bbae-29d8fa5ae8f7": {
+          "type": "column",
+          "settings": {
+            "border": "top",
+            "title": "SUPIMA",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "164080575995a6493a-0",
         "164080575995a6493a-2",
-        "1570e2d2-5c4c-4e9c-bd6c-c67c5d070e26"
+        "1570e2d2-5c4c-4e9c-bd6c-c67c5d070e26",
+        "b3812151-0dd9-49dd-bbae-29d8fa5ae8f7"
       ],
       "settings": {
         "section_margin": "small",
