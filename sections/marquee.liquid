@@ -1,7 +1,7 @@
 {% if section.settings.link != blank %}
 <a href='{{ section.settings.link }}'>
 {% endif %}
- <div class="gg-marquee section-margin--{{section.settings.section_margin}} ">
+<div id="gg-marquee--{{section.id}}" class="color-{{ section.settings.color_scheme }} gg-marquee section-margin--{{section.settings.section_margin}} ">
         {%- for block in section.blocks -%}
         {%- case block.type -%}
             {%- when 'marquee-text' -%}
@@ -79,6 +79,59 @@ min-width:initial;
   transform: translateX(100%);
 }
 {% endstyle %}
+<script>
+	
+if (!Shopify.designMode) {
+
+async function loadImages(imageUrlArray) {
+    const promiseArray = []; // create an array for promises
+    const imageArray = []; // array for the images
+
+    for (let imageUrl of imageUrlArray) {
+
+        promiseArray.push(new Promise(resolve => {
+
+            const img = new Image();
+            // if you don't need to do anything when the image loads,
+            // then you can just write img.onload = resolve;
+
+            img.onload = function() {
+                // do stuff with the image if necessary
+
+                // resolve the promise, indicating that the image has been loaded
+                resolve();
+            };
+
+            img.src = imageUrl;
+            imageArray.push(img);
+        }));
+    }
+
+    await Promise.all(promiseArray); // wait for all the images to be loaded
+    console.log("all images loaded");
+    return imageArray;
+}
+	document.addEventListener('DOMContentLoaded', function() {
+				
+		const marquee = document.getElementById('gg-marquee--{{section.id}}');
+		const config = {
+				speed: '{{section.settings.marquee_speed}}'
+			}
+		
+		const ggMarquee = new GgMarquee(marquee, config);	
+		const imgs = marquee.querySelectorAll('img')
+		const imgUrls = [...imgs].map(i => i.src)
+		if (imgs) { 
+		loadImages(imgUrls).then(() => {
+			
+			ggMarquee.buildMarquee();
+		})
+		} else {
+			ggMarquee.buildMarquee();
+		}
+	})
+}
+</script>
 {% schema %}
 {
   "name": "Marquee",
@@ -104,6 +157,16 @@ min-width:initial;
   },
     {
       "type": "range",
+      "id": "marquee_speed",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 4,
+      "unit": "px",
+      "label": "Marquee Speed"
+    },
+    {
+      "type": "range",
       "id": "marquee_height",
       "min": 10,
       "max": 200,
@@ -111,7 +174,36 @@ min-width:initial;
       "default": 100,
       "unit": "px",
       "label": "Marquee Height"
-    }
+	  },
+{
+            "type": "select",
+            "id": "color_scheme",
+            "options": [
+              {
+                "value": "background-1",
+                "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__1.label"
+              },
+              {
+                "value": "background-2",
+                "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__2.label"
+              },
+              {
+                "value": "inverse",
+                "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__3.label"
+              },
+              {
+                "value": "accent-1",
+                "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__4.label"
+              },
+              {
+                "value": "accent-2",
+                "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__5.label"
+              }
+            ],
+            "default": "accent-1",
+            "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.label"
+          }
+
   ],
   "blocks": [
     {

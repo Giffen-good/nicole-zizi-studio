@@ -1,6 +1,8 @@
+if (typeof GgMarquee === 'undefined') {
   class GgMarquee {
-        constructor(el){
-	    this.el = el
+        constructor(el, config){
+	    this.el = el;
+		this.config = config;
        }
 	buildMarquee() {
 	    this.marquee = {
@@ -16,12 +18,11 @@
               },
               clones: 0,
               items: this.el.querySelectorAll(':scope > * '),
-              width: 0
+              width: 0,
+			  speed: parseInt(this.config.speed)* 3/4
             }
             // this.appendChild(marqueeEl);
-            console.log(this.marquee)
             this.marquee.width = this.getMarqueeWidth(this.marquee.items) 
-            console.log(this.getMarqueeWidth(this.marquee.items))
             for (let n of [...this.marquee.items]) {
                 n.classList.add('gg-inner-child');
                 this.marquee.m1.html.appendChild(n);
@@ -39,7 +40,7 @@
                 resize.bind(ctx)
                 resize()
             })
-	    this.el.classList.add('gg-marquee-initialized'); 
+			this.el.classList.add('gg-marquee-initialized');
 	}
         calculateResize() {
             // console.log('calculateResize', [this])
@@ -106,7 +107,7 @@
           this.setMarqueeInMotion();
           for (const m of this.getMarquees()) {
             let trans = 0;
-            if (m.inMotion) trans = -2;
+            if (m.inMotion) trans = this.marquee.speed * -1;
             this.setMarqueePos(m, trans);
           }
           requestAnimationFrame(() => this.shiftMarquee())
@@ -117,35 +118,6 @@
         }
 
     }
-
-async function loadImages(imageUrlArray) {
-    const promiseArray = []; // create an array for promises
-    const imageArray = []; // array for the images
-
-    for (let imageUrl of imageUrlArray) {
-
-        promiseArray.push(new Promise(resolve => {
-
-            const img = new Image();
-            // if you don't need to do anything when the image loads,
-            // then you can just write img.onload = resolve;
-
-            img.onload = function() {
-                // do stuff with the image if necessary
-
-                // resolve the promise, indicating that the image has been loaded
-                resolve();
-            };
-
-            img.src = imageUrl;
-            imageArray.push(img);
-        }));
-    }
-
-    await Promise.all(promiseArray); // wait for all the images to be loaded
-    console.log("all images loaded");
-    return imageArray;
-}
 window.requestAnimationFrame =
     window.requestAnimationFrame ||
     window.mozRequestAnimationFrame ||
@@ -177,22 +149,24 @@ function debounce(func, wait, immediate) {
 		if (callNow) func.apply(context, args);
 	};
 };
-if (!Shopify.designMode) {
+// if (!Shopify.designMode) {
     // This will only render in the theme editor
-    customElements.define("gg-marquee", GgMarquee);
-   const marquees = document.querySelectorAll('.gg-marquee')
-    for (let i = 0; i < marquees.length; i++) {
-	    const ggMarquee = new GgMarquee(marquees[i]);
-	    const imgs = marquees[i].querySelectorAll('img')
-	    const imgUrls = [...imgs].map(i => i.src)
-	    if (imgs) { 
-		loadImages(imgUrls).then(() => {
-		    
-			ggMarquee.buildMarquee();
-	    })
-	    } else {
-		    ggMarquee.buildMarquee();
-	    }
+//    const marquees = document.querySelectorAll('.gg-marquee')
+//    for (let i = 0; i < marquees.length; i++) {
+//          const ggMarquee = new GgMarquee(marquees[i]);
+//          const imgs = marquees[i].querySelectorAll('img')
+//          const imgUrls = [...imgs].map(i => i.src)
+//          if (imgs) { 
+//      	loadImages(imgUrls).then(() => {
+//      	    
+//      		ggMarquee.buildMarquee();
+//          })
+//          } else {
+//      	    ggMarquee.buildMarquee();
+//          }
+// 
+//     }
+// }
 
-     }
+ window.GgMarquee = GgMarquee;
 }
