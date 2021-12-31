@@ -643,7 +643,6 @@
     },
     "164035831004613e81": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "16403583100a61a74a-0": {
           "type": "heading",
@@ -655,7 +654,7 @@
         "16403583100a61a74a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We take pride in our research and development process. One of the greatest ways manufacturers can control their carbon footprint is by using more sustainable materials. <\/p>"
+            "text": "<p>We take pride in our research and development process. One of the most significant ways manufacturers can control their carbon footprint is using more sustainable materials. We invest in alternative fabrics to ensure we’re reducing our environmental impact on the planet. We prioritize using natural and organic textiles but use synthetic textiles if there is a  longevity or performance advantage.<\/p>"
           }
         }
       },
@@ -669,88 +668,86 @@
         "full_width": true
       }
     },
-    "164055526030178571": {
-      "type": "generic-content",
-      "disabled": true,
+    "1640805759a3c24070": {
+      "type": "multicolumn",
       "blocks": {
-        "851cbfd7-9b1e-4142-8965-6ea862d3f10c": {
-          "type": "generic-content",
+        "164080575995a6493a-0": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vbfEe61X.png",
-            "cropped": false,
-            "video_url": "",
-            "highlighter_color": "#000000",
-            "bg_color": "#ecece7",
-            "highlighter_opacity": 0,
-            "text_color": "#ffffff",
-            "blur_effect": false,
-            "has_overlay": false,
-            "vertical_text_alignment": "bottom",
-            "horizontal_text_alignment": "left",
-            "highlighter_text": "",
-            "body_text": "",
-            "cta": "",
-            "has_arrow": false,
-            "cta_text_color": "#ffffff",
+            "border": "top",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
             "link": ""
           }
         },
-        "90b380ce-b0ce-4195-8e92-a2543b794867": {
-          "type": "generic-content",
+        "164080575995a6493a-2": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vqu_W_1Q.png",
-            "cropped": false,
-            "video_url": "",
-            "highlighter_color": "#000000",
-            "bg_color": "#ecece7",
-            "highlighter_opacity": 0,
-            "text_color": "#ffffff",
-            "blur_effect": false,
-            "has_overlay": false,
-            "vertical_text_alignment": "bottom",
-            "horizontal_text_alignment": "left",
-            "highlighter_text": "",
-            "body_text": "",
-            "cta": "",
-            "has_arrow": false,
-            "cta_text_color": "#ffffff",
-            "link": ""
-          }
-        },
-        "a6bc4a66-eb4f-4bdf-86b2-9581f621c24f": {
-          "type": "generic-content",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lk_dhips.png",
-            "cropped": false,
-            "video_url": "",
-            "highlighter_color": "#000000",
-            "bg_color": "#ecece7",
-            "highlighter_opacity": 0,
-            "text_color": "#ffffff",
-            "blur_effect": false,
-            "has_overlay": false,
-            "vertical_text_alignment": "bottom",
-            "horizontal_text_alignment": "left",
-            "highlighter_text": "",
-            "body_text": "",
-            "cta": "",
-            "has_arrow": false,
-            "cta_text_color": "#ffffff",
+            "border": "top",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "851cbfd7-9b1e-4142-8965-6ea862d3f10c",
-        "90b380ce-b0ce-4195-8e92-a2543b794867",
-        "a6bc4a66-eb4f-4bdf-86b2-9581f621c24f"
+        "164080575995a6493a-0",
+        "164080575995a6493a-2"
       ],
       "settings": {
-        "section_margin": "small",
-        "height": "small",
-        "hide": false,
-        "gutter": true,
-        "block_size": "small"
+        "section_margin": "large",
+        "page_width": "narrow",
+        "title": "Our Materials",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1640816382d254d1f9": {
+      "type": "multicolumn",
+      "blocks": {
+        "1640816382c5630767-0": {
+          "type": "column",
+          "settings": {
+            "border": "top_and_bottom",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1640816382c5630767-2": {
+          "type": "column",
+          "settings": {
+            "border": "top_and_bottom",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1640816382c5630767-0",
+        "1640816382c5630767-2"
+      ],
+      "settings": {
+        "section_margin": "none",
+        "page_width": "wide",
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     },
     "16409563406ed1ac1b": {
@@ -762,28 +759,10 @@
             "heading": "Our Certifications and Compliances",
             "heading_size": "h1"
           }
-        },
-        "164095634008ea6f05-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "164095634008ea6f05-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
-        "164095634008ea6f05-0",
-        "164095634008ea6f05-1",
-        "164095634008ea6f05-2"
+        "164095634008ea6f05-0"
       ],
       "settings": {
         "section_margin": "large",
@@ -858,90 +837,6 @@
         "marquee_height": 100,
         "color_scheme": "background-2"
       }
-    },
-    "1640805759a3c24070": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "164080575995a6493a-0": {
-          "type": "column",
-          "settings": {
-            "border": "top",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "164080575995a6493a-2": {
-          "type": "column",
-          "settings": {
-            "border": "top",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "164080575995a6493a-0",
-        "164080575995a6493a-2"
-      ],
-      "settings": {
-        "section_margin": "large",
-        "page_width": "narrow",
-        "title": "",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
-    "1640816382d254d1f9": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "1640816382c5630767-0": {
-          "type": "column",
-          "settings": {
-            "border": "top_and_bottom",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1640816382c5630767-2": {
-          "type": "column",
-          "settings": {
-            "border": "top_and_bottom",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1640816382c5630767-0",
-        "1640816382c5630767-2"
-      ],
-      "settings": {
-        "section_margin": "small",
-        "page_width": "narrow",
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
     }
   },
   "order": [
@@ -960,10 +855,9 @@
     "164035731409d1ae3e",
     "16403573385ac39c58",
     "164035831004613e81",
-    "164055526030178571",
-    "16409563406ed1ac1b",
-    "164076082174390418",
     "1640805759a3c24070",
-    "1640816382d254d1f9"
+    "1640816382d254d1f9",
+    "16409563406ed1ac1b",
+    "164076082174390418"
   ]
 }
