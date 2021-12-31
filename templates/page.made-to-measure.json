@@ -104,7 +104,7 @@
         "cc5313b4-e5c6-4121-b6f7-4a095f30d555"
       ],
       "settings": {
-        "section_margin": "small",
+        "section_margin": "medium",
         "height": "medium",
         "hide": true,
         "gutter": true,
