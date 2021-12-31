@@ -641,6 +641,43 @@
         "block_size": "large"
       }
     },
+    "1640957129d78925eb": {
+      "type": "generic-content",
+      "blocks": {
+        "772f1aa5-207e-4bb6-993d-3593e02b18a2": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nicolezizistudio_purpose_factory_1200x_586486e9-1898-4275-bccf-32ede776ebff.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "772f1aa5-207e-4bb6-993d-3593e02b18a2"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
     "164035831004613e81": {
       "type": "rich-text",
       "blocks": {
@@ -675,7 +712,7 @@
           "type": "column",
           "settings": {
             "border": "top",
-            "title": "Column",
+            "title": "Denim",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -685,7 +722,17 @@
           "type": "column",
           "settings": {
             "border": "top",
-            "title": "Column",
+            "title": "Organic Cotton",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1570e2d2-5c4c-4e9c-bd6c-c67c5d070e26": {
+          "type": "column",
+          "settings": {
+            "border": "top",
+            "title": "GOTS Certified Cotton",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -694,7 +741,8 @@
       },
       "block_order": [
         "164080575995a6493a-0",
-        "164080575995a6493a-2"
+        "164080575995a6493a-2",
+        "1570e2d2-5c4c-4e9c-bd6c-c67c5d070e26"
       ],
       "settings": {
         "section_margin": "small",
@@ -716,7 +764,7 @@
           "type": "column",
           "settings": {
             "border": "top_and_bottom",
-            "title": "Column",
+            "title": "Recycled Polyester",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -726,7 +774,27 @@
           "type": "column",
           "settings": {
             "border": "top_and_bottom",
-            "title": "Column",
+            "title": "Cactus Leather",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b4e28f08-725a-4bbb-8d85-85d424cba359": {
+          "type": "column",
+          "settings": {
+            "border": "top_and_bottom",
+            "title": "Algae Ink",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9ad2e352-7b3d-4d97-a271-52f5dd3aa52b": {
+          "type": "column",
+          "settings": {
+            "border": "top_and_bottom",
+            "title": "Upcycled Fabrics",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -735,7 +803,9 @@
       },
       "block_order": [
         "1640816382c5630767-0",
-        "1640816382c5630767-2"
+        "1640816382c5630767-2",
+        "b4e28f08-725a-4bbb-8d85-85d424cba359",
+        "9ad2e352-7b3d-4d97-a271-52f5dd3aa52b"
       ],
       "settings": {
         "section_margin": "none",
@@ -854,6 +924,7 @@
     "16403578051bd1a472",
     "164035731409d1ae3e",
     "16403573385ac39c58",
+    "1640957129d78925eb",
     "164035831004613e81",
     "1640805759a3c24070",
     "1640816382d254d1f9",
