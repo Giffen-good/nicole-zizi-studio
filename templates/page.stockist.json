@@ -102,7 +102,7 @@
       ],
       "settings": {
         "section_margin": "large",
-        "page_width": "wide",
+        "page_width": "narrow",
         "title": "In-store",
         "image_width": "half",
         "image_ratio": "adapt",
