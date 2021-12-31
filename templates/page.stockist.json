@@ -84,11 +84,10 @@
         },
         "164096108500708b54-2": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "border": "none",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Wolf and Badger",
+            "text": "",
             "link_label": "",
             "link": ""
           }
