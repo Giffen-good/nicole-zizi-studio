@@ -900,7 +900,9 @@
       "settings": {
         "link": "",
         "section_margin": "small",
-        "height": "medium"
+        "marquee_speed": 4,
+        "marquee_height": 100,
+        "color_scheme": "background-2"
       }
     },
     "1640805759a3c24070": {
