@@ -647,13 +647,13 @@
         "772f1aa5-207e-4bb6-993d-3593e02b18a2": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/nicolezizistudio_purpose_factory_1200x_586486e9-1898-4275-bccf-32ede776ebff.jpg",
+            "image": "shopify:\/\/shop_images\/lakenland_how-its-made.jpg",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "highlighter_opacity": 0,
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "blur_effect": false,
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
@@ -662,7 +662,7 @@
             "body_text": "",
             "cta": "",
             "has_arrow": true,
-            "cta_text_color": "#fff",
+            "cta_text_color": "#ffffff",
             "link": ""
           }
         }
