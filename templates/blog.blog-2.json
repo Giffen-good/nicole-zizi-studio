@@ -7,6 +7,65 @@
     },
     "1641352970ac6499b1": {
       "type": "generic-content",
+      "blocks": {
+        "c86ff29f-8eac-436b-a0a7-250f546887b8": {
+          "type": "generic-content",
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Header",
+            "body_text": "",
+            "cta": "Read More",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        },
+        "df11b871-5ef8-4bea-ad74-09e106b88008": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black-fashion-fair-nicole-zizi.jpg",
+            "cropped": true,
+            "video_url": "https:\/\/www.youtube.com\/watch?v=DdJVeFTUUIo",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "middle",
+            "horizontal_text_alignment": "center",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c86ff29f-8eac-436b-a0a7-250f546887b8",
+        "df11b871-5ef8-4bea-ad74-09e106b88008"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
+    "1641353063f523a311": {
+      "type": "generic-content",
       "settings": {
         "section_margin": "large",
         "height": "medium",
@@ -18,6 +77,7 @@
   },
   "order": [
     "main",
-    "1641352970ac6499b1"
+    "1641352970ac6499b1",
+    "1641353063f523a311"
   ]
 }

@@ -1,10 +1,23 @@
 {
   "sections": {
     "main": {
-      "type": "main-blog"
+      "type": "main-blog",
+      "settings": {
+      }
+    },
+    "1641352970ac6499b1": {
+      "type": "generic-content",
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1641352970ac6499b1"
   ]
 }
