@@ -10,9 +10,9 @@
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "highlighter_opacity": 0,
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "blur_effect": false,
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
@@ -21,7 +21,7 @@
             "body_text": "",
             "cta": "",
             "has_arrow": true,
-            "cta_text_color": "#fff",
+            "cta_text_color": "#ffffff",
             "link": ""
           }
         }
@@ -44,7 +44,7 @@
           "type": "marquee-text",
           "settings": {
             "text": "Collection  1 Now Available",
-            "font_color": "#fff",
+            "font_color": "#0671b9",
             "color_scheme": "accent-1",
             "link": ""
           }
@@ -53,7 +53,7 @@
           "type": "marquee-text",
           "settings": {
             "text": "Collection  1 Now Available",
-            "font_color": "#fff",
+            "font_color": "#0671b9",
             "color_scheme": "accent-1",
             "link": ""
           }
