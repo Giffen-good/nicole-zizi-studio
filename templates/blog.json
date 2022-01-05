@@ -14,20 +14,10 @@
         "gutter": false,
         "block_size": "large"
       }
-    },
-    "1641354106d5fb50a8": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=DdJVeFTUUIo",
-        "description": "",
-        "full_width": false
-      }
     }
   },
   "order": [
     "main",
-    "1641352970ac6499b1",
-    "1641354106d5fb50a8"
+    "1641352970ac6499b1"
   ]
 }
