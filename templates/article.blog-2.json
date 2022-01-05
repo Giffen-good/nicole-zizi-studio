@@ -134,12 +134,12 @@
           "type": "generic-content",
           "settings": {
             "image": "shopify:\/\/shop_images\/ZiZi_PS-6.jpg",
-            "cropped": false,
+            "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "highlighter_opacity": 0,
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "blur_effect": false,
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
@@ -148,7 +148,7 @@
             "body_text": "",
             "cta": "",
             "has_arrow": true,
-            "cta_text_color": "#fff",
+            "cta_text_color": "#ffffff",
             "link": ""
           }
         }
