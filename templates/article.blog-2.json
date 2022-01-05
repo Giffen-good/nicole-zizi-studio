@@ -65,8 +65,8 @@
         "cd1bbb07-7481-488f-a128-506fd3f62094"
       ],
       "settings": {
-        "section_margin": "large",
-        "height": "large",
+        "section_margin": "none",
+        "height": "extra-large",
         "hide": false,
         "gutter": false,
         "block_size": "medium"
@@ -179,6 +179,15 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1641353980b3b07c42": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=DdJVeFTUUIo",
+        "description": "",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -187,6 +196,7 @@
     "16413536107b6a4bb7",
     "main",
     "16413538192d142eb7",
-    "1641353890ea81cc27"
+    "1641353890ea81cc27",
+    "1641353980b3b07c42"
   ]
 }
