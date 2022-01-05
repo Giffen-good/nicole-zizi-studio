@@ -1,5 +1,76 @@
 {
   "sections": {
+    "1641353659930b7530": {
+      "type": "generic-content",
+      "blocks": {
+        "cd1bbb07-7481-488f-a128-506fd3f62094": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/122115654_144238000736625_7838875943939806306_n.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "cd1bbb07-7481-488f-a128-506fd3f62094"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
+    "1641353653f3268f6b": {
+      "type": "marquee",
+      "blocks": {
+        "d82e7871-0fe6-4507-ad6a-4fa736c62d70": {
+          "type": "marquee-text",
+          "settings": {
+            "text": "Collection  1 Now Available",
+            "font_color": "#fff",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        },
+        "a7f94cba-5e7c-4424-aa85-301f2bb12b49": {
+          "type": "marquee-text",
+          "settings": {
+            "text": "Collection  1 Now Available",
+            "font_color": "#fff",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d82e7871-0fe6-4507-ad6a-4fa736c62d70",
+        "a7f94cba-5e7c-4424-aa85-301f2bb12b49"
+      ],
+      "settings": {
+        "link": "",
+        "section_margin": "large",
+        "marquee_speed": 4,
+        "marquee_height": 100,
+        "color_scheme": "accent-1"
+      }
+    },
     "16413536107b6a4bb7": {
       "type": "horizontal-slider",
       "settings": {
@@ -55,6 +126,8 @@
     }
   },
   "order": [
+    "1641353659930b7530",
+    "1641353653f3268f6b",
     "16413536107b6a4bb7",
     "main"
   ]
