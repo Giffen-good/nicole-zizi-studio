@@ -1,5 +1,40 @@
 {
   "sections": {
+    "1641353653f3268f6b": {
+      "type": "marquee",
+      "disabled": true,
+      "blocks": {
+        "d82e7871-0fe6-4507-ad6a-4fa736c62d70": {
+          "type": "marquee-text",
+          "settings": {
+            "text": "Collection  1 Now Available",
+            "font_color": "#0671b9",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        },
+        "a7f94cba-5e7c-4424-aa85-301f2bb12b49": {
+          "type": "marquee-text",
+          "settings": {
+            "text": "Collection  1 Now Available",
+            "font_color": "#0671b9",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d82e7871-0fe6-4507-ad6a-4fa736c62d70",
+        "a7f94cba-5e7c-4424-aa85-301f2bb12b49"
+      ],
+      "settings": {
+        "link": "",
+        "section_margin": "large",
+        "marquee_speed": 4,
+        "marquee_height": 100,
+        "color_scheme": "accent-1"
+      }
+    },
     "1641353659930b7530": {
       "type": "generic-content",
       "blocks": {
@@ -31,44 +66,10 @@
       ],
       "settings": {
         "section_margin": "large",
-        "height": "medium",
+        "height": "large",
         "hide": false,
         "gutter": false,
-        "block_size": "large"
-      }
-    },
-    "1641353653f3268f6b": {
-      "type": "marquee",
-      "blocks": {
-        "d82e7871-0fe6-4507-ad6a-4fa736c62d70": {
-          "type": "marquee-text",
-          "settings": {
-            "text": "Collection  1 Now Available",
-            "font_color": "#0671b9",
-            "color_scheme": "accent-1",
-            "link": ""
-          }
-        },
-        "a7f94cba-5e7c-4424-aa85-301f2bb12b49": {
-          "type": "marquee-text",
-          "settings": {
-            "text": "Collection  1 Now Available",
-            "font_color": "#0671b9",
-            "color_scheme": "accent-1",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "d82e7871-0fe6-4507-ad6a-4fa736c62d70",
-        "a7f94cba-5e7c-4424-aa85-301f2bb12b49"
-      ],
-      "settings": {
-        "link": "",
-        "section_margin": "large",
-        "marquee_speed": 4,
-        "marquee_height": 100,
-        "color_scheme": "accent-1"
+        "block_size": "medium"
       }
     },
     "16413536107b6a4bb7": {
@@ -105,11 +106,13 @@
         },
         "content": {
           "type": "content",
+          "disabled": true,
           "settings": {
           }
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -123,12 +126,67 @@
       ],
       "settings": {
       }
+    },
+    "16413538192d142eb7": {
+      "type": "generic-content",
+      "blocks": {
+        "1fb3a323-a127-4a25-adc1-cd8b9d1e3dc5": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZiZi_PS-6.jpg",
+            "cropped": false,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1fb3a323-a127-4a25-adc1-cd8b9d1e3dc5"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
+    "1641353890ea81cc27": {
+      "type": "horizontal-slider",
+      "settings": {
+        "title": "Collection Slider",
+        "collection": "bags",
+        "products_to_show": 6,
+        "include_fabric": false,
+        "include_price": false,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
-    "1641353659930b7530",
     "1641353653f3268f6b",
+    "1641353659930b7530",
     "16413536107b6a4bb7",
-    "main"
+    "main",
+    "16413538192d142eb7",
+    "1641353890ea81cc27"
   ]
 }
