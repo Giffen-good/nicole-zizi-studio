@@ -81,7 +81,7 @@
         "one": "{{ count }} comentario",
         "other": "{{ count }} comentarios"
       },
-      "moderated": "Ten en cuenta que los comentarios deben aprobarse antes de que se publiquen.",
+      "moderated": "Tenga en cuenta que los comentarios deben aprobarse antes de que se publiquen.",
       "comment_form_title": "Deja un comentario",
       "name": "Nombre",
       "email": "Email",
