@@ -421,7 +421,7 @@
         "on_sale": "Sale",
         "quantity": "Quantity",
         "add_to_cart": "Add to cart",
-        "back_to_collection": "Back to {{ title }}",
+        "back_to_collection": "De regreso{{ title }}",
         "view_details": "View details"
       }
     },
@@ -453,7 +453,7 @@
       "login_form_password_placeholder": "Tu contraseña",
       "login_form_submit": "Entrar",
       "signup_form_email_label": "Email",
-      "signup_form_success": "We will send you an email right before we open!",
+      "signup_form_success": "¡Le enviaremos un correo electrónico justo antes de abrir!",
       "password_link": "Ingrese usando contraseña"
     }
   },
