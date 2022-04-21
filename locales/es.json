@@ -1194,7 +1194,8 @@
         "refund_policy": "Politica de reembolso",
         "shipping_policy": "Politica de envios",
         "subscription_policy": "Política de suscripción",
-        "terms_of_sale": "Condiciones de venta"
+        "terms_of_sale": "Condiciones de venta",
+        "terms_of_service": "Términos de servicio"
       }
     }
   }
