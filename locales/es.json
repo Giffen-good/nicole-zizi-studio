@@ -591,7 +591,8 @@
         "province_label": "Provincia",
         "province_placeholder": "Provincia",
         "region_label": "Región",
-        "region_none": "Ninguna seleccionada"
+        "region_none": "Ninguna seleccionada",
+        "region_placeholder": "Región"
       }
     }
   }
