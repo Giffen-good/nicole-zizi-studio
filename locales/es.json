@@ -1564,7 +1564,8 @@
           "voided": "Anulado"
         },
         "fulfillment_status": {
-          "complete": "Completar"
+          "complete": "Completar",
+          "fulfilled": "Cumplido"
         }
       }
     }
