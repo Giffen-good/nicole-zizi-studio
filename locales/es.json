@@ -959,7 +959,13 @@
           "transaction_declined": "La transacción ha sido rechazada"
         },
         "generic_error": "Hubo un problema al procesar su pago. Intente nuevamente o use un método de pago diferente.",
-        "insufficient_funds": "Su pago fue rechazado debido a fondos insuficientes. Intente nuevamente o use un método de pago diferente."
+        "insufficient_funds": "Su pago fue rechazado debido a fondos insuficientes. Intente nuevamente o use un método de pago diferente.",
+        "order_total_changed": "No se pudo procesar su pago porque el total de su pedido cambió. Verifique el total de su pedido y vuelva a intentarlo.",
+        "pay_later_failed": "Se produjo un error al procesar su pago con Pagar más tarde. Elija otro método de pago e intente nuevamente.",
+        "payment_processing": "Su pago no puede ser procesado por razones técnicas. Intente nuevamente o use un método de pago diferente.",
+        "payment_processing_no_retry": "Su pago no se puede procesar por razones técnicas. Pruebe con otro método de pago.",
+        "paypal_zero_amount": "No puedes usar PayPal por %{amount} pedidos. Confirme que su pedido es correcto y realice el pago sin PayPal.",
+        "rejected_transaction": "Su pago fue rechazado. Intente nuevamente o use un método de pago diferente."
       }
     }
   }
