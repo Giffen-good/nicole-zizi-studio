@@ -512,6 +512,9 @@
       "state": "Estado",
       "state_and_territory": "Estado \/ territorio",
       "zip_code": "código postal"
+    },
+    "attributes": {
+      "body": "cuerpo"
     }
   }
 }
