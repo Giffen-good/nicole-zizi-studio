@@ -1255,7 +1255,8 @@
         "confirmed": "Confirmado",
         "confirmed_description": "Hemos aceptado su pedido y lo estamos preparando. Regrese a esta página para obtener actualizaciones sobre el estado de su envío.",
         "confirmed_title": "Su orden es confirmada",
-        "contact_information_title": "Información del contacto"
+        "contact_information_title": "Información del contacto",
+        "contact_us_html": "Necesitas ayuda %%{contact_us}"
       }
     }
   }
