@@ -630,7 +630,9 @@
         "pick_up_in_two_to_four_days": "Generalmente listo en 2-4 días",
         "pick_up_in_two_to_four_hours": "Listo para recoger en 4 horas.",
         "pick_up_in_zero_to_two_hours": "Listo para recoger en 2 horas",
-        "pick_up_locations": "Lugares de recogida"
+        "pick_up_locations": "Lugares de recogida",
+        "pick_up_next_day": "Listo para recoger al día siguiente",
+        "ship": "Embarcacion"
       }
     }
   }
