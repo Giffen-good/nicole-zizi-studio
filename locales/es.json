@@ -201,7 +201,7 @@
       "subtext": "404"
     },
     "search": {
-      "no_results": "No se encontraron resultados para “{{ terms }}” Revisa la ortografía o usa una palabra o frase diferente.",
+      "no_results": "No se encontraron resultados para“{{ terms }}”. Verifique la ortografía o use una palabra o frase diferente.",
       "results_with_count": {
         "one": "{{ count }} resultado",
         "other": "{{ count }} resultados"
@@ -225,7 +225,7 @@
         "phone": "Número de teléfono",
         "comment": "Comentario",
         "send": "Enviar",
-        "post_success": "Gracias por contactarnos. Te responderemos lo antes posible.",
+        "post_success": "Gracias por contactarnos. Nos pondremos en contacto con usted lo antes posible.",
         "error_heading": "Por favor, ajuste lo siguiente:"
       }
     }
