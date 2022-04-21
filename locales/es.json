@@ -1569,7 +1569,8 @@
           "partial": "Parcial",
           "restocked": "Reabastecido",
           "unfulfilled": "No cumplido"
-        }
+        },
+        "not_available": "Este pedido no está disponible."
       }
     }
   }
