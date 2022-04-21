@@ -674,7 +674,8 @@
         "address_province_blank": "Seleccione un estado \/ provincia",
         "address_zip_blank": "Ingrese un código postal",
         "address_zip_invalid_for_country": "Ingrese un código postal válido para %{country}",
-        "address_zip_invalid_for_country_and_province": "Ingrese un código postal válido para %{province}, %{country}"
+        "address_zip_invalid_for_country_and_province": "Ingrese un código postal válido para %{province}, %{country}",
+        "credit_card_expiry_invalid": "Ingrese una fecha de vencimiento válida de la tarjeta"
       }
     }
   }
