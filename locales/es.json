@@ -343,9 +343,9 @@
     },
     "register": {
       "title": "Crear cuenta",
-      "first_name": "Nombre",
+      "first_name": "Nombre de pila",
       "last_name": "Apellido",
-      "email": "Correo electrónico",
+      "email": "Email",
       "password": "Contraseña",
       "submit": "Crear"
     },
