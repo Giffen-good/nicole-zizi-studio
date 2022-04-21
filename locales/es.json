@@ -560,7 +560,9 @@
         "country_code": "Código de país \/ región",
         "country_label": "País \/ región",
         "county_label": "Condado",
-        "county_placeholder": "Condado"
+        "county_placeholder": "Condado",
+        "delivery_option_title": "Método de entrega",
+        "email_label": "Email"
       }
     }
   }
