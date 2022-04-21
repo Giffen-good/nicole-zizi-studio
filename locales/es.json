@@ -1466,7 +1466,14 @@
       "gift_card_depleted": "No quedan fondos en esta tarjeta de regalo",
       "gift_card_disabled": "La tarjeta de regalo está desactivada",
       "gift_card_expired": "Tarjeta de regalo caducada",
-      "invalid": "no es válido"
+      "invalid": "no es válido",
+      "invalid_email": "Debe ser una dirección de correo electrónico válida",
+      "invalid_expiry_year": "no es un año de vencimiento válido",
+      "invalid_for_country": "no es válido para %{country}",
+      "invalid_for_country_and_province": "no es válido para %{province} y %{country}",
+      "invalid_province_in_country": "no es una provincia valida en %{country}",
+      "invalid_region_in_country": "no es una región válida en %{country}",
+      "invalid_state_in_country": "no es un estado válido en %{country}"
     }
   }
 }
