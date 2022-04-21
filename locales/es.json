@@ -743,7 +743,9 @@
         },
         "expand_notice_label": "Ver más",
         "forwarding_indicator": {
-          "external": "Abre un sitio web externo."
+          "external": "Abre un sitio web externo.",
+          "external_and_new_window": "Abre un sitio web externo en una nueva ventana.",
+          "new_window": "Se abre en una nueva ventana."
         }
       }
     }
