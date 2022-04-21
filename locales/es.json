@@ -1203,7 +1203,8 @@
         "items_unavailable_notice": "Algunos artículos ya no están disponibles. Su carrito se ha actualizado.",
         "page_title": "Problemas de inventario",
         "price_column_header": "Precio",
-        "product_column_header": "Productos"
+        "product_column_header": "Productos",
+        "quantity_column_header": "Cantidad"
       }
     }
   }
