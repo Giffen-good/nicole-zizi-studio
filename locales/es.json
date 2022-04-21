@@ -1356,6 +1356,12 @@
         "shipping_method_title": "Método de envío",
         "shopify_pay": {
           "order_completed_html": "Pedido completado con %{shopify_pay}"
+        },
+        "shop_phone_description": "Recibirá un mensaje de texto con un enlace a la aplicación Shop para ayudar a rastrear su pedido.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "description": "La tienda le enviará actualizaciones de entrega en tiempo real una vez que se envíe su pedido."
+          }
         }
       }
     }
