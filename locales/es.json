@@ -1120,7 +1120,11 @@
         "no_pickup_location_notice": "Al menos uno de sus productos no está disponible para recoger",
         "no_rates_contact_notice": "Contáctenos para más información.",
         "no_rates_for_cart_or_destination_notice": "No hay métodos de envío disponibles para su carrito o dirección",
-        "no_rates_for_country_notice": "No se encontraron tarifas de envío para esta dirección."
+        "no_rates_for_country_notice": "No se encontraron tarifas de envío para esta dirección.",
+        "one_time_purchase_shipping": "Envío único",
+        "other_method": {
+          "one": "%{count} otro método disponible en"
+        }
       },
       "shipping_errors": {
         "shipping_method": "Su carrito ha sido actualizado y la tarifa de envío anterior no es válida. Selecciona una nueva tarifa.",
