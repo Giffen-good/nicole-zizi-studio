@@ -741,7 +741,10 @@
         "errors": {
           "session_identifier_not_unique_error": "Algo salió mal con su pedido, por favor intente pagar de nuevo."
         },
-        "expand_notice_label": "Ver más"
+        "expand_notice_label": "Ver más",
+        "forwarding_indicator": {
+          "external": "Abre un sitio web externo."
+        }
       }
     }
   }
