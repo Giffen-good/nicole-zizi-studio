@@ -1619,7 +1619,9 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "five_or_more_days": "Generalmente listo en más de 5 días"
+        "five_or_more_days": "Generalmente listo en más de 5 días",
+        "four_hours": "Generalmente listo en 4 horas",
+        "immediately": "Listo para recoger ahora"
       }
     }
   }
