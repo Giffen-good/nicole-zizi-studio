@@ -434,14 +434,14 @@
       "back_to_blog": "De regreso{{ title }}"
     },
     "comments": {
-      "title": "Leave a comment",
+      "title": "Deja un comentario",
       "name": "Nombre",
       "email": "Email",
       "message": "Mensaje",
       "post": "Publicar comentario",
       "moderated": "Tenga en cuenta que los comentarios deben ser aprobados antes de ser publicados",
-      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
-      "success": "Your comment was posted successfully! Thank you!",
+      "success_moderated": "Su comentario fue publicado con éxito. Lo publicaremos dentro de poco, ya que nuestro blog está moderado.",
+      "success": "Su comentario fue publicado con éxito! ¡Gracias!",
       "comments_with_count": {
         "one": "{{ count }} comentario",
         "other": "{{ count }} comentarios"
