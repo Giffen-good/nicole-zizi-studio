@@ -1273,7 +1273,9 @@
         "failed_title": "Tu pedido no se pudo entregar",
         "failure": "No entregado",
         "fulfillment": {
-          "description_label": "Descripción"
+          "description_label": "Descripción",
+          "fulfilled_table_title": "Artículos en este envío",
+          "product_image_label": "Imagen del producto"
         }
       }
     }
