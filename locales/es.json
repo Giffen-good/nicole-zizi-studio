@@ -1419,6 +1419,19 @@
           "opted_in_html": "<b>Ha optado por el seguimiento de correos electrónicos abiertos.<\/b>",
           "opt_out_html": "Puede<a style='text-decoration:underline;' href='%{link}'>optar por no<\/a> de seguimiento de apertura de correo electrónico si no desea compartir esta información.",
           "preview_bar": "Está obteniendo una vista previa de lo que los clientes verán cuando opten por el seguimiento de apertura de correo electrónico."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Ha optado por no recibir seguimiento de correos electrónicos abiertos.<\/b>",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Optar en<\/a> al correo electrónico de seguimiento abierto.",
+          "preview_bar": "Está obteniendo una vista previa de lo que los clientes verán cuando opten por no recibir seguimiento de apertura de correo electrónico."
+        },
+        "track": {
+          "status_html": "<b>Se informa el seguimiento de apertura de correo electrónico.<\/b>"
+        },
+        "updated_policy": {
+          "opt_out_html": "Si no desea compartir esta información, puede<a style='text-decoration:underline;' href='%{link}'>darse de baja<\/a>",
+          "status_html": "<b>Se informa el seguimiento de apertura de correo electrónico.<\/b>",
+          "visibility": "Hemos actualizado nuestra política y ahora hacemos un seguimiento de los correos electrónicos abiertos. Las tasas de apertura de correo electrónico se informarán de forma anónima. Solo veremos si ha abierto un correo electrónico como parte de la tasa total de apertura de correo electrónico."
         }
       }
     }
