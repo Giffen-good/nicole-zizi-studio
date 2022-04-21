@@ -749,7 +749,8 @@
         },
         "page_title": "Revisa",
         "pay_now_button_label": "Pagar ahora",
-        "print_policies_link_label": "Impresión"
+        "print_policies_link_label": "Impresión",
+        "skip_to_content": "saltar al contenido"
       }
     }
   }
