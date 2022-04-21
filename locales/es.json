@@ -748,7 +748,8 @@
           "new_window": "Se abre en una nueva ventana."
         },
         "page_title": "Revisa",
-        "pay_now_button_label": "Pagar ahora"
+        "pay_now_button_label": "Pagar ahora",
+        "print_policies_link_label": "Impresión"
       }
     }
   }
