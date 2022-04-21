@@ -911,7 +911,13 @@
           "one": "Los pagos con tarjeta de crédito y débito no están disponibles en este momento.<br><a href=\"%{current_url}\">Actualizar esta página<\/a> o vuelve a intentarlo más tarde.",
           "other": "Los pagos con tarjeta de crédito y débito no están disponibles en este momento.<br><a href=\"%{current_url}\">Actualizar esta página<\/a> o pruebe con otro método de pago."
         },
-        "card_information_notice": "Todas las transacciones son seguras y encriptadas. La información de la tarjeta de crédito nunca se almacena."
+        "card_information_notice": "Todas las transacciones son seguras y encriptadas. La información de la tarjeta de crédito nunca se almacena.",
+        "card_issue_number_label": "Número de emisión",
+        "card_issue_number_placeholder": "Número de emisión",
+        "card_number_label": "Número de tarjeta",
+        "card_number_placeholder": "Número de tarjeta",
+        "card_pay_with": "Pagar con:",
+        "card_security_notice": "Todas las transacciones son seguras y encriptadas."
       }
     }
   }
