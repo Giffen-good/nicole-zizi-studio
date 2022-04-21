@@ -1257,7 +1257,11 @@
         "confirmed_title": "Su orden es confirmada",
         "contact_information_title": "Información del contacto",
         "contact_us_html": "Necesitas ayuda %%{contact_us}",
-        "contact_us_lowercase": "Contáctenos"
+        "contact_us_lowercase": "Contáctenos",
+        "customer_information_hidden_fields_message": "Inicie sesión para ver toda la información del cliente.",
+        "customer_information_title": "Información al cliente",
+        "customer_validation_error": "Ingrese un correo electrónico válido o un número de pedido.",
+        "customer_validation_error_phone": "Ingrese un número de teléfono o pedido válido."
       }
     }
   }
