@@ -1386,7 +1386,8 @@
       "tips": {
         "add_tip": "Añadir propina",
         "description": "Muestra tu apoyo al equipo en %{shop_name}",
-        "message": "Gracias, lo apreciamos"
+        "message": "Gracias, lo apreciamos",
+        "preset_label": "%{tip_percent}%"
       }
     }
   }
