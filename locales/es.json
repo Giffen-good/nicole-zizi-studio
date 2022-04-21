@@ -865,7 +865,8 @@
         "shopping_cart_label": "Carrito de compras",
         "subtotal_label": "Total parcial",
         "taxes_label": "Impuestos",
-        "tip_label": "Propina"
+        "tip_label": "Propina",
+        "title": "Resumen del pedido"
       }
     }
   }
