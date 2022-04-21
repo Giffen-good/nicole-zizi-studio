@@ -1198,7 +1198,8 @@
         "terms_of_service": "Términos de servicio"
       },
       "stock": {
-        "continue_shopping_button_label": "Seguir"
+        "continue_shopping_button_label": "Seguir",
+        "go_back_to_cart_button_label": "Volver a mi carrito"
       }
     }
   }
