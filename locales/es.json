@@ -1623,7 +1623,8 @@
         "four_hours": "Generalmente listo en 4 horas",
         "immediately": "Listo para recoger ahora",
         "next_day": "Listo para recoger al día siguiente",
-        "one_hour": "Generalmente listo en 1 hora"
+        "one_hour": "Generalmente listo en 1 hora",
+        "twenty_four_hours": "Generalmente listo en 24 horas"
       }
     }
   }
