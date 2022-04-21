@@ -1271,7 +1271,10 @@
         "failed_contact_merchant": "Contacto %{company} para coordinar la entrega.",
         "failed_contact_merchant_no_company": "Contáctenos para organizar la entrega.",
         "failed_title": "Tu pedido no se pudo entregar",
-        "failure": "No entregado"
+        "failure": "No entregado",
+        "fulfillment": {
+          "description_label": "Descripción"
+        }
       }
     }
   }
