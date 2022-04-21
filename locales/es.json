@@ -675,7 +675,13 @@
         "address_zip_blank": "Ingrese un código postal",
         "address_zip_invalid_for_country": "Ingrese un código postal válido para %{country}",
         "address_zip_invalid_for_country_and_province": "Ingrese un código postal válido para %{province}, %{country}",
-        "credit_card_expiry_invalid": "Ingrese una fecha de vencimiento válida de la tarjeta"
+        "credit_card_expiry_invalid": "Ingrese una fecha de vencimiento válida de la tarjeta",
+        "credit_card_month_invalid": "Ingrese un mes de vencimiento de tarjeta válido",
+        "credit_card_name_blank": "Ingrese su nombre exactamente como está escrito en su tarjeta",
+        "credit_card_name_invalid": "Ingrese su nombre exactamente como está escrito en su tarjeta",
+        "credit_card_number_invalid": "Ingrese un número de tarjeta válido",
+        "credit_card_start_invalid": "Ingrese una fecha de inicio de tarjeta válida",
+        "credit_card_start_month_invalid": "Ingrese un mes de inicio de tarjeta válido"
       }
     }
   }
