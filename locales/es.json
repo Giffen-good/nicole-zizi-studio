@@ -1291,7 +1291,18 @@
         "let_us_know": "Haznos saber",
         "login": "Iniciar sesión",
         "login_description": "Puede encontrar su número de pedido en el recibo que recibió por correo electrónico.",
-        "login_not_customer_html": "No %{name}? Puede %{link}"
+        "login_not_customer_html": "No %{name}? Puede %{link}",
+        "login_reorder_link_text": {
+          "one": "compra este producto también",
+          "other": "comprar estos productos también"
+        },
+        "login_title": "Inicie sesión para ver todos los detalles del pedido",
+        "marker": {
+          "current": "Lugar de envío actual",
+          "shipping": "Dirección de Envío"
+        },
+        "non_shippable_title": "Su orden esta completa",
+        "opt_in_message_html": "Su información se guardó correctamente con %{shopify_pay}"
       }
     }
   }
