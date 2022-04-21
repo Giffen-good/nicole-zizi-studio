@@ -1402,7 +1402,8 @@
       "sorting": {
         "az": "Alfabéticamente, AZ",
         "best_selling": "Más vendido",
-        "date_ascending": "Fecha, viejo a nuevo"
+        "date_ascending": "Fecha, viejo a nuevo",
+        "date_descending": "Fecha, de nuevo a viejo"
       }
     }
   }
