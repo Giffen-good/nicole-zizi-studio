@@ -294,7 +294,7 @@
       "default": "Defecto",
       "add_new": "añadir una nueva dirección",
       "edit_address": "Editar dirección",
-      "first_name": "Nombre",
+      "first_name": "Nombre de pila",
       "last_name": "Apellido",
       "company": "Empresa",
       "address1": "Dirección 1",
@@ -310,7 +310,7 @@
       "cancel": "Cancelar",
       "edit": "Editar",
       "delete": "Eliminar",
-      "delete_confirm": "¿Está seguro\/a de que deseas eliminar esta dirección?"
+      "delete_confirm": "¿Estás seguro de que deseas eliminar esta dirección?"
     },
     "log_in": "Iniciar sesión",
     "log_out": "Cerrar sesión",
