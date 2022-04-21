@@ -968,7 +968,10 @@
         "no_real_orders_dev_store": "Esta tienda no puede aceptar pedidos reales o pagos reales.",
         "no_taxes_banner_content": "No se cobrarán impuestos en este pedido. Una vez que haya cobrado el pago, ya no se podrán agregar impuestos.",
         "offsite_gateway_redirect_hint": "Después de hacer clic en %%{button_label}”, será redirigido a %{gateway_label} para completar su compra de forma segura.",
-        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} total %{total_shop_price}"
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} total %{total_shop_price}",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Su pedido está cubierto por su tarjeta de regalo."
+        }
       },
       "payment_errors": {
         "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
