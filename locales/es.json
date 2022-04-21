@@ -1075,7 +1075,13 @@
           "view_schedule": "Ver horario"
         },
         "label": "Guardar mi información para un pago más rápido",
-        "label_address_payment_and_faster_checkouts": "Deje que Shop Pay complete mi dirección e información de pago para pagos más rápidos."
+        "label_address_payment_and_faster_checkouts": "Deje que Shop Pay complete mi dirección e información de pago para pagos más rápidos.",
+        "label_faster_checkouts_and_thousand_shops": "Guarde mi información con Shop Pay para pagos más rápidos en más de un millón de tiendas.",
+        "mobile_phone_icon_alt": "Teléfono móvil",
+        "mobile_phone_number": "Número de teléfono móvil",
+        "privacy_policy": "Política de privacidad",
+        "save": "Salvar",
+        "terms_and_privacy_html": "Al continuar, aceptas el % de Shop Pay{privacy_href} y %{terms_href}."
       }
     }
   }
