@@ -980,7 +980,8 @@
         "saved_by_payment_method": "Guardado por %{payment_method}",
         "sofort_label": "Transferencia bancaria sofort",
         "subscription_agreement_label": "Entiendo que estoy de acuerdo con una suscripción. Se renovará al precio y frecuencia indicados hasta que finalice o sea %{cancelled}.",
-        "subscription_agreement_label_html": "Entiendo que estoy de acuerdo con una suscripción. Se renovará al precio y frecuencia indicados hasta que finalice o sea<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">cancelado<\/a>."
+        "subscription_agreement_label_html": "Entiendo que estoy de acuerdo con una suscripción. Se renovará al precio y frecuencia indicados hasta que finalice o sea<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">cancelado<\/a>.",
+        "subscription_card_update_agreement_label": "Cambiar el método de pago actualizará su suscripción y futuros pagos recurrentes."
       },
       "payment_errors": {
         "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
@@ -1013,6 +1014,12 @@
         "cash_on_delivery_label": "Pago contra reembolso (COD)",
         "credit_card_label": "Tarjeta de crédito",
         "money_order_label": "Giro postal"
+      },
+      "payment_summary": {
+        "credit_card_expires_on_notice": "Expira el %{month}\/%{year}",
+        "express_payment_gateway_label": "Rápido",
+        "gift_card_current_balance_notice": "Saldo actual %{amount}",
+        "manual_payment_gateway_label": "Manual"
       }
     }
   }
