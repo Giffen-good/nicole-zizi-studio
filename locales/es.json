@@ -464,6 +464,12 @@
       "product": "Producto",
       "quantity": "Cantidad",
       "total": "Total"
+    },
+    "popup": {
+      "cart_count": {
+        "one": "{{ count }} ít",
+        "other": "{{ count }} artículos"
+      }
     }
   }
 }
