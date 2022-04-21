@@ -1124,7 +1124,8 @@
         "one_time_purchase_shipping": "Envío único",
         "other_method": {
           "one": "%{count} otro método disponible en",
-          "other": "%{count} otros métodos disponibles a partir de"
+          "other": "%{count} otros métodos disponibles a partir de",
+          "zero": "No hay otros métodos disponibles."
         }
       },
       "shipping_errors": {
