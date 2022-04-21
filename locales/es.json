@@ -1473,7 +1473,16 @@
       "invalid_for_country_and_province": "no es válido para %{province} y %{country}",
       "invalid_province_in_country": "no es una provincia valida en %{country}",
       "invalid_region_in_country": "no es una región válida en %{country}",
-      "invalid_state_in_country": "no es un estado válido en %{country}"
+      "invalid_state_in_country": "no es un estado válido en %{country}",
+      "less_than_or_equal_to": "debe ser menor o igual al %{count}",
+      "not_supported": "no es apoyado",
+      "reset_password_html": "Esta dirección de correo electrónico ya está asociada con una cuenta. Si esta cuenta es suya, puede<a href=\"\/account\/login#recover\">Restablecer su contraseña<\/a>",
+      "too_long": "es demasiado largo (el máximo es %{count} caracteres)",
+      "too_short": "es demasiado corto (el mínimo es %{count} caracteres)",
+      "verify_email": "Hemos enviado un correo electrónico a %{customer_email}, haga clic en el enlace incluido para verificar su dirección de correo electrónico."
+    },
+    "feed": {
+      "more": "Más"
     }
   }
 }
