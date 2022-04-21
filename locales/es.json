@@ -817,7 +817,8 @@
         "discount_has_been_removed": "Se ha eliminado el descuento.",
         "discount_label": "Código de descuento",
         "discount_requires_customer_notice": "Ingrese su información de envío para aplicar el<strong style=\"text-transform:uppercase\">%{code}<\/strong> código de descuento",
-        "discount_savings_notice": "Después %{discount_amount} en descuentos"
+        "discount_savings_notice": "Después %{discount_amount} en descuentos",
+        "discount_title": "Descuento"
       }
     }
   }
