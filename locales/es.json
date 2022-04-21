@@ -1555,7 +1555,8 @@
         "financial_status": {
           "authorized": "Autorizado",
           "expired": "Caducado",
-          "paid": "Pagado"
+          "paid": "Pagado",
+          "partially_paid": "Parcialmente pagado"
         }
       }
     }
