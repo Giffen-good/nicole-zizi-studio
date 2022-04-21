@@ -626,7 +626,8 @@
         "pick_up_in_four_hours": "Generalmente listo en 4 horas",
         "pick_up_in_one_hour": "Generalmente listo en 1 hora",
         "pick_up_in_twenty_four_hours": "Generalmente listo en 24 horas",
-        "pick_up_in_two_hours": "Generalmente listo en 2 horas"
+        "pick_up_in_two_hours": "Generalmente listo en 2 horas",
+        "pick_up_in_two_to_four_days": "Generalmente listo en 2-4 días"
       }
     }
   }
