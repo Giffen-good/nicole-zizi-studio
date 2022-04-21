@@ -590,7 +590,8 @@
         "prefecture_placeholder": "Prefectura",
         "province_label": "Provincia",
         "province_placeholder": "Provincia",
-        "region_label": "Región"
+        "region_label": "Región",
+        "region_none": "Ninguna seleccionada"
       }
     }
   }
