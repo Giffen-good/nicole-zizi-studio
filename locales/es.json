@@ -278,7 +278,7 @@
       "title": "Cuenta",
       "details": "Detalles de la cuenta",
       "view_addresses": "Ver direcciones",
-      "return": "Regresar a detalles de la cuenta"
+      "return": "Volver a los detalles de la cuenta"
     },
     "account_fallback": "Cuenta",
     "activate_account": {
@@ -469,7 +469,9 @@
       "cart_count": {
         "one": "{{ count }} ít",
         "other": "{{ count }} artículos"
-      }
+      },
+      "product_details": "Detalles de producto",
+      "quantity_label": "Cantidad:{{ quantity_count }}"
     }
   }
 }
