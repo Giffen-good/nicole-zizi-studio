@@ -944,7 +944,8 @@
         "ends_with_label": "terminando con %{last_digits}",
         "eps_label": "eps-Überweisung",
         "expiry_long": "(Caduca %{month}\/%{year})",
-        "expiry_short": "(Exp %{month}\/%{year})"
+        "expiry_short": "(Exp %{month}\/%{year})",
+        "free_order_notice_html": "tu orden es <strong>gratis<\/strong> . No se requiere pago."
       },
       "payment_errors": {
         "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
