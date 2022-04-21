@@ -593,7 +593,8 @@
         "region_label": "Región",
         "region_none": "Ninguna seleccionada",
         "region_placeholder": "Región",
-        "shipping_address_title": "Dirección de Envío"
+        "shipping_address_title": "Dirección de Envío",
+        "state_and_territory_label": "Estado \/ territorio"
       }
     }
   }
