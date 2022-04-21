@@ -594,7 +594,9 @@
         "region_none": "Ninguna seleccionada",
         "region_placeholder": "Región",
         "shipping_address_title": "Dirección de Envío",
-        "state_and_territory_label": "Estado \/ territorio"
+        "state_and_territory_label": "Estado \/ territorio",
+        "state_and_territory_placeholder": "Estado \/ territorio",
+        "state_label": "Estado"
       }
     }
   }
