@@ -542,7 +542,17 @@
       },
       "change_currency": {
         "card_provider_fx_charges_warning": "Su proveedor de tarjeta puede cobrar tarifas en %{currency_code} actas.",
-        "change_currency_link": "Cambiar a %{currency_name}"
+        "change_currency_link": "Cambiar a %{currency_name}",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "credit_card_will_be_charged_html": "Su tarjeta de crédito será cargada %{amount}",
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "currency_not_supported_by_shop": "La moneda que seleccionó ya no está disponible. Todos los precios están ahora en %{currency_code}.",
+        "payment_total_label": "Pago total"
+      },
+      "contact": {
+        "address1_label": "Habla a",
+        "address2_label": "Apartamento, suite, etc.",
+        "address_title": "Habla a"
       }
     }
   }
