@@ -1556,7 +1556,8 @@
           "authorized": "Autorizado",
           "expired": "Caducado",
           "paid": "Pagado",
-          "partially_paid": "Parcialmente pagado"
+          "partially_paid": "Parcialmente pagado",
+          "partially_refunded": "Reintegrado parcialmente"
         }
       }
     }
