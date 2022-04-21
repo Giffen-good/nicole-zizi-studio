@@ -1453,7 +1453,14 @@
       "contains_spaces": "comienza o termina con espacios.",
       "credit_card_session_expired": "La autorización de la tarjeta de crédito ha expirado, ingrese nuevamente su información de pago. Su tarjeta no ha sido cargada.",
       "customer_already_used_once_per_customer_discount_notice": "Este descuento ha alcanzado su límite de uso",
-      "discount_disabled": "Este descuento ha sido deshabilitado"
+      "discount_disabled": "Este descuento ha sido deshabilitado",
+      "discount_expired": "Este descuento ya no es válido",
+      "discount_limit_reached": "Este descuento ha alcanzado su límite de uso",
+      "discount_not_found": "No se puede encontrar un descuento válido que coincida con el código ingresado",
+      "email_domain_invalid": "el proveedor no es compatible",
+      "empty": "no puede estar vacío",
+      "expired": "ha expirado",
+      "full_name_required": "Ingrese un nombre y apellido"
     }
   }
 }
