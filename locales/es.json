@@ -444,7 +444,8 @@
   "cart": {
     "general": {
       "cancel": "Cancelar",
-      "checkout": "Revisa"
+      "checkout": "Revisa",
+      "continue_shopping": "Seguir comprando"
     }
   }
 }
