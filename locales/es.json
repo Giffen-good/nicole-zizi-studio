@@ -954,8 +954,11 @@
         "fraud_payment_errors": {
           "address_mismatch": "La dirección y el código postal no coinciden.",
           "cannot_process": "Esta operación no se puede procesar.",
-          "card_declined": "Tu tarjeta fue rechazada"
-        }
+          "card_declined": "Tu tarjeta fue rechazada",
+          "no_match": "Sin coincidencia",
+          "transaction_declined": "La transacción ha sido rechazada"
+        },
+        "generic_error": "Hubo un problema al procesar su pago. Intente nuevamente o use un método de pago diferente."
       }
     }
   }
