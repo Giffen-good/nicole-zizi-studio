@@ -1192,7 +1192,8 @@
         "legal_notice": "Aviso Legal",
         "privacy_policy": "Política de privacidad",
         "refund_policy": "Politica de reembolso",
-        "shipping_policy": "Politica de envios"
+        "shipping_policy": "Politica de envios",
+        "subscription_policy": "Política de suscripción"
       }
     }
   }
