@@ -1594,7 +1594,22 @@
       "create_account": "Crear una cuenta",
       "order": "Pedido %{name}",
       "products": "Productos",
-      "reset_account": "Restablecer cuenta"
+      "reset_account": "Restablecer cuenta",
+      "search_results": {
+        "one": "Búsqueda: %{count} resultado encontrado para \"%{terms}\"",
+        "other": "Búsqueda: %{count} resultados encontrados para \"%{terms}\""
+      },
+      "shopping_cart": "tu carrito de la compra"
+    },
+    "pagination": {
+      "next": "próximo",
+      "previous": "Anterior"
+    },
+    "search": {
+      "sorting": {
+        "price_ascending": "Precios de barato a caro",
+        "price_descending": "Precio de mayor a menor"
+      }
     }
   }
 }
