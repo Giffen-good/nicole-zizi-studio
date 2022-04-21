@@ -659,7 +659,8 @@
         "address_company_contains_emojis": "La empresa no puede contener emojis",
         "address_company_contains_html_tags": "La empresa no puede contener etiquetas HTML.",
         "address_company_too_long": "El nombre de la empresa es demasiado largo (máximo 255 caracteres)",
-        "address_country_blank": "Selecciona un país \/ región"
+        "address_country_blank": "Selecciona un país \/ región",
+        "address_country_not_supported": "No realizamos envíos a este país o región. Introduce una nueva dirección de envío e inténtalo de nuevo."
       }
     }
   }
