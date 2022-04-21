@@ -903,7 +903,9 @@
         "card_expiration_month_label": "Mes de expiración",
         "card_expiration_year_label": "Año de vencimiento",
         "card_expired": "Caducado",
-        "card_expiry_date_explanation": "Fecha de vencimiento de la tarjeta en formato: mes, mes, año, año"
+        "card_expiry_date_explanation": "Fecha de vencimiento de la tarjeta en formato: mes, mes, año, año",
+        "card_expiry_label": "Fecha de vencimiento (MM \/ AA)",
+        "card_expiry_placeholder": "Fecha de vencimiento (MM \/ AA)"
       }
     }
   }
