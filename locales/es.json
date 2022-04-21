@@ -552,7 +552,9 @@
       "contact": {
         "address1_label": "Habla a",
         "address2_label": "Apartamento, suite, etc.",
-        "address_title": "Habla a"
+        "address_title": "Habla a",
+        "city_label": "Ciudad",
+        "civic_number_warning": "Agregue un número de casa si tiene uno"
       }
     }
   }
