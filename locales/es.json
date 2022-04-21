@@ -1538,7 +1538,8 @@
         "variant_requires_selling_plan": "La variante solo se puede comprar con un plan de venta."
       },
       "customer": {
-        "denylisted_reset_password": "No se pudo acceder a su cuenta porque la contraseña actual no es segura. Recibirás un correo electrónico para actualizar tu contraseña."
+        "denylisted_reset_password": "No se pudo acceder a su cuenta porque la contraseña actual no es segura. Recibirás un correo electrónico para actualizar tu contraseña.",
+        "invalid_credentials": "Correo o contraseña incorrectos."
       }
     }
   }
