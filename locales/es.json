@@ -1141,7 +1141,21 @@
             "other": "Primero %{count} pedidos gratis"
           },
           "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} por entrega), seguido de %{recurring_order_shipping_price}",
-          "first_order_shipping_price_included": "Primer pedido incluido, seguido de %{recurring_order_shipping_price}"
+          "first_order_shipping_price_included": "Primer pedido incluido, seguido de %{recurring_order_shipping_price}",
+          "free_for_first_n_order": {
+            "other": "Por Primero %{count} pedidos"
+          },
+          "initial_order_discounted": "Primer costo de envío %{discounted_shipping_cost}, entonces %{frequency_description}",
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} por entrega",
+          "prepaid_delivery_frequency": {
+            "one": "por %{count} entrega",
+            "other": "por %{count} entregas"
+          },
+          "prepaid_initial_order_discounted": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), entonces %{shipping_price} %{billing_cycle}",
+          "prepaid_shipping_price_label": "%{shipping_price} por entrega x %{delivery_interval_count}",
+          "recurring_order_shipping_price": "seguido por %{recurring_order_shipping_price}"
         }
       },
       "shipping_errors": {
