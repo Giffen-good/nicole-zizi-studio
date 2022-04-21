@@ -700,7 +700,10 @@
         "payment_gateway_not_in_test_mode": "no está configurado para probar pedidos. Esta tienda no puede aceptar pedidos reales o pagos reales.",
         "payment_gateway_unsupported_for_subscriptions": "Este método de pago no está disponible para pedidos de suscripción.",
         "physical_gift_card_duplicate_code": "La línea de pedido de tarjeta de regalo física contiene un código duplicado.",
-        "physical_gift_card_invalid_code": "El código físico de la tarjeta de regalo no es válido."
+        "physical_gift_card_invalid_code": "El código físico de la tarjeta de regalo no es válido.",
+        "physical_gift_card_invalid_quantity": "Las líneas de pedido de tarjetas de regalo físicas deben tener una cantidad que coincida con la cantidad de códigos de tarjetas de regalo.",
+        "reduction_code_code_not_found": "Ingrese un código de descuento válido o una tarjeta de regalo",
+        "reduction_code_discount_not_found": "Ingrese un código de descuento válido"
       }
     }
   }
