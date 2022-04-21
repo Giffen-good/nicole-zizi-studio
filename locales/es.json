@@ -452,7 +452,9 @@
       "note": "Agregue una nota a su pedido",
       "remove": "Eliminar",
       "savings": "Estas ahorrando",
-      "subtotal": "Total parcial"
+      "subtotal": "Total parcial",
+      "taxes_and_shipping_policy_at_checkout_html": "Impuestos y<a href=\"{{ link }}\">Envío<\/a> calculado a la salida",
+      "taxes_included_and_shipping_policy_html": "Impuesto incluido.<a href=\"{{ link }}\">Envío<\/a> calculado a la salida."
     }
   }
 }
