@@ -1446,7 +1446,14 @@
       }
     },
     "errors": {
-      "bad_domain": "contiene un nombre de dominio no válido"
+      "bad_domain": "contiene un nombre de dominio no válido",
+      "blank": "no puede estar en blanco",
+      "blocked_address": "Esta ubicación no es compatible.",
+      "contains_html_tags": "no puede contener etiquetas HTML",
+      "contains_spaces": "comienza o termina con espacios.",
+      "credit_card_session_expired": "La autorización de la tarjeta de crédito ha expirado, ingrese nuevamente su información de pago. Su tarjeta no ha sido cargada.",
+      "customer_already_used_once_per_customer_discount_notice": "Este descuento ha alcanzado su límite de uso",
+      "discount_disabled": "Este descuento ha sido deshabilitado"
     }
   }
 }
