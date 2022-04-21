@@ -1512,7 +1512,8 @@
     },
     "notices": {
       "address": {
-        "created": "Dirección creada con éxito"
+        "created": "Dirección creada con éxito",
+        "deleted": "Dirección eliminada exitosamente"
       }
     }
   }
