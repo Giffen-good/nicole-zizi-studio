@@ -1608,8 +1608,12 @@
     "search": {
       "sorting": {
         "price_ascending": "Precios de barato a caro",
-        "price_descending": "Precio de mayor a menor"
+        "price_descending": "Precio de mayor a menor",
+        "relevance": "Relevancia"
       }
+    },
+    "sentence": {
+      "last_word_connector": "y"
     }
   }
 }
