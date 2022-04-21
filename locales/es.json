@@ -1196,6 +1196,9 @@
         "subscription_policy": "Política de suscripción",
         "terms_of_sale": "Condiciones de venta",
         "terms_of_service": "Términos de servicio"
+      },
+      "stock": {
+        "continue_shopping_button_label": "Seguir"
       }
     }
   }
