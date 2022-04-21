@@ -455,7 +455,15 @@
       "subtotal": "Total parcial",
       "taxes_and_shipping_policy_at_checkout_html": "Impuestos y<a href=\"{{ link }}\">Envío<\/a> calculado a la salida",
       "taxes_included_and_shipping_policy_html": "Impuesto incluido.<a href=\"{{ link }}\">Envío<\/a> calculado a la salida.",
-      "taxes_included_but_shipping_at_checkout": "Impuestos incluidos y envío calculado al finalizar la compra"
+      "taxes_included_but_shipping_at_checkout": "Impuestos incluidos y envío calculado al finalizar la compra",
+      "title": "Su carro",
+      "update": "Actualizar"
+    },
+    "label": {
+      "price": "Precio",
+      "product": "Producto",
+      "quantity": "Cantidad",
+      "total": "Total"
     }
   }
 }
