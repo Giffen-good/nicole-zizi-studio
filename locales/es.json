@@ -36,7 +36,17 @@
       "previous": "Pagina anterior"
     },
     "search": {
-      "search": "Búsqueda"
+      "search": "Búsqueda",
+      "close": "Cerrar busqueda",
+      "empty_search_message": "El campo de búsqueda no puede estar vacío",
+      "heading": {
+        "one": "Resultado de búsqueda"
+      },
+      "no_results_html": "Intente con otro término de búsqueda o vuelva a la<a href=\"{{ link }}\">página principal<\/a>.",
+      "results_with_count": {
+        "one": "{{ count }} resultado para \"{{ terms }}\"",
+        "other": "{{ count }} resultados para \"{{ terms }}\""
+      }
     },
     "cart": {
       "view": "Ver mi carrito ({{ count }})",
