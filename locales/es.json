@@ -923,7 +923,13 @@
         "card_start_placeholder": "Fecha de emisión (MM \/ AA)",
         "card_update_label": "Tarjeta de actualización",
         "card_verification_confirm": "Para fines de verificación, ingrese el código de seguridad de su tarjeta.",
-        "card_verification_value_explanation": "El código de seguridad de 3 dígitos generalmente se encuentra en el reverso de su tarjeta. Las tarjetas American Express tienen un código de 4 dígitos ubicado en el frente."
+        "card_verification_value_explanation": "El código de seguridad de 3 dígitos generalmente se encuentra en el reverso de su tarjeta. Las tarjetas American Express tienen un código de 4 dígitos ubicado en el frente.",
+        "card_verification_value_explanation_amex": "Código de seguridad de 4 dígitos en el frente de su tarjeta",
+        "card_verification_value_explanation_other": "Código de seguridad de 3 dígitos en el reverso de su tarjeta",
+        "card_verification_value_label": "Código de seguridad",
+        "card_verification_value_placeholder": "Código de seguridad",
+        "change_currency_section_description": "Seleccione una opción de moneda",
+        "credit_card_start_month": "Mes de inicio"
       }
     }
   }
