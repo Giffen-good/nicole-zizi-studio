@@ -451,7 +451,8 @@
       "empty": "Su carrito está vacío.",
       "note": "Agregue una nota a su pedido",
       "remove": "Eliminar",
-      "savings": "Estas ahorrando"
+      "savings": "Estas ahorrando",
+      "subtotal": "Total parcial"
     }
   }
 }
