@@ -1041,7 +1041,8 @@
         "title": "Compra posterior"
       },
       "processing": {
-        "complete_your_purchase_title": "Completa tu compra"
+        "complete_your_purchase_title": "Completa tu compra",
+        "complete_your_purchase_title_error": "Corrija su información de pago"
       }
     }
   }
