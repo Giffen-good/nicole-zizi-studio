@@ -1557,7 +1557,8 @@
           "expired": "Caducado",
           "paid": "Pagado",
           "partially_paid": "Parcialmente pagado",
-          "partially_refunded": "Reintegrado parcialmente"
+          "partially_refunded": "Reintegrado parcialmente",
+          "pending": "Pendiente"
         }
       }
     }
