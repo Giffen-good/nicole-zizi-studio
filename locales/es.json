@@ -703,7 +703,16 @@
         "physical_gift_card_invalid_code": "El código físico de la tarjeta de regalo no es válido.",
         "physical_gift_card_invalid_quantity": "Las líneas de pedido de tarjetas de regalo físicas deben tener una cantidad que coincida con la cantidad de códigos de tarjetas de regalo.",
         "reduction_code_code_not_found": "Ingrese un código de descuento válido o una tarjeta de regalo",
-        "reduction_code_discount_not_found": "Ingrese un código de descuento válido"
+        "reduction_code_discount_not_found": "Ingrese un código de descuento válido",
+        "reduction_code_gift_card_code_invalid": "Ingrese una tarjeta de regalo válida",
+        "reduction_code_gift_card_unusable": "No puede usar una tarjeta de regalo para comprar otra tarjeta de regalo",
+        "shipping_line_phone_blank": "Ingrese un número de teléfono para usar este método de entrega",
+        "shipping_line_phone_invalid": "Ingrese un número de teléfono válido para usar este método de entrega",
+        "tips_invalid_tip_amount": "Ingrese una propina que no supere el %{amount}"
+      },
+      "general": {
+        "all_rights_reserved": "Reservados todos los derechos %{shop_name}",
+        "authenticate_purchase_button_label": "Autenticar pago"
       }
     }
   }
