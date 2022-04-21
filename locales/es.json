@@ -868,7 +868,9 @@
         "tip_label": "Propina",
         "title": "Resumen del pedido",
         "total_already_paid_label": "Ya pagado",
-        "total_label": "Total"
+        "total_label": "Total",
+        "total_outstanding_label": "Monto a pagar",
+        "total_updated_label": "Precio total actualizado:"
       }
     }
   }
