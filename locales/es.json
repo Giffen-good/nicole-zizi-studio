@@ -752,6 +752,11 @@
         "print_policies_link_label": "Impresión",
         "skip_to_content": "saltar al contenido",
         "tooltip_accessibility_label": "Más información"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Información Adicional"
+        }
       }
     }
   }
