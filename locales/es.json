@@ -1545,7 +1545,8 @@
       },
       "order": {
         "cancel_reason": {
-          "customer": "Cliente modificado \/ pedido cancelado"
+          "customer": "Cliente modificado \/ pedido cancelado",
+          "declined": "Pago rechazado"
         }
       }
     }
