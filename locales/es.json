@@ -1486,7 +1486,10 @@
     },
     "filters": {
       "availability": {
-        "label": "Disponibilidad"
+        "label": "Disponibilidad",
+        "value": {
+          "in_stock": "En stock"
+        }
       }
     }
   }
