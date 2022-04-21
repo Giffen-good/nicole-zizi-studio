@@ -1248,7 +1248,11 @@
         "attempted_delivery_local_description_html": "No pudimos entregar su pedido. Para programar otra entrega, %{contact_us}.",
         "attempted_delivery_local_title": "Entrega perdida",
         "attempted_delivery_title": "Se intentó entregar su pedido.",
-        "cancelled_description": "Su pedido fue cancelado el %{date}. Póngase en contacto con nosotros si tiene alguna pregunta."
+        "cancelled_description": "Su pedido fue cancelado el %{date}. Póngase en contacto con nosotros si tiene alguna pregunta.",
+        "cancelled_page_title": "Orden cancelada",
+        "company_tracking_number": "%{company} el número de rastreo:",
+        "confirmation_email_sent_text": "Se ha enviado un correo electrónico de confirmación a %{email}",
+        "confirmed": "Confirmado"
       }
     }
   }
