@@ -155,10 +155,11 @@
       },
       "view_full_details": "Ver todos los detalles",
       "include_taxes": "Impuesto incluido.",
-      "shipping_policy_html": "Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pago."
+      "shipping_policy_html": "Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pago.",
+      "back_to_collection": "De regreso{{ title }}"
     },
     "modal": {
-      "label": "Galería multimedia"
+      "label": "Galería media"
     },
     "facets": {
       "apply": "Aplicar",
@@ -181,7 +182,7 @@
         "one": "{{ count }} producto",
         "other": "{{ count }} productos"
       },
-      "reset": "Restablecer",
+      "reset": "Reiniciar",
       "sort_button": "Ordenar",
       "sort_by_label": "Ordenar por:",
       "to": "Para",
