@@ -1275,7 +1275,8 @@
         "fulfillment": {
           "description_label": "Descripción",
           "fulfilled_table_title": "Artículos en este envío",
-          "product_image_label": "Imagen del producto"
+          "product_image_label": "Imagen del producto",
+          "quantity_label": "Cantidad"
         }
       }
     }
