@@ -632,7 +632,11 @@
         "pick_up_in_zero_to_two_hours": "Listo para recoger en 2 horas",
         "pick_up_locations": "Lugares de recogida",
         "pick_up_next_day": "Listo para recoger al día siguiente",
-        "ship": "Embarcacion"
+        "ship": "Embarcacion",
+        "shipping_address": "Dirección de Envío"
+      },
+      "failed_payment": {
+        "page_title": "El pago no pudo ser procesado"
       }
     }
   }
