@@ -121,13 +121,13 @@
       "product_variants": "Variantes de producto",
       "quantity": {
         "label": "Cantidad",
-        "input_label": "Cantidad para {{ product }}",
-        "increase": "Aumentar cantidad para {{ product }}",
-        "decrease": "Reducir cantidad para {{ product }}"
+        "input_label": "Cantidad para{{ product }}",
+        "increase": "Aumentar cantidad para{{ product }}",
+        "decrease": "Disminuir la cantidad para{{ product }}"
       },
       "price": {
         "from_price_html": "Desde{{ price }}",
-        "regular_price": "Precio habitual",
+        "regular_price": "Precio regular",
         "sale_price": "Precio de venta",
         "unit_price": "Precio unitario"
       },
