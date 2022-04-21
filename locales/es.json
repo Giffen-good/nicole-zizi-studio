@@ -845,7 +845,8 @@
         "payment_terms_totals": {
           "due_later": "% total adeudado{due_at}"
         },
-        "percent_off_shipping": "%{percent}% de descuento en el envío"
+        "percent_off_shipping": "%{percent}% de descuento en el envío",
+        "pickup_label": "Recoger"
       }
     }
   }
