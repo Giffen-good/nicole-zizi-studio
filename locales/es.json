@@ -1433,7 +1433,20 @@
           "status_html": "<b>Se informa el seguimiento de apertura de correo electrónico.<\/b>",
           "visibility": "Hemos actualizado nuestra política y ahora hacemos un seguimiento de los correos electrónicos abiertos. Las tasas de apertura de correo electrónico se informarán de forma anónima. Solo veremos si ha abierto un correo electrónico como parte de la tasa total de apertura de correo electrónico."
         }
+      },
+      "subscribed": {
+        "confirmation": "Gracias por suscribirse a nuestra lista de correo.",
+        "disclaimer": "Puede darse de baja en cualquier momento.",
+        "unsubscribe": "Darse de baja"
+      },
+      "unsubscribed": {
+        "confirmation": "Te has dado de baja de nuestra lista de correo.",
+        "disclaimer": "No recibirá más actualizaciones de marketing de nuestra parte. Puede suscribirse nuevamente en cualquier momento.",
+        "preview": "Está haciendo una vista previa de lo que los clientes verán cuando se den de baja."
       }
+    },
+    "errors": {
+      "bad_domain": "contiene un nombre de dominio no válido"
     }
   }
 }
