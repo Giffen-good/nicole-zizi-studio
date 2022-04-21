@@ -1285,7 +1285,13 @@
         "gift_card_title": "Tarjetas de regalo",
         "in_transit": "En su camino",
         "in_transit_description_days": "Deberías recibir tu pedido en el próximo %{number} dias.",
-        "in_transit_description_today": "Debería recibir su pedido hoy."
+        "in_transit_description_today": "Debería recibir su pedido hoy.",
+        "in_transit_description_tomorrow": "Debería recibir su pedido al día siguiente.",
+        "in_transit_title": "Su pedido está en camino",
+        "let_us_know": "Haznos saber",
+        "login": "Iniciar sesión",
+        "login_description": "Puede encontrar su número de pedido en el recibo que recibió por correo electrónico.",
+        "login_not_customer_html": "No %{name}? Puede %{link}"
       }
     }
   }
