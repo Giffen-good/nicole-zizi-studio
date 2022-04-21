@@ -1567,7 +1567,8 @@
           "complete": "Completar",
           "fulfilled": "Cumplido",
           "partial": "Parcial",
-          "restocked": "Reabastecido"
+          "restocked": "Reabastecido",
+          "unfulfilled": "No cumplido"
         }
       }
     }
