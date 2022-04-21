@@ -657,7 +657,8 @@
         "address_city_too_long": "La ciudad es demasiado larga (el máximo es 255 caracteres)",
         "address_company_blank": "Ingrese un nombre de compañía",
         "address_company_contains_emojis": "La empresa no puede contener emojis",
-        "address_company_contains_html_tags": "La empresa no puede contener etiquetas HTML."
+        "address_company_contains_html_tags": "La empresa no puede contener etiquetas HTML.",
+        "address_company_too_long": "El nombre de la empresa es demasiado largo (máximo 255 caracteres)"
       }
     }
   }
