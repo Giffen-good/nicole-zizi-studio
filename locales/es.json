@@ -1360,7 +1360,8 @@
         "shop_phone_description": "Recibirá un mensaje de texto con un enlace a la aplicación Shop para ayudar a rastrear su pedido.",
         "shop_qr_with_sms_upsell": {
           "qr_code": {
-            "description": "La tienda le enviará actualizaciones de entrega en tiempo real una vez que se envíe su pedido."
+            "description": "La tienda le enviará actualizaciones de entrega en tiempo real una vez que se envíe su pedido.",
+            "title": "Escanea con tu teléfono"
           }
         }
       }
