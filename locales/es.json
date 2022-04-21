@@ -1625,7 +1625,8 @@
         "next_day": "Listo para recoger al día siguiente",
         "one_hour": "Generalmente listo en 1 hora",
         "twenty_four_hours": "Generalmente listo en 24 horas",
-        "two_hours": "Generalmente listo en 2 horas"
+        "two_hours": "Generalmente listo en 2 horas",
+        "two_to_four_days": "Generalmente listo en 2-4 días"
       }
     }
   }
