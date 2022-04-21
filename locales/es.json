@@ -162,15 +162,15 @@
     },
     "facets": {
       "apply": "Aplicar",
-      "clear": "Borrar",
-      "clear_all": "Borrar todo",
+      "clear": "Claro",
+      "clear_all": "Limpiar todo",
       "from": "De",
       "filter_and_sort": "Filtrar y ordenar",
       "filter_by_label": "Filtrar:",
       "filter_button": "Filtrar",
       "filters_selected": {
         "one": "{{ count }} seleccionado",
-        "other": "{{ count }} seleccionados"
+        "other": "{{ count }} seleccionado"
       },
       "max_price": "El precio más alto es {{ price }}",
       "product_count": {
@@ -185,7 +185,7 @@
       "sort_button": "Ordenar",
       "sort_by_label": "Ordenar por:",
       "to": "Para",
-      "clear_filter": "Borrar filtro"
+      "clear_filter": "Filtro claro"
     }
   },
   "templates": {
