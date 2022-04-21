@@ -525,7 +525,25 @@
       "discounts_with_count": "%{count} se han aplicado descuentos"
     },
     "challenge": {
-      "error": "Su respuesta no fue correcta, por favor intente nuevamente."
+      "error": "Su respuesta no fue correcta, por favor intente nuevamente.",
+      "message": "Para continuar, háganos saber que no es un robot.",
+      "submit_button_text": "Enviar"
+    },
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "express_checkout": "chequeo rápido",
+        "or": "O"
+      },
+      "alternative_payment_method": {
+        "button_label": "Pagar con: %{method}"
+      },
+      "apple_pay": {
+        "button_html": "Compra con %{logo}"
+      },
+      "change_currency": {
+        "card_provider_fx_charges_warning": "Su proveedor de tarjeta puede cobrar tarifas en %{currency_code} actas.",
+        "change_currency_link": "Cambiar a %{currency_name}"
+      }
     }
   }
 }
