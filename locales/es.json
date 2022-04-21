@@ -450,7 +450,7 @@
     "password_page": {
       "login_form_message": "Ingrese a la tienda usando la contraseña:",
       "login_form_password_label": "Contraseña",
-      "login_form_password_placeholder": "Your password",
+      "login_form_password_placeholder": "Tu contraseña",
       "login_form_submit": "Enter",
       "signup_form_email_label": "Email",
       "signup_form_success": "We will send you an email right before we open!",
