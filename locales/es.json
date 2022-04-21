@@ -523,6 +523,9 @@
     },
     "cart": {
       "discounts_with_count": "%{count} se han aplicado descuentos"
+    },
+    "challenge": {
+      "error": "Su respuesta no fue correcta, por favor intente nuevamente."
     }
   }
 }
