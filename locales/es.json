@@ -508,7 +508,8 @@
       "postcode": "Código postal",
       "prefecture": "Prefectura",
       "province": "Provincia",
-      "region": "Región"
+      "region": "Región",
+      "state": "Estado"
     }
   }
 }
