@@ -898,7 +898,8 @@
         "billing_address_description": "Seleccione la dirección que coincida con su tarjeta o método de pago.",
         "billing_address_description_no_shipping_address": "Ingrese la dirección que coincida con su tarjeta o método de pago.",
         "billing_address_not_supported_for_payment_method_error": "Este método de pago no está disponible para su dirección de facturación y moneda. Por favor, intente con un método de pago diferente.",
-        "billing_address_title": "Dirección de Envio"
+        "billing_address_title": "Dirección de Envio",
+        "card_change_label": "Cambio"
       }
     }
   }
