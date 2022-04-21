@@ -846,7 +846,9 @@
           "due_later": "% total adeudado{due_at}"
         },
         "percent_off_shipping": "%{percent}% de descuento en el envío",
-        "pickup_label": "Recoger"
+        "pickup_label": "Recoger",
+        "price_label": "Precio",
+        "product_change_label": "Cambio"
       }
     }
   }
