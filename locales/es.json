@@ -1066,7 +1066,16 @@
         "you_will_receive_confirmation": "Estamos recibiendo muchos pedidos en este momento. Debería recibir confirmación por correo electrónico o mensaje de texto pronto. Si no lo recibe en la próxima hora, avísenos."
       },
       "remember_me": {
-        "description_html": "La próxima vez que visite aquí o en otras tiendas con tecnología de Shopify, recibirá un código por mensaje de texto para comprar de forma segura con Shop Pay."
+        "description_html": "La próxima vez que visite aquí o en otras tiendas con tecnología de Shopify, recibirá un código por mensaje de texto para comprar de forma segura con Shop Pay.",
+        "errors": {
+          "optin": "Shop Pay no está disponible"
+        },
+        "installments": {
+          "paid_in_installments": "Pagado a plazos con Shop Pay.",
+          "view_schedule": "Ver horario"
+        },
+        "label": "Guardar mi información para un pago más rápido",
+        "label_address_payment_and_faster_checkouts": "Deje que Shop Pay complete mi dirección e información de pago para pagos más rápidos."
       }
     }
   }
