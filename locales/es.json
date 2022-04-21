@@ -808,8 +808,14 @@
         "customer_already_used_once_per_customer_discount_notice": "Él<strong style=\"text-transform:uppercase\">%{code}<\/strong> el código de descuento ya se ha utilizado",
         "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> el código de descuento no está disponible para usted en este momento",
         "deferred_payment_info": {
-          "description_html": "Para preguntas sobre su pedido, %{contact_us}."
-        }
+          "description_html": "Para preguntas sobre su pedido, %{contact_us}.",
+          "title": "Pago de %{amount_due} se debe el %{due_at}"
+        },
+        "description_label": "Descripción",
+        "discount_and_gift_card_savings_notice": "Después %{discount_amount} en descuentos y %{gift_card_amount} en tarjetas de regalo",
+        "discount_has_been_applied": "Descuento aplicado",
+        "discount_has_been_removed": "Se ha eliminado el descuento.",
+        "discount_label": "Código de descuento"
       }
     }
   }
