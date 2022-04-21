@@ -399,7 +399,7 @@
   },
   "gift_cards": {
     "issued": {
-      "title": "¡Aquí está tu tarjeta de regalo de {{ value }} para {{ shop }}!",
+      "title": "Aquí está tu{{ value }} tarjeta de regalo para{{ shop }}!",
       "subtext": "Tu tarjeta de regalo",
       "gift_card_code": "Código de tarjeta de regalo",
       "shop_link": "Seguir comprando",
