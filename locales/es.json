@@ -555,7 +555,8 @@
         "address_title": "Habla a",
         "city_label": "Ciudad",
         "civic_number_warning": "Agregue un número de casa si tiene uno",
-        "company_label": "Empresa"
+        "company_label": "Empresa",
+        "contact_method_title": "Información del contacto"
       }
     }
   }
