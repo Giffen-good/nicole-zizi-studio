@@ -509,7 +509,9 @@
       "prefecture": "Prefectura",
       "province": "Provincia",
       "region": "Región",
-      "state": "Estado"
+      "state": "Estado",
+      "state_and_territory": "Estado \/ territorio",
+      "zip_code": "código postal"
     }
   }
 }
