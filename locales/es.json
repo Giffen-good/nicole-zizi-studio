@@ -697,7 +697,9 @@
         "handle_phone_invalid": "Ingrese un número de teléfono válido",
         "payment_gateway_incompatible_with_multi_currency": "Para completar este pago en su moneda local, debe pagar con tarjeta de crédito.",
         "payment_gateway_needs_paid_plan_error": "Este método de pago no está disponible en la tienda en este momento",
-        "payment_gateway_not_in_test_mode": "no está configurado para probar pedidos. Esta tienda no puede aceptar pedidos reales o pagos reales."
+        "payment_gateway_not_in_test_mode": "no está configurado para probar pedidos. Esta tienda no puede aceptar pedidos reales o pagos reales.",
+        "payment_gateway_unsupported_for_subscriptions": "Este método de pago no está disponible para pedidos de suscripción.",
+        "physical_gift_card_duplicate_code": "La línea de pedido de tarjeta de regalo física contiene un código duplicado."
       }
     }
   }
