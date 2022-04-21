@@ -1313,7 +1313,9 @@
         "order_status_confirmed_order_with_phone_pick_up": "Recibirá un mensaje de texto cuando su pedido esté listo para ser recogido.",
         "order_status_updates_with_email": "Recibirá actualizaciones de envío y entrega por correo electrónico.",
         "order_status_updates_with_email_and_phone": "Recibirá actualizaciones de envío y entrega por correo electrónico y mensaje de texto.",
-        "order_status_updates_with_missing": "Elija cómo desea obtener actualizaciones de envío."
+        "order_status_updates_with_missing": "Elija cómo desea obtener actualizaciones de envío.",
+        "order_status_updates_with_phone": "Recibirá actualizaciones de envío y entrega por mensaje de texto.",
+        "order_updates_description_html": "Las actualizaciones se enviarán a %{customer_contact}"
       }
     }
   }
