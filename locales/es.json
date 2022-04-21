@@ -1522,7 +1522,9 @@
         "all_items_in_cart": "Todos %{count} %{name} están en su carrito.",
         "changed": "Carrito cambiado",
         "empty_update": "no se puede actualizar el carrito vacío",
-        "generic_error": "Error de carro"
+        "generic_error": "Error de carro",
+        "items_changed": "Uno o más artículos han cambiado.",
+        "link_expired": "Enlace expirado"
       }
     }
   }
