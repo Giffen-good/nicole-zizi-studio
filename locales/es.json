@@ -690,7 +690,9 @@
         "email_or_phone_invalid": "Ingrese un correo electrónico válido o un número de teléfono móvil",
         "gift_card_already_applied": "Esta tarjeta de regalo ya se ha aplicado a su pedido.",
         "gift_card_currency_mismatch": "Solo tarjetas regalo en %{checkout_currency} se puede usar con este pedido",
-        "gift_card_depleted": "Esta tarjeta de regalo no tiene fondos restantes"
+        "gift_card_depleted": "Esta tarjeta de regalo no tiene fondos restantes",
+        "gift_card_disabled": "Esta tarjeta de regalo ya no está disponible",
+        "gift_card_expired": "Esta tarjeta de regalo ha caducado"
       }
     }
   }
