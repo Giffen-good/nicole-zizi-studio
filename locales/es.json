@@ -1133,7 +1133,8 @@
         "shipping_line_delivery_phone_label": "Número de teléfono móvil",
         "shipping_line_phone": "Su mensajero puede usar este número para contactarlo.",
         "shipping_line_phone_label": "Número de teléfono móvil (requerido)",
-        "shipping_method_one_time_purchase_group_title": "Compra única"
+        "shipping_method_one_time_purchase_group_title": "Compra única",
+        "shipping_method_subscription_group_title": "Suscripción"
       },
       "shipping_errors": {
         "shipping_method": "Su carrito ha sido actualizado y la tarifa de envío anterior no es válida. Selecciona una nueva tarifa.",
