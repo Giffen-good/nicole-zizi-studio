@@ -953,7 +953,8 @@
         "deferred_payment_required": "Este pedido requiere un pago diferido. Por favor, compruebe su pedido y vuelva a intentarlo.",
         "fraud_payment_errors": {
           "address_mismatch": "La dirección y el código postal no coinciden.",
-          "cannot_process": "Esta operación no se puede procesar."
+          "cannot_process": "Esta operación no se puede procesar.",
+          "card_declined": "Tu tarjeta fue rechazada"
         }
       }
     }
