@@ -377,7 +377,7 @@
       "track_shipment": "Hacer seguimiento del envío",
       "tracking_url": "Enlace de seguimiento",
       "tracking_company": "Transportador",
-      "tracking_number": "Número de seguimiento",
+      "tracking_number": "El número de rastreo",
       "subtotal": "Total parcial"
     }
   },
