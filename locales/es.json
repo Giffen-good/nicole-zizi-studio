@@ -1174,7 +1174,8 @@
         },
         "subscription_shipping": "Envío de suscripción",
         "title": "Envío",
-        "waiting_on_pickup_location_notice": "Obteniendo lugares de recogida disponibles ..."
+        "waiting_on_pickup_location_notice": "Obteniendo lugares de recogida disponibles ...",
+        "waiting_on_rate_notice": "Obteniendo tarifas de envío disponibles ..."
       },
       "shipping_errors": {
         "shipping_method": "Su carrito ha sido actualizado y la tarifa de envío anterior no es válida. Selecciona una nueva tarifa.",
@@ -1186,6 +1187,9 @@
         "shipping_method_not_available_updated": {
           "one": "El artículo que agregaste no se envía a tu ubicación. Quítelo para pagar o póngase en contacto con la tienda."
         }
+      },
+      "shop_policies": {
+        "legal_notice": "Aviso Legal"
       }
     }
   }
