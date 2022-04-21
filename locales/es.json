@@ -624,7 +624,9 @@
         "pick_up_immediately": "Listo para recoger ahora",
         "pick_up_in_five_or_more_days": "Generalmente listo en más de 5 días",
         "pick_up_in_four_hours": "Generalmente listo en 4 horas",
-        "pick_up_in_one_hour": "Generalmente listo en 1 hora"
+        "pick_up_in_one_hour": "Generalmente listo en 1 hora",
+        "pick_up_in_twenty_four_hours": "Generalmente listo en 24 horas",
+        "pick_up_in_two_hours": "Generalmente listo en 2 horas"
       }
     }
   }
