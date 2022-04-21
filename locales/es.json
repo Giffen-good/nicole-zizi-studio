@@ -825,7 +825,9 @@
         "expand_order_summary": "Mostrar resumen de pedido",
         "free_shipping_discount_label": "Envío gratis",
         "free_total_label": "Gratis",
-        "gift_card_and_discount_label": "Tarjeta de regalo o código de descuento"
+        "gift_card_and_discount_label": "Tarjeta de regalo o código de descuento",
+        "gift_card_and_discount_placeholder": "Tarjeta de regalo o código de descuento",
+        "gift_card_ending": "Tarjeta de regalo que termina en %{last_characters}"
       }
     }
   }
