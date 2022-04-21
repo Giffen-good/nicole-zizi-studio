@@ -1131,7 +1131,8 @@
         "shipping_line_delivery_instructions": "Ingrese la información necesaria como códigos de puerta o instrucciones de entrega.",
         "shipping_line_delivery_phone": "Podemos usar este número para llamarlo o enviarle un mensaje de texto sobre su entrega.",
         "shipping_line_delivery_phone_label": "Número de teléfono móvil",
-        "shipping_line_phone": "Su mensajero puede usar este número para contactarlo."
+        "shipping_line_phone": "Su mensajero puede usar este número para contactarlo.",
+        "shipping_line_phone_label": "Número de teléfono móvil (requerido)"
       },
       "shipping_errors": {
         "shipping_method": "Su carrito ha sido actualizado y la tarifa de envío anterior no es válida. Selecciona una nueva tarifa.",
