@@ -1488,7 +1488,8 @@
       "availability": {
         "label": "Disponibilidad",
         "value": {
-          "in_stock": "En stock"
+          "in_stock": "En stock",
+          "out_of_stock": "Agotado"
         }
       }
     }
