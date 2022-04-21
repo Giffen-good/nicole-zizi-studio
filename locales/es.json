@@ -1202,7 +1202,8 @@
         "go_back_to_cart_button_label": "Volver a mi carrito",
         "items_unavailable_notice": "Algunos artículos ya no están disponibles. Su carrito se ha actualizado.",
         "page_title": "Problemas de inventario",
-        "price_column_header": "Precio"
+        "price_column_header": "Precio",
+        "product_column_header": "Productos"
       }
     }
   }
