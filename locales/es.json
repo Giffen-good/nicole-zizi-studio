@@ -562,7 +562,8 @@
         "county_label": "Condado",
         "county_placeholder": "Condado",
         "delivery_option_title": "Método de entrega",
-        "email_label": "Email"
+        "email_label": "Email",
+        "email_or_phone_label": "Correo electrónico o número de teléfono móvil"
       }
     }
   }
