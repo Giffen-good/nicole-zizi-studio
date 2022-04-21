@@ -896,7 +896,8 @@
         "billing_address_associated_with_mandate": "Usar la dirección asociada con el método de pago",
         "billing_address_associated_with_mandate_info": "Si desea cambiar su dirección de facturación, elimine y vuelva a ingresar los datos de su tarjeta de crédito",
         "billing_address_description": "Seleccione la dirección que coincida con su tarjeta o método de pago.",
-        "billing_address_description_no_shipping_address": "Ingrese la dirección que coincida con su tarjeta o método de pago."
+        "billing_address_description_no_shipping_address": "Ingrese la dirección que coincida con su tarjeta o método de pago.",
+        "billing_address_not_supported_for_payment_method_error": "Este método de pago no está disponible para su dirección de facturación y moneda. Por favor, intente con un método de pago diferente."
       }
     }
   }
