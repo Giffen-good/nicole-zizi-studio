@@ -873,7 +873,8 @@
         "total_updated_label": "Precio total actualizado:",
         "unit_price": {
           "content_html": "%{price}%{accessible_separator}%{per_unit}"
-        }
+        },
+        "vat_label_html": "Incluido %{amount} en impuestos"
       }
     }
   }
