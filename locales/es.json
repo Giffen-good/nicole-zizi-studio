@@ -857,7 +857,9 @@
         "remove_gift_card_label": "Tarjeta de regalo clara",
         "sale_price": "Precio de venta",
         "scroll_order_summary": "Desplácese para más artículos",
-        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> el código de descuento no está disponible para su dirección de envío"
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> el código de descuento no está disponible para su dirección de envío",
+        "shipping_label": "Envío",
+        "shipping_pending_message": "No disponible aún"
       }
     }
   }
