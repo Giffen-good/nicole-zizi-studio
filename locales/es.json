@@ -209,7 +209,7 @@
       "title": "Resultados de búsqueda",
       "page": "Página",
       "products": "Productos",
-      "search_for": "Buscar “{{ terms }}”",
+      "search_for": "Buscar“{{ terms }}”",
       "results_with_count_and_term": {
         "one": "{{ count }} resultado encontrado para“{{ terms }}”",
         "other": "{{ count }} resultados encontrados para“{{ terms }}”"
