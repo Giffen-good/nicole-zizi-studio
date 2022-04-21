@@ -505,7 +505,8 @@
       "governorate": "Gobernación",
       "pincode": "Código PIN",
       "postal_code": "código postal",
-      "postcode": "Código postal"
+      "postcode": "Código postal",
+      "prefecture": "Prefectura"
     }
   }
 }
