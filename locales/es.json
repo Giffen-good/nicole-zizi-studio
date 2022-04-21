@@ -970,8 +970,17 @@
         "offsite_gateway_redirect_hint": "Después de hacer clic en %%{button_label}”, será redirigido a %{gateway_label} para completar su compra de forma segura.",
         "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} total %{total_shop_price}",
         "order_covered_by_gift_cards_notice": {
-          "one": "Su pedido está cubierto por su tarjeta de regalo."
-        }
+          "one": "Su pedido está cubierto por su tarjeta de regalo.",
+          "other": "Su pedido está cubierto por sus tarjetas de regalo."
+        },
+        "paypal": {
+          "connect": "Haga clic para conectar su cuenta PayPal"
+        },
+        "pay_with_payment_method": "Pagar con %{payment_method}",
+        "saved_by_payment_method": "Guardado por %{payment_method}",
+        "sofort_label": "Transferencia bancaria sofort",
+        "subscription_agreement_label": "Entiendo que estoy de acuerdo con una suscripción. Se renovará al precio y frecuencia indicados hasta que finalice o sea %{cancelled}.",
+        "subscription_agreement_label_html": "Entiendo que estoy de acuerdo con una suscripción. Se renovará al precio y frecuencia indicados hasta que finalice o sea<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">cancelado<\/a>."
       },
       "payment_errors": {
         "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
