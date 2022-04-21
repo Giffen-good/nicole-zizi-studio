@@ -941,7 +941,15 @@
         "different_billing_address_label": "Use una dirección de facturación diferente",
         "different_credit_card_label": "Usa una tarjeta de crédito diferente",
         "discount_button_action_label": "Aplicar código de descuento",
-        "ends_with_label": "terminando con %{last_digits}"
+        "ends_with_label": "terminando con %{last_digits}",
+        "eps_label": "eps-Überweisung"
+      },
+      "payment_errors": {
+        "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
+        "credit_card_processing": "Su pago no puede ser procesado por razones técnicas. Intente nuevamente en unos minutos o use un método de pago diferente.",
+        "deferred_amount_changed": "No se pudo procesar su pago porque el monto del pago diferido cambió. Por favor, compruebe su pedido y vuelva a intentarlo.",
+        "deferred_date_changed": "No se pudo procesar su pago porque la fecha de pago diferido ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
+        "deferred_payment_not_allowed": "No se permiten pagos diferidos. Por favor, compruebe su pedido y vuelva a intentarlo."
       }
     }
   }
