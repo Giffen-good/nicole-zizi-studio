@@ -1252,7 +1252,9 @@
         "cancelled_page_title": "Orden cancelada",
         "company_tracking_number": "%{company} el número de rastreo:",
         "confirmation_email_sent_text": "Se ha enviado un correo electrónico de confirmación a %{email}",
-        "confirmed": "Confirmado"
+        "confirmed": "Confirmado",
+        "confirmed_description": "Hemos aceptado su pedido y lo estamos preparando. Regrese a esta página para obtener actualizaciones sobre el estado de su envío.",
+        "confirmed_title": "Su orden es confirmada"
       }
     }
   }
