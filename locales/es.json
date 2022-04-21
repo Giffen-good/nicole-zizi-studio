@@ -569,7 +569,13 @@
         "emirate_label": "Emirato",
         "emirate_placeholder": "Emirato",
         "first_name_label": "Nombre de pila",
-        "governorate_label": "Gobernación"
+        "governorate_label": "Gobernación",
+        "governorate_placeholder": "Gobernación",
+        "last_name_label": "Apellido",
+        "new_address_label": "Use una nueva dirección",
+        "optional_address2_label": "Apartamento, suite, etc. (opcional)",
+        "optional_company_label": "Companía (opcional)",
+        "optional_first_name_label": "Nombre (opcional)"
       }
     }
   }
