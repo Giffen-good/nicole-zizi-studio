@@ -1377,7 +1377,16 @@
         "thank_you_title": "Su orden es confirmada",
         "thank_you_title_payment": "Tu pago esta confirmado",
         "title": "Gracias por su compra!",
-        "tracking_number": "El número de rastreo:"
+        "tracking_number": "El número de rastreo:",
+        "track_shipment": "Rastrear envio",
+        "unfulfilled_items_description": "Actualmente estamos preparando estos artículos para su envío.",
+        "updated_time": "Actualizado %{time_ago} atrás",
+        "view_business_customer_account": "Ver cuenta"
+      },
+      "tips": {
+        "add_tip": "Añadir propina",
+        "description": "Muestra tu apoyo al equipo en %{shop_name}",
+        "message": "Gracias, lo apreciamos"
       }
     }
   }
