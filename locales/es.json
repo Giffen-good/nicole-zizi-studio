@@ -1366,7 +1366,8 @@
           "sms": {
             "title": "O envíe un enlace a su teléfono"
           }
-        }
+        },
+        "thank_you_confirmed_order_with_email": "En breve recibirá un correo electrónico de confirmación con su número de pedido."
       }
     }
   }
