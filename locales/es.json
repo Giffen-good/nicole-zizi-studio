@@ -1163,6 +1163,9 @@
             },
             "month": {
               "other": "todos %{count} meses"
+            },
+            "week": {
+              "other": "todos %{count} semanas"
             }
           }
         }
