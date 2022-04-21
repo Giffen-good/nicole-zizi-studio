@@ -1324,7 +1324,8 @@
         "order_updates_subscribe_to_phone_notifications": "Obtenga actualizaciones de envío por mensaje de texto",
         "order_updates_title": "Solicitar actualizaciones",
         "order_updates_upcoming_step_prefix": "Próximo paso:",
-        "other_options": "Otras opciones"
+        "other_options": "Otras opciones",
+        "out_for_delivery_description_html": "Su pedido está en camino y debería llegar hoy. Si no se entrega en los próximos 2 días, %{contact_us}."
       }
     }
   }
