@@ -60,7 +60,7 @@
     "unit_price_separator": "por",
     "vendor": "Proveedor:",
     "error": "Error",
-    "refresh_page": "Al seleccionar una opción, se actualiza toda la página.",
+    "refresh_page": "Elegir una selección da como resultado una actualización de página completa.",
     "link_messages": {
       "new_window": "Se abre en una nueva ventana.",
       "external": "Abre un sitio web externo."
