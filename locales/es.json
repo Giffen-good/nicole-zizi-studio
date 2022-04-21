@@ -1332,7 +1332,18 @@
         "page_title_no_name": "¡Gracias!",
         "payment_information_title": "Información del pago",
         "picked_up_description_html": "Su pedido fue recogido en %{location_name} sobre %{date}.",
-        "picked_up_title": "Su pedido ha sido recogido"
+        "picked_up_title": "Su pedido ha sido recogido",
+        "pick_up_in_store_marker": {
+          "current": "Lugar de envío actual",
+          "shipping": "Lugar de recogida"
+        },
+        "print_link_label": "Imprima el recibo",
+        "qr_code": {
+          "send_link_to_phone": "O envíe un enlace a su teléfono",
+          "subtitle": "Escanee el código con la cámara de su teléfono para rastrearlo con Shop.",
+          "title": "Seguimiento en su teléfono"
+        },
+        "ready_for_delivery_description": "Hemos preparado tu pedido."
       }
     }
   }
