@@ -1397,6 +1397,11 @@
       "error": "La validación de Captcha falló",
       "message": "Resuelve Captcha para continuar",
       "submit_button_text": "Enviar"
+    },
+    "collections": {
+      "sorting": {
+        "az": "Alfabéticamente, AZ"
+      }
     }
   }
 }
