@@ -1414,6 +1414,10 @@
       "open_tracking": {
         "no_longer_track": {
           "status_html": "<b>Ya no rastreamos ningún correo electrónico abierto.<\/b>"
+        },
+        "opt_in": {
+          "opted_in_html": "<b>Ha optado por el seguimiento de correos electrónicos abiertos.<\/b>",
+          "opt_out_html": "Puede<a style='text-decoration:underline;' href='%{link}'>optar por no<\/a> de seguimiento de apertura de correo electrónico si no desea compartir esta información."
         }
       }
     }
