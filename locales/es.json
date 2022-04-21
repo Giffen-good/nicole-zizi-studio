@@ -1409,6 +1409,13 @@
         "price_descending": "Precio de mayor a menor",
         "za": "Alfabéticamente, ZA"
       }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "no_longer_track": {
+          "status_html": "<b>Ya no rastreamos ningún correo electrónico abierto.<\/b>"
+        }
+      }
     }
   }
 }
