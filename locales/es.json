@@ -567,7 +567,9 @@
         "email_or_phone_placeholder": "Correo electrónico o número de teléfono móvil",
         "email_placeholder": "Email",
         "emirate_label": "Emirato",
-        "emirate_placeholder": "Emirato"
+        "emirate_placeholder": "Emirato",
+        "first_name_label": "Nombre de pila",
+        "governorate_label": "Gobernación"
       }
     }
   }
