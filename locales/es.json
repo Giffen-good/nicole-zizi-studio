@@ -445,7 +445,9 @@
     "general": {
       "cancel": "Cancelar",
       "checkout": "Revisa",
-      "continue_shopping": "Seguir comprando"
+      "continue_shopping": "Seguir comprando",
+      "cookies_required": "Habilitar cookies para usar el carrito de compras",
+      "edit": "Editar"
     }
   }
 }
