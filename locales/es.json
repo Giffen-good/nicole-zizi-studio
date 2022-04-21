@@ -1565,7 +1565,8 @@
         },
         "fulfillment_status": {
           "complete": "Completar",
-          "fulfilled": "Cumplido"
+          "fulfilled": "Cumplido",
+          "partial": "Parcial"
         }
       }
     }
