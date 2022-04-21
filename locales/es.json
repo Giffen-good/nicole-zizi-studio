@@ -1519,7 +1519,8 @@
         "error_updating": "Error al actualizar la dirección"
       },
       "cart": {
-        "all_items_in_cart": "Todos %{count} %{name} están en su carrito."
+        "all_items_in_cart": "Todos %{count} %{name} están en su carrito.",
+        "changed": "Carrito cambiado"
       }
     }
   }
