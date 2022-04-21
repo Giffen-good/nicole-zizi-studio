@@ -565,7 +565,9 @@
         "email_label": "Email",
         "email_or_phone_label": "Correo electrónico o número de teléfono móvil",
         "email_or_phone_placeholder": "Correo electrónico o número de teléfono móvil",
-        "email_placeholder": "Email"
+        "email_placeholder": "Email",
+        "emirate_label": "Emirato",
+        "emirate_placeholder": "Emirato"
       }
     }
   }
