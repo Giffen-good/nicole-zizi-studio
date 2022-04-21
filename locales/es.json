@@ -496,5 +496,11 @@
       "product_details": "Detalles de producto",
       "quantity_label": "Cantidad:{{ quantity_count }}"
     }
+  },
+  "shopify": {
+    "addresses": {
+      "confirm": "¿Estás seguro de que deseas eliminar esta dirección?",
+      "county": "Condado"
+    }
   }
 }
