@@ -849,7 +849,8 @@
         "pickup_label": "Recoger",
         "price_label": "Precio",
         "product_change_label": "Cambio",
-        "product_image_label": "Imagen del producto"
+        "product_image_label": "Imagen del producto",
+        "quantity_label": "Cantidad"
       }
     }
   }
