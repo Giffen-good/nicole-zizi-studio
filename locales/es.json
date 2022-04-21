@@ -1276,8 +1276,10 @@
           "description_label": "Descripción",
           "fulfilled_table_title": "Artículos en este envío",
           "product_image_label": "Imagen del producto",
-          "quantity_label": "Cantidad"
-        }
+          "quantity_label": "Cantidad",
+          "unfulfilled_table_title": "Artículos que se preparan para el envío"
+        },
+        "gift_card_confirmation_by_email": "Las tarjetas de regalo se envían por correo electrónico. Si no ha recibido el suyo, intente enviarlo nuevamente o contáctenos."
       }
     }
   }
