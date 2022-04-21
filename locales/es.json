@@ -1493,7 +1493,8 @@
         }
       },
       "boolean": {
-        "false_label": "No"
+        "false_label": "No",
+        "true_label": "Sí"
       }
     }
   }
