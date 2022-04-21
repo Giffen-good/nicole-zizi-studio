@@ -357,7 +357,7 @@
       "submit": "Restablecer contraseña"
     },
     "order": {
-      "title": "Pedido {{ name }}",
+      "title": "Pedido{{ name }}",
       "date_html": "Colocado en{{ date }}",
       "cancelled_html": "Pedido cancelado el{{ date }}",
       "cancelled_reason": "Razón:{{ reason }}",
@@ -376,9 +376,9 @@
       "fulfilled_at_html": "cumplido{{ date }}",
       "track_shipment": "Hacer seguimiento del envío",
       "tracking_url": "Enlace de seguimiento",
-      "tracking_company": "Empresa de transporte",
+      "tracking_company": "Transportador",
       "tracking_number": "Número de seguimiento",
-      "subtotal": "Subtotal"
+      "subtotal": "Total parcial"
     }
   },
   "gift_cards": {
