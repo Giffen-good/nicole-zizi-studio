@@ -615,7 +615,8 @@
           "success_message": "Su método de pago se ha eliminado correctamente."
         },
         "page_title": "Métodos de pago",
-        "title": "Métodos de pago"
+        "title": "Métodos de pago",
+        "update_card_button_label": "Tarjeta de actualización"
       }
     }
   }
