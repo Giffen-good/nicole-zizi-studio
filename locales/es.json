@@ -854,7 +854,9 @@
         "recurring_total_label": "Total recurrente",
         "recurring_total_tooltip": "No incluye envío, impuestos, aranceles ni ningún descuento aplicable.",
         "remove_discount_label": "Eliminar descuento",
-        "remove_gift_card_label": "Tarjeta de regalo clara"
+        "remove_gift_card_label": "Tarjeta de regalo clara",
+        "sale_price": "Precio de venta",
+        "scroll_order_summary": "Desplácese para más artículos"
       }
     }
   }
