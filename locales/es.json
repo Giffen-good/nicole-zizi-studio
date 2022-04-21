@@ -654,7 +654,8 @@
         "address_city_blank": "Entrar en una ciudad",
         "address_city_contains_emojis": "La ciudad no puede contener emojis",
         "address_city_contains_html_tags": "La ciudad no puede contener etiquetas HTML.",
-        "address_city_too_long": "La ciudad es demasiado larga (el máximo es 255 caracteres)"
+        "address_city_too_long": "La ciudad es demasiado larga (el máximo es 255 caracteres)",
+        "address_company_blank": "Ingrese un nombre de compañía"
       }
     }
   }
