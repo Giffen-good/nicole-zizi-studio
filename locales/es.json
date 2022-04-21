@@ -1037,7 +1037,8 @@
         },
         "escape_action": "Ver confirmación de pedido ›",
         "escape_confirmation": "Has pagado tu pedido.",
-        "page_title": "Compra posterior"
+        "page_title": "Compra posterior",
+        "title": "Compra posterior"
       }
     }
   }
