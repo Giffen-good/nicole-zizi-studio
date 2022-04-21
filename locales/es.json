@@ -935,7 +935,13 @@
         "credit_card_vaulting_sign_in_banner_info": "Inicie sesión o cree una cuenta para guardar su tarjeta de crédito para futuras compras.",
         "credit_card_vaulting_sign_in_banner_title": "Guarde su tarjeta de crédito",
         "delete_customer_mandate_modal_body": "Si quita esta tarjeta, deberá volver a agregarla antes de usarla para pagos.",
-        "delete_customer_mandate_modal_cancel": "Cancelar"
+        "delete_customer_mandate_modal_cancel": "Cancelar",
+        "delete_customer_mandate_modal_confirm": "Quitar tarjeta",
+        "detected_card_brand": "Marca de tarjeta detectada:{brand}",
+        "different_billing_address_label": "Use una dirección de facturación diferente",
+        "different_credit_card_label": "Usa una tarjeta de crédito diferente",
+        "discount_button_action_label": "Aplicar código de descuento",
+        "ends_with_label": "terminando con %{last_digits}"
       }
     }
   }
