@@ -732,7 +732,8 @@
         "close_notice_label": "Cerca",
         "complete_purchase_button_label": "Orden completa",
         "contact_us_html": "Contáctenos para más información.",
-        "continue_button_label": "Seguir"
+        "continue_button_label": "Seguir",
+        "continue_to_payment_method": "Continuar con el pago"
       }
     }
   }
