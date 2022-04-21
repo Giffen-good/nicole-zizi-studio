@@ -575,7 +575,12 @@
         "new_address_label": "Use una nueva dirección",
         "optional_address2_label": "Apartamento, suite, etc. (opcional)",
         "optional_company_label": "Companía (opcional)",
-        "optional_first_name_label": "Nombre (opcional)"
+        "optional_first_name_label": "Nombre (opcional)",
+        "optional_phone_label": "Teléfono opcional)",
+        "phone_label": "Teléfono",
+        "phone_placeholder": "Teléfono",
+        "phone_tooltip": "En caso de que necesitemos contactarlo acerca de su pedido",
+        "pincode_label": "Código PIN"
       }
     }
   }
