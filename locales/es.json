@@ -1387,8 +1387,16 @@
         "add_tip": "Añadir propina",
         "description": "Muestra tu apoyo al equipo en %{shop_name}",
         "message": "Gracias, lo apreciamos",
-        "preset_label": "%{tip_percent}%"
+        "preset_label": "%{tip_percent}%",
+        "presets_description": "Seleccione un porcentaje de propina",
+        "title": "Añadir propina",
+        "update_tip": "Consejo de actualización"
       }
+    },
+    "checkpoint": {
+      "error": "La validación de Captcha falló",
+      "message": "Resuelve Captcha para continuar",
+      "submit_button_text": "Enviar"
     }
   }
 }
