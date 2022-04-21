@@ -785,6 +785,22 @@
           "other": "Compra %{product_name} y %{count} otros elementos",
           "zero": "Compra %{product_name}"
         }
+      },
+      "order_payment_collection": {
+        "additional_payment_requested": "Pago de %{total_outstanding} se necesita",
+        "changes_summary": {
+          "added": {
+            "other": "%{count} agregado"
+          },
+          "subtracted": "%{count} remoto"
+        },
+        "checkout_review_and_pay": "Su pedido %{order_name} fue actualizado. Revise estos cambios y luego pague para confirmar su pedido.",
+        "custom_line_item_description": "Importe a pagar por pedido %{order_name}",
+        "order_updated_on": "Su pedido fue actualizado el %{last_edited_at}."
+      },
+      "order_summary": {
+        "amount_off_shipping": "%{amount} fuera de envío",
+        "applied_discount_message": "%{amount} del precio total del pedido"
       }
     }
   }
