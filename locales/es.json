@@ -1109,7 +1109,15 @@
         "estimated_delivery_date": {
           "one": "%{count} día laboral",
           "other": "%{count} dias habiles"
-        }
+        },
+        "estimated_delivery_date_range": "%{minimum} para %{maximum} dias habiles",
+        "estimated_delivery_time": "Entrega estimada %{time}",
+        "estimated_delivery_time_range": "Entrega estimada %{min_time}–%{max_time}",
+        "estimated_time": "Estimado %{time}",
+        "estimated_time_range": "Estimado %{min_time}–%{max_time}",
+        "free_rate_label": "Gratis",
+        "local_delivery": "Entrega local",
+        "no_pickup_location_notice": "Al menos uno de sus productos no está disponible para recoger"
       },
       "shipping_errors": {
         "shipping_method": "Su carrito ha sido actualizado y la tarifa de envío anterior no es válida. Selecciona una nueva tarifa.",
