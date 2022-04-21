@@ -447,7 +447,10 @@
       "checkout": "Revisa",
       "continue_shopping": "Seguir comprando",
       "cookies_required": "Habilitar cookies para usar el carrito de compras",
-      "edit": "Editar"
+      "edit": "Editar",
+      "empty": "Su carrito está vacío.",
+      "note": "Agregue una nota a su pedido",
+      "remove": "Eliminar"
     }
   }
 }
