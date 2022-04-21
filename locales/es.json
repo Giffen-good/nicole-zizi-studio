@@ -712,7 +712,13 @@
       },
       "general": {
         "all_rights_reserved": "Reservados todos los derechos %{shop_name}",
-        "authenticate_purchase_button_label": "Autenticar pago"
+        "authenticate_purchase_button_label": "Autenticar pago",
+        "autocomplete_multi_item": "{{number}} artículos disponibles",
+        "autocomplete_selection": "{{number}} de{{total}}",
+        "autocomplete_single_item": "1 artículo disponible",
+        "autocomplete_title": "Sugerencias",
+        "back_to_cart": "Volver al carrito",
+        "back_to_contact_information": "Volver a la información"
       }
     }
   }
