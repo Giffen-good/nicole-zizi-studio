@@ -1307,7 +1307,13 @@
         "order_status_confirmed_order_local": "Estamos preparando su pedido para la entrega.",
         "order_status_confirmed_order_with_email": "Recibirá un correo electrónico cuando su pedido esté listo.",
         "order_status_confirmed_order_with_email_and_phone_payment": "Hiciste un pago en tu orden %{date}.",
-        "order_status_confirmed_order_with_email_payment": "Hiciste un pago en tu orden %{date}."
+        "order_status_confirmed_order_with_email_payment": "Hiciste un pago en tu orden %{date}.",
+        "order_status_confirmed_order_with_email_pick_up": "Recibirá un correo electrónico cuando su pedido esté listo para ser recogido.",
+        "order_status_confirmed_order_with_phone_payment": "Hiciste un pago en tu orden %{date}.",
+        "order_status_confirmed_order_with_phone_pick_up": "Recibirá un mensaje de texto cuando su pedido esté listo para ser recogido.",
+        "order_status_updates_with_email": "Recibirá actualizaciones de envío y entrega por correo electrónico.",
+        "order_status_updates_with_email_and_phone": "Recibirá actualizaciones de envío y entrega por correo electrónico y mensaje de texto.",
+        "order_status_updates_with_missing": "Elija cómo desea obtener actualizaciones de envío."
       }
     }
   }
