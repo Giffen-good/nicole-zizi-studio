@@ -580,7 +580,13 @@
         "phone_label": "Teléfono",
         "phone_placeholder": "Teléfono",
         "phone_tooltip": "En caso de que necesitemos contactarlo acerca de su pedido",
-        "pincode_label": "Código PIN"
+        "pincode_label": "Código PIN",
+        "pincode_placeholder": "Código PIN",
+        "postal_code_label": "código postal",
+        "postal_code_placeholder": "código postal",
+        "postcode_label": "Código postal",
+        "postcode_placeholder": "Código postal",
+        "prefecture_label": "Prefectura"
       }
     }
   }
