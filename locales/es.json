@@ -558,7 +558,8 @@
         "company_label": "Empresa",
         "contact_method_title": "Información del contacto",
         "country_code": "Código de país \/ región",
-        "country_label": "País \/ región"
+        "country_label": "País \/ región",
+        "county_label": "Condado"
       }
     }
   }
