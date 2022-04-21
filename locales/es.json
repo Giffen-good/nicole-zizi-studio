@@ -1049,7 +1049,15 @@
         "continue_to_payment_gateway_notice_error": "Su información de pago no pudo ser verificada.",
         "page_title": "Orden de procesamiento",
         "redirecting_notice": "Espera mientras te redirigimos.",
-        "redirecting_page_title": "Redirigiendo ..."
+        "redirecting_page_title": "Redirigiendo ...",
+        "redirecting_title": "Redirigiendo ...",
+        "title": "Orden de procesamiento",
+        "wait": {
+          "medium": {
+            "one": "Tu pedido está siendo procesado. El tiempo de espera estimado es %{count} minuto.",
+            "other": "Tu pedido está siendo procesado. El tiempo de espera estimado es %{count} minutos."
+          }
+        }
       }
     }
   }
