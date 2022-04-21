@@ -504,7 +504,8 @@
       "emirate": "Emirato",
       "governorate": "Gobernación",
       "pincode": "Código PIN",
-      "postal_code": "código postal"
+      "postal_code": "código postal",
+      "postcode": "Código postal"
     }
   }
 }
