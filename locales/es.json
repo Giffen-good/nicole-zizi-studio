@@ -316,8 +316,8 @@
     "log_out": "Cerrar sesión",
     "login_page": {
       "cancel": "Cancelar",
-      "create_account": "Crear cuenta",
-      "email": "Correo electrónico",
+      "create_account": "Crear una cuenta",
+      "email": "Email",
       "forgot_password": "¿Olvidaste tu contraseña?",
       "guest_continue": "Continuar",
       "guest_title": "Continuar como invitado",
