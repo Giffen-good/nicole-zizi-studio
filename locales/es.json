@@ -646,7 +646,8 @@
         "address_address1_blank": "Introduce una direccion",
         "address_address1_contains_emojis": "Dirección1 no puede contener emojis",
         "address_address1_contains_html_tags": "Address1 no puede contener etiquetas HTML.",
-        "address_address1_too_long": "La primera línea de dirección es demasiado larga (el máximo es 255 caracteres)"
+        "address_address1_too_long": "La primera línea de dirección es demasiado larga (el máximo es 255 caracteres)",
+        "address_address2_blank": "Ingrese a un departamento, suite, etc."
       }
     }
   }
