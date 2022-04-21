@@ -883,7 +883,16 @@
         "amazon_payments_failed_mfa_challenge": "No se pudo utilizar el método de pago seleccionado. Seleccione un método diferente o contacte a su banco o emisor de la tarjeta.",
         "amazon_payments_label": "Amazon Pay",
         "amazon_payments_login_hint": "Se le pedirá que inicie sesión con Amazon.",
-        "amazon_payments_logout": "Cerrar sesión en Amazon Pay"
+        "amazon_payments_logout": "Cerrar sesión en Amazon Pay",
+        "amount_left_to_pay_label": "Fecha de pago:",
+        "apple": {
+          "connect": "Haga clic para conectar su cuenta de Apple Pay",
+          "not_available": "Apple Pay no está disponible en este navegador. Para conectar su cuenta de Apple Pay, deberá usar Safari en un dispositivo Apple."
+        },
+        "apple_pay_payment_error": "No se pudo completar su pago. Vuelve a intentarlo o utiliza un método de pago diferente.",
+        "apply_gift_card_button_label": "Aplicar",
+        "bancontact_label": "Bancontact",
+        "bank_picker_label": "Banco"
       }
     }
   }
