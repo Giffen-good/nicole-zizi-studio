@@ -1539,7 +1539,8 @@
       },
       "customer": {
         "denylisted_reset_password": "No se pudo acceder a su cuenta porque la contraseña actual no es segura. Recibirás un correo electrónico para actualizar tu contraseña.",
-        "invalid_credentials": "Correo o contraseña incorrectos."
+        "invalid_credentials": "Correo o contraseña incorrectos.",
+        "no_account_found": "No se encontró cuenta con ese correo electrónico."
       }
     }
   }
