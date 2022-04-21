@@ -1417,7 +1417,8 @@
         },
         "opt_in": {
           "opted_in_html": "<b>Ha optado por el seguimiento de correos electrónicos abiertos.<\/b>",
-          "opt_out_html": "Puede<a style='text-decoration:underline;' href='%{link}'>optar por no<\/a> de seguimiento de apertura de correo electrónico si no desea compartir esta información."
+          "opt_out_html": "Puede<a style='text-decoration:underline;' href='%{link}'>optar por no<\/a> de seguimiento de apertura de correo electrónico si no desea compartir esta información.",
+          "preview_bar": "Está obteniendo una vista previa de lo que los clientes verán cuando opten por el seguimiento de apertura de correo electrónico."
         }
       }
     }
