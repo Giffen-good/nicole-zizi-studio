@@ -1558,7 +1558,9 @@
           "paid": "Pagado",
           "partially_paid": "Parcialmente pagado",
           "partially_refunded": "Reintegrado parcialmente",
-          "pending": "Pendiente"
+          "pending": "Pendiente",
+          "refunded": "Reintegrado",
+          "unpaid": "No pagado"
         }
       }
     }
