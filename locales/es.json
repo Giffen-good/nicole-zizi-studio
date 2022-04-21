@@ -870,7 +870,10 @@
         "total_already_paid_label": "Ya pagado",
         "total_label": "Total",
         "total_outstanding_label": "Monto a pagar",
-        "total_updated_label": "Precio total actualizado:"
+        "total_updated_label": "Precio total actualizado:",
+        "unit_price": {
+          "content_html": "%{price}%{accessible_separator}%{per_unit}"
+        }
       }
     }
   }
