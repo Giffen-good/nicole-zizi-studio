@@ -613,7 +613,9 @@
         "delete_customer_mandate": {
           "generic_error": "Hubo un problema procesando tu petición.",
           "success_message": "Su método de pago se ha eliminado correctamente."
-        }
+        },
+        "page_title": "Métodos de pago",
+        "title": "Métodos de pago"
       }
     }
   }
