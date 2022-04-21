@@ -699,7 +699,8 @@
         "payment_gateway_needs_paid_plan_error": "Este método de pago no está disponible en la tienda en este momento",
         "payment_gateway_not_in_test_mode": "no está configurado para probar pedidos. Esta tienda no puede aceptar pedidos reales o pagos reales.",
         "payment_gateway_unsupported_for_subscriptions": "Este método de pago no está disponible para pedidos de suscripción.",
-        "physical_gift_card_duplicate_code": "La línea de pedido de tarjeta de regalo física contiene un código duplicado."
+        "physical_gift_card_duplicate_code": "La línea de pedido de tarjeta de regalo física contiene un código duplicado.",
+        "physical_gift_card_invalid_code": "El código físico de la tarjeta de regalo no es válido."
       }
     }
   }
