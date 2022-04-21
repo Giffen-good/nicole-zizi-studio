@@ -671,7 +671,10 @@
         "address_last_name_too_long": "El apellido es demasiado largo (el máximo es 255 caracteres)",
         "address_phone_blank": "Ingrese un número de teléfono válido",
         "address_phone_contains_emojis": "El número de teléfono no puede contener emojis",
-        "address_province_blank": "Seleccione un estado \/ provincia"
+        "address_province_blank": "Seleccione un estado \/ provincia",
+        "address_zip_blank": "Ingrese un código postal",
+        "address_zip_invalid_for_country": "Ingrese un código postal válido para %{country}",
+        "address_zip_invalid_for_country_and_province": "Ingrese un código postal válido para %{province}, %{country}"
       }
     }
   }
