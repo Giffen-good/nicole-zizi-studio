@@ -735,7 +735,8 @@
         "continue_button_label": "Seguir",
         "continue_to_payment_method": "Continuar con el pago",
         "continue_to_review": "Revisar orden",
-        "continue_to_shipping_method": "Continuar con el envío"
+        "continue_to_shipping_method": "Continuar con el envío",
+        "edit_link_label": "Editar"
       }
     }
   }
