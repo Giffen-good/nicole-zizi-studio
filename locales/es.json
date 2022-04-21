@@ -507,7 +507,8 @@
       "postal_code": "código postal",
       "postcode": "Código postal",
       "prefecture": "Prefectura",
-      "province": "Provincia"
+      "province": "Provincia",
+      "region": "Región"
     }
   }
 }
