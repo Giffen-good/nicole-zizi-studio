@@ -1560,7 +1560,8 @@
           "partially_refunded": "Reintegrado parcialmente",
           "pending": "Pendiente",
           "refunded": "Reintegrado",
-          "unpaid": "No pagado"
+          "unpaid": "No pagado",
+          "voided": "Anulado"
         }
       }
     }
