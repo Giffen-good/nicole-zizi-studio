@@ -942,7 +942,9 @@
         "different_credit_card_label": "Usa una tarjeta de crédito diferente",
         "discount_button_action_label": "Aplicar código de descuento",
         "ends_with_label": "terminando con %{last_digits}",
-        "eps_label": "eps-Überweisung"
+        "eps_label": "eps-Überweisung",
+        "expiry_long": "(Caduca %{month}\/%{year})",
+        "expiry_short": "(Exp %{month}\/%{year})"
       },
       "payment_errors": {
         "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
@@ -965,7 +967,10 @@
         "payment_processing": "Su pago no puede ser procesado por razones técnicas. Intente nuevamente o use un método de pago diferente.",
         "payment_processing_no_retry": "Su pago no se puede procesar por razones técnicas. Pruebe con otro método de pago.",
         "paypal_zero_amount": "No puedes usar PayPal por %{amount} pedidos. Confirme que su pedido es correcto y realice el pago sin PayPal.",
-        "rejected_transaction": "Su pago fue rechazado. Intente nuevamente o use un método de pago diferente."
+        "rejected_transaction": "Su pago fue rechazado. Intente nuevamente o use un método de pago diferente.",
+        "subscription_agreement_blank": "Para comprar una suscripción, debe guardar sus datos de pago. Para continuar, confirme que está de acuerdo o elimine los artículos de suscripción de su pedido.",
+        "three_d_secure_failed": "Su pago no pudo ser verificado. Intente nuevamente o use un método de pago diferente.",
+        "three_d_secure_failed_duplicate": "La autenticación 3D Secure de la tarjeta de crédito falló porque ya hay otra en progreso."
       }
     }
   }
