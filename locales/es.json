@@ -56,14 +56,14 @@
   },
   "accessibility": {
     "skip_to_text": "Ir directamente al contenido",
-    "close": "Cerrar",
+    "close": "Cerca",
     "unit_price_separator": "por",
     "vendor": "Proveedor:",
     "error": "Error",
     "refresh_page": "Al seleccionar una opción, se actualiza toda la página.",
     "link_messages": {
       "new_window": "Se abre en una nueva ventana.",
-      "external": "Se abre el sitio web externo."
+      "external": "Abre un sitio web externo."
     },
     "next_slide": "Diapositiva a la derecha",
     "previous_slide": "Diapositiva a la izquierda",
