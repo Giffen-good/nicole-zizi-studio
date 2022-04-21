@@ -866,7 +866,8 @@
         "subtotal_label": "Total parcial",
         "taxes_label": "Impuestos",
         "tip_label": "Propina",
-        "title": "Resumen del pedido"
+        "title": "Resumen del pedido",
+        "total_already_paid_label": "Ya pagado"
       }
     }
   }
