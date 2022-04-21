@@ -1369,7 +1369,8 @@
         },
         "thank_you_confirmed_order_with_email": "En breve recibirá un correo electrónico de confirmación con su número de pedido.",
         "thank_you_confirmed_order_with_email_and_phone_payment": "Hiciste un pago en tu orden %{date}.",
-        "thank_you_confirmed_order_with_email_payment": "Hiciste un pago en tu orden %{date}."
+        "thank_you_confirmed_order_with_email_payment": "Hiciste un pago en tu orden %{date}.",
+        "thank_you_confirmed_order_with_email_pick_up": "Recibirá un correo electrónico cuando su pedido esté listo para ser recogido."
       }
     }
   }
