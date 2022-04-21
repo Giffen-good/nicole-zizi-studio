@@ -960,7 +960,13 @@
         "klarna_pay_now_label": "Paga ahora con Klarna",
         "masked_digits_label": "•••• %{last_digits}",
         "missing_credit_card_error": "Ingrese los detalles de su tarjeta para completar el pago",
-        "mor_disclaimer_html": "Al hacer clic a continuación y completar su pedido, acepta comprar sus artículos de Flow I.O como comerciante registrado para esta transacción, en Flow I.O.<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Términos y condiciones<\/a>\ny<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Política de privacidad<\/a>. Flow I.O es un proveedor de servicios de cumplimiento internacional para %{shop_name}\n"
+        "mor_disclaimer_html": "Al hacer clic a continuación y completar su pedido, acepta comprar sus artículos de Flow I.O como comerciante registrado para esta transacción, en Flow I.O.<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Términos y condiciones<\/a>\ny<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Política de privacidad<\/a>. Flow I.O es un proveedor de servicios de cumplimiento internacional para %{shop_name}\n",
+        "name_on_card_label": "Nombre en la tarjeta",
+        "name_on_card_placeholder": "Nombre en la tarjeta",
+        "no_js_credit_card_fields_redirect_hint": "Será redirigido para agregar su información de pago.",
+        "no_method_error": "Esta tienda no puede aceptar pagos en este momento.",
+        "no_real_orders_dev_store": "Esta tienda no puede aceptar pedidos reales o pagos reales.",
+        "no_taxes_banner_content": "No se cobrarán impuestos en este pedido. Una vez que haya cobrado el pago, ya no se podrán agregar impuestos."
       },
       "payment_errors": {
         "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
