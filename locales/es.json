@@ -559,7 +559,8 @@
         "contact_method_title": "Información del contacto",
         "country_code": "Código de país \/ región",
         "country_label": "País \/ región",
-        "county_label": "Condado"
+        "county_label": "Condado",
+        "county_placeholder": "Condado"
       }
     }
   }
