@@ -1316,7 +1316,15 @@
         "order_status_updates_with_missing": "Elija cómo desea obtener actualizaciones de envío.",
         "order_status_updates_with_phone": "Recibirá actualizaciones de envío y entrega por mensaje de texto.",
         "order_updates_description_html": "Las actualizaciones se enviarán a %{customer_contact}",
-        "order_updates_description_missing": "No estás recibiendo actualizaciones de envío."
+        "order_updates_description_missing": "No estás recibiendo actualizaciones de envío.",
+        "order_updates_past_step_prefix": "Paso pasado:",
+        "order_updates_submit_subscription": "Enviar",
+        "order_updates_subscribe_to_email_notifications": "Recibe actualizaciones de envío por correo electrónico",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Obtenga actualizaciones de envío por correo electrónico o mensaje de texto",
+        "order_updates_subscribe_to_phone_notifications": "Obtenga actualizaciones de envío por mensaje de texto",
+        "order_updates_title": "Solicitar actualizaciones",
+        "order_updates_upcoming_step_prefix": "Próximo paso:",
+        "other_options": "Otras opciones"
       }
     }
   }
