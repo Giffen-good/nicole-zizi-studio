@@ -502,7 +502,9 @@
       "confirm": "¿Estás seguro de que deseas eliminar esta dirección?",
       "county": "Condado",
       "emirate": "Emirato",
-      "governorate": "Gobernación"
+      "governorate": "Gobernación",
+      "pincode": "Código PIN",
+      "postal_code": "código postal"
     }
   }
 }
