@@ -133,7 +133,7 @@
       },
       "share": "Compartir este producto",
       "sold_out": "Agotado",
-      "unavailable": "No disponible",
+      "unavailable": "Indisponible",
       "vendor": "Proveedor",
       "video_exit_message": "{{ title }} abre el video en pantalla completa en la misma ventana.",
       "xr_button": "Ver en tu espacio",
@@ -160,7 +160,8 @@
       "loader_label": "Agregar producto a su carrito",
       "quantity_minimum_message": "La cantidad debe ser 1 o más",
       "regular_price": "Precio regular",
-      "sale_price": "Precio de venta"
+      "sale_price": "Precio de venta",
+      "unit_price_label": "Precio unitario"
     },
     "modal": {
       "label": "Galería media"
