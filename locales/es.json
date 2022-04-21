@@ -733,7 +733,9 @@
         "complete_purchase_button_label": "Orden completa",
         "contact_us_html": "Contáctenos para más información.",
         "continue_button_label": "Seguir",
-        "continue_to_payment_method": "Continuar con el pago"
+        "continue_to_payment_method": "Continuar con el pago",
+        "continue_to_review": "Revisar orden",
+        "continue_to_shipping_method": "Continuar con el envío"
       }
     }
   }
