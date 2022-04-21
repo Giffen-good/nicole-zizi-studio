@@ -956,7 +956,9 @@
         },
         "ideal_label": "ideal",
         "klarna_label": "Klarna",
-        "klarna_pay_later_label": "Paga luego con Klarna"
+        "klarna_pay_later_label": "Paga luego con Klarna",
+        "klarna_pay_now_label": "Paga ahora con Klarna",
+        "masked_digits_label": "•••• %{last_digits}"
       },
       "payment_errors": {
         "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
