@@ -746,7 +746,8 @@
           "external": "Abre un sitio web externo.",
           "external_and_new_window": "Abre un sitio web externo en una nueva ventana.",
           "new_window": "Se abre en una nueva ventana."
-        }
+        },
+        "page_title": "Revisa"
       }
     }
   }
