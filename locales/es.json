@@ -1616,6 +1616,11 @@
       "last_word_connector": "y",
       "two_words_connector": "y",
       "words_connector": ","
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "five_or_more_days": "Generalmente listo en más de 5 días"
+      }
     }
   }
 }
