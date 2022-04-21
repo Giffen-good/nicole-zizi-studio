@@ -1509,6 +1509,11 @@
     "links": {
       "learn_more": "Aprende más",
       "powered_by_shopify": "Desarrollado por Shopify"
+    },
+    "notices": {
+      "address": {
+        "created": "Dirección creada con éxito"
+      }
     }
   }
 }
