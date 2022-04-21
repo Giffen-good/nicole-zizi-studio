@@ -740,7 +740,8 @@
         "error_page_title": "Error",
         "errors": {
           "session_identifier_not_unique_error": "Algo salió mal con su pedido, por favor intente pagar de nuevo."
-        }
+        },
+        "expand_notice_label": "Ver más"
       }
     }
   }
