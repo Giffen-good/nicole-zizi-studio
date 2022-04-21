@@ -500,7 +500,8 @@
   "shopify": {
     "addresses": {
       "confirm": "¿Estás seguro de que deseas eliminar esta dirección?",
-      "county": "Condado"
+      "county": "Condado",
+      "emirate": "Emirato"
     }
   }
 }
