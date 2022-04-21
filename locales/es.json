@@ -70,7 +70,7 @@
     "loading": "Cargando...",
     "of": "de",
     "skip_to_product_info": "Saltar a la información del producto",
-    "total_reviews": "reseñas totales",
+    "total_reviews": "revisiones totales",
     "star_reviews_info": "{{ rating_value }} fuera de{{ rating_max }} estrellas"
   },
   "blogs": {
