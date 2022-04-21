@@ -947,7 +947,8 @@
         "expiry_short": "(Exp %{month}\/%{year})",
         "free_order_notice_html": "tu orden es <strong>gratis<\/strong> . No se requiere pago.",
         "ftd_vault_credit_card_label": "Guarde esta tarjeta de crédito en mi cuenta para pagar más rápido",
-        "generic_incorrect_card_info": "Sus detalles de pago no pudieron ser verificados. Verifique los detalles de su tarjeta e intente nuevamente."
+        "generic_incorrect_card_info": "Sus detalles de pago no pudieron ser verificados. Verifique los detalles de su tarjeta e intente nuevamente.",
+        "gift_card_balance_label": "Equilibrar:"
       },
       "payment_errors": {
         "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
