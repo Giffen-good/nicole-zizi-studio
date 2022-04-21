@@ -337,7 +337,7 @@
       "none": "Aún no has realizado ningún pedido."
     },
     "recover_password": {
-      "title": "Restablecer tu contraseña",
+      "title": "Restablecer su contraseña",
       "subtext": "Le enviaremos un correo electrónico para restablecer su contraseña",
       "success": "Le enviamos un correo electrónico con un enlace para actualizar su contraseña."
     },
