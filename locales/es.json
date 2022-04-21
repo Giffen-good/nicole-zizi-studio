@@ -1542,6 +1542,11 @@
         "invalid_credentials": "Correo o contraseña incorrectos.",
         "no_account_found": "No se encontró cuenta con ese correo electrónico.",
         "password_reset_error": "Error de restablecimiento de contraseña"
+      },
+      "order": {
+        "cancel_reason": {
+          "customer": "Cliente modificado \/ pedido cancelado"
+        }
       }
     }
   }
