@@ -586,7 +586,9 @@
         "postal_code_placeholder": "código postal",
         "postcode_label": "Código postal",
         "postcode_placeholder": "Código postal",
-        "prefecture_label": "Prefectura"
+        "prefecture_label": "Prefectura",
+        "prefecture_placeholder": "Prefectura",
+        "province_label": "Provincia"
       }
     }
   }
