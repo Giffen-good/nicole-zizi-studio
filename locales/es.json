@@ -800,7 +800,12 @@
       },
       "order_summary": {
         "amount_off_shipping": "%{amount} fuera de envío",
-        "applied_discount_message": "%{amount} del precio total del pedido"
+        "applied_discount_message": "%{amount} del precio total del pedido",
+        "applied_free_shipping_discount_label": "Aplicado",
+        "apply_discount_button_label": "Aplicar",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> el código de descuento no es válido para los artículos en su carrito",
+        "confirmation_number_label": "Confirmación #%{confirmation_number}",
+        "customer_already_used_once_per_customer_discount_notice": "Él<strong style=\"text-transform:uppercase\">%{code}<\/strong> el código de descuento ya se ha utilizado"
       }
     }
   }
