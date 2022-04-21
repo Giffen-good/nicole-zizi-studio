@@ -1527,7 +1527,8 @@
         "link_expired": "Enlace expirado",
         "link_no_longer_exists": "El enlace ya no existe.",
         "only_n_items_available": "Solo puedes agregar %{count} %{name} al carrito",
-        "product_sold_out": "El producto '%{name}' ya está agotado."
+        "product_sold_out": "El producto '%{name}' ya está agotado.",
+        "selling_plan_not_applicable": "No se puede aplicar el plan de ventas a la variante"
       }
     }
   }
