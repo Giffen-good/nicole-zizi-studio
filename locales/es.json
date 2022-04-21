@@ -1096,8 +1096,16 @@
           "change_shipping_method_link_label": "Cambiar método de envío",
           "contact_method_title": "Contacto",
           "pick_up_in_store_shipping_method_html": "Recoger en tienda  %%{location_name}",
-          "shipping_address_title": "Envie a"
-        }
+          "shipping_address_title": "Envie a",
+          "shipping_method_title": "Método"
+        },
+        "checkout_as_guest": "Pagar como invitado",
+        "review_title": "Revisar orden"
+      },
+      "shipping": {
+        "arrives_time": "llega %{time}",
+        "arrives_time_range": "llega %{min_time}–%{max_time}",
+        "cheapest_rate_label": "Lo mas barato"
       }
     }
   }
