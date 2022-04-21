@@ -235,7 +235,7 @@
       "announcement": "Anuncio",
       "menu": "Menú",
       "cart_count": {
-        "one": "{{ count }} artículo",
+        "one": "{{ count }} ít",
         "other": "{{ count }} artículos"
       }
     },
@@ -267,7 +267,7 @@
       }
     },
     "footer": {
-      "payment": "Formas de pago"
+      "payment": "Métodos de pago"
     },
     "featured_blog": {
       "view_all": "Ver todo",
@@ -276,7 +276,7 @@
     },
     "featured_collection": {
       "view_all": "Ver todo",
-      "view_all_label": "Ver todos los productos de la colección {{ collection_name }}"
+      "view_all_label": "Ver todos los productos en el{{ collection_name }} recopilación"
     },
     "collection_list": {
       "view_all": "Ver todo"
