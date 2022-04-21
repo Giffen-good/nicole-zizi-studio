@@ -1592,7 +1592,9 @@
       "checkpoint": "Control",
       "collections": "Colecciones",
       "create_account": "Crear una cuenta",
-      "order": "Pedido %{name}"
+      "order": "Pedido %{name}",
+      "products": "Productos",
+      "reset_account": "Restablecer cuenta"
     }
   }
 }
