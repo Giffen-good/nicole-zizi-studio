@@ -736,7 +736,11 @@
         "continue_to_payment_method": "Continuar con el pago",
         "continue_to_review": "Revisar orden",
         "continue_to_shipping_method": "Continuar con el envío",
-        "edit_link_label": "Editar"
+        "edit_link_label": "Editar",
+        "error_page_title": "Error",
+        "errors": {
+          "session_identifier_not_unique_error": "Algo salió mal con su pedido, por favor intente pagar de nuevo."
+        }
       }
     }
   }
