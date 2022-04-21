@@ -329,9 +329,9 @@
     "orders": {
       "title": "Historial de pedidos",
       "order_number": "Pedido",
-      "order_number_link": "Número de pedido {{ number }}",
+      "order_number_link": "Número de orden{{ number }}",
       "date": "Fecha",
-      "payment_status": "Estado del pago",
+      "payment_status": "Estado de pago",
       "fulfillment_status": "Estado de cumplimiento",
       "total": "Total",
       "none": "Aún no has realizado ningún pedido."
