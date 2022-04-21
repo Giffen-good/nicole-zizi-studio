@@ -1584,6 +1584,15 @@
         "remove_articles": "Ampliar la búsqueda a artículos que no están etiquetados %{tag}",
         "remove_products": "Remover etiqueta %{tag}"
       }
+    },
+    "page_titles": {
+      "account": "Cuenta",
+      "blog_or_article_with_error": "Error - %{title}",
+      "challenge": "Desafío",
+      "checkpoint": "Control",
+      "collections": "Colecciones",
+      "create_account": "Crear una cuenta",
+      "order": "Pedido %{name}"
     }
   }
 }
