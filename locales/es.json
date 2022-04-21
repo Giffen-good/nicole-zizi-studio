@@ -949,7 +949,8 @@
         "credit_card_processing": "Su pago no puede ser procesado por razones técnicas. Intente nuevamente en unos minutos o use un método de pago diferente.",
         "deferred_amount_changed": "No se pudo procesar su pago porque el monto del pago diferido cambió. Por favor, compruebe su pedido y vuelva a intentarlo.",
         "deferred_date_changed": "No se pudo procesar su pago porque la fecha de pago diferido ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
-        "deferred_payment_not_allowed": "No se permiten pagos diferidos. Por favor, compruebe su pedido y vuelva a intentarlo."
+        "deferred_payment_not_allowed": "No se permiten pagos diferidos. Por favor, compruebe su pedido y vuelva a intentarlo.",
+        "deferred_payment_required": "Este pedido requiere un pago diferido. Por favor, compruebe su pedido y vuelva a intentarlo."
       }
     }
   }
