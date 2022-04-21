@@ -1166,9 +1166,15 @@
             },
             "week": {
               "other": "todos %{count} semanas"
+            },
+            "year": {
+              "other": "todos %{count} años"
             }
           }
-        }
+        },
+        "subscription_shipping": "Envío de suscripción",
+        "title": "Envío",
+        "waiting_on_pickup_location_notice": "Obteniendo lugares de recogida disponibles ..."
       },
       "shipping_errors": {
         "shipping_method": "Su carrito ha sido actualizado y la tarifa de envío anterior no es válida. Selecciona una nueva tarifa.",
