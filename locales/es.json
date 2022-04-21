@@ -415,14 +415,14 @@
   "pagefly": {
     "products": {
       "product": {
-        "regular_price": "Regular price",
-        "sold_out": "Sold out",
-        "unavailable": "Unavailable",
-        "on_sale": "Sale",
-        "quantity": "Quantity",
+        "regular_price": "Precio regular",
+        "sold_out": "Agotado",
+        "unavailable": "Indisponible",
+        "on_sale": "Rebaja",
+        "quantity": "Cantidad",
         "add_to_cart": "Add to cart",
         "back_to_collection": "De regreso{{ title }}",
-        "view_details": "View details"
+        "view_details": "Ver detalles"
       }
     },
     "article": {
