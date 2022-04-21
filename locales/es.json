@@ -1621,7 +1621,8 @@
       "pick_up_time": {
         "five_or_more_days": "Generalmente listo en más de 5 días",
         "four_hours": "Generalmente listo en 4 horas",
-        "immediately": "Listo para recoger ahora"
+        "immediately": "Listo para recoger ahora",
+        "next_day": "Listo para recoger al día siguiente"
       }
     }
   }
