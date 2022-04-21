@@ -1574,8 +1574,15 @@
         "transaction_status": {
           "error": "Error",
           "failure": "Fracaso",
-          "pending": "Pendiente"
+          "pending": "Pendiente",
+          "success": "Éxito"
         }
+      },
+      "tags": {
+        "add_articles": "Búsqueda restringida a artículos que también tengan la etiqueta %{tag}",
+        "add_products": "Limite la selección a los productos que coincidan con la etiqueta %{tag}",
+        "remove_articles": "Ampliar la búsqueda a artículos que no están etiquetados %{tag}",
+        "remove_products": "Remover etiqueta %{tag}"
       }
     }
   }
