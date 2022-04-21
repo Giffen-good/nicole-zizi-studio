@@ -650,7 +650,8 @@
         "address_address2_blank": "Ingrese a un departamento, suite, etc.",
         "address_address2_contains_emojis": "Address2 no puede contener emojis",
         "address_address2_contains_html_tags": "Address2 no puede contener etiquetas HTML.",
-        "address_address2_too_long": "La segunda línea de dirección es demasiado larga (el máximo es 255 caracteres)"
+        "address_address2_too_long": "La segunda línea de dirección es demasiado larga (el máximo es 255 caracteres)",
+        "address_city_blank": "Entrar en una ciudad"
       }
     }
   }
