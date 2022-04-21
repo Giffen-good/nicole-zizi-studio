@@ -1045,7 +1045,9 @@
         "complete_your_purchase_title_error": "Corrija su información de pago",
         "continue_to_payment_gateway_button_label": "Continuar con el pago",
         "continue_to_payment_gateway_button_label_error": "Actualizar información de pago",
-        "continue_to_payment_gateway_notice": "Continúe con el pago para agregar su información de pago."
+        "continue_to_payment_gateway_notice": "Continúe con el pago para agregar su información de pago.",
+        "continue_to_payment_gateway_notice_error": "Su información de pago no pudo ser verificada.",
+        "page_title": "Orden de procesamiento"
       }
     }
   }
