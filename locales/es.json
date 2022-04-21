@@ -958,7 +958,9 @@
         "klarna_label": "Klarna",
         "klarna_pay_later_label": "Paga luego con Klarna",
         "klarna_pay_now_label": "Paga ahora con Klarna",
-        "masked_digits_label": "•••• %{last_digits}"
+        "masked_digits_label": "•••• %{last_digits}",
+        "missing_credit_card_error": "Ingrese los detalles de su tarjeta para completar el pago",
+        "mor_disclaimer_html": "Al hacer clic a continuación y completar su pedido, acepta comprar sus artículos de Flow I.O como comerciante registrado para esta transacción, en Flow I.O.<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Términos y condiciones<\/a>\ny<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Política de privacidad<\/a>. Flow I.O es un proveedor de servicios de cumplimiento internacional para %{shop_name}\n"
       },
       "payment_errors": {
         "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
