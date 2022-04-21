@@ -1089,7 +1089,8 @@
         "blocks": {
           "billing_address_title": "Facturación",
           "change_billing_address_link_label": "Cambiar dirección de facturación",
-          "change_contact_method_link_label": "Cambiar información de contacto"
+          "change_contact_method_link_label": "Cambiar información de contacto",
+          "change_link_label": "Cambio"
         }
       }
     }
