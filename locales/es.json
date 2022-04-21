@@ -893,7 +893,8 @@
         "apply_gift_card_button_label": "Aplicar",
         "bancontact_label": "Bancontact",
         "bank_picker_label": "Banco",
-        "billing_address_associated_with_mandate": "Usar la dirección asociada con el método de pago"
+        "billing_address_associated_with_mandate": "Usar la dirección asociada con el método de pago",
+        "billing_address_associated_with_mandate_info": "Si desea cambiar su dirección de facturación, elimine y vuelva a ingresar los datos de su tarjeta de crédito"
       }
     }
   }
