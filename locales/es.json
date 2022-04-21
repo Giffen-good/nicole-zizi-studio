@@ -718,7 +718,16 @@
         "autocomplete_single_item": "1 artículo disponible",
         "autocomplete_title": "Sugerencias",
         "back_to_cart": "Volver al carrito",
-        "back_to_contact_information": "Volver a la información"
+        "back_to_contact_information": "Volver a la información",
+        "back_to_payment_method": "Volver al pago",
+        "back_to_shipping_method": "Volver al envío",
+        "breadcrumb": "Migaja de pan",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Verificar"
+        },
+        "choose_billing_address": "Elija una dirección de facturación",
+        "choose_payment_method": "Elija un método de pago",
+        "choose_shipping_method": "Elige un método de envío"
       }
     }
   }
