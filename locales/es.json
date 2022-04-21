@@ -1613,7 +1613,8 @@
       }
     },
     "sentence": {
-      "last_word_connector": "y"
+      "last_word_connector": "y",
+      "two_words_connector": "y"
     }
   }
 }
