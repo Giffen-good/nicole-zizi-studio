@@ -1200,7 +1200,8 @@
       "stock": {
         "continue_shopping_button_label": "Seguir",
         "go_back_to_cart_button_label": "Volver a mi carrito",
-        "items_unavailable_notice": "Algunos artículos ya no están disponibles. Su carrito se ha actualizado."
+        "items_unavailable_notice": "Algunos artículos ya no están disponibles. Su carrito se ha actualizado.",
+        "page_title": "Problemas de inventario"
       }
     }
   }
