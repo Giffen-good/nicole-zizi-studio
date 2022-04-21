@@ -1092,7 +1092,9 @@
           "change_contact_method_link_label": "Cambiar información de contacto",
           "change_link_label": "Cambio",
           "change_payment_method_link_label": "Cambiar método de pago",
-          "change_shipping_address_link_label": "Cambiar la dirección de envío"
+          "change_shipping_address_link_label": "Cambiar la dirección de envío",
+          "change_shipping_method_link_label": "Cambiar método de envío",
+          "contact_method_title": "Contacto"
         }
       }
     }
