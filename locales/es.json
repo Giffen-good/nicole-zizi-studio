@@ -687,7 +687,9 @@
         "credit_card_year_invalid": "Ingrese un año de vencimiento válido de la tarjeta",
         "email_invalid": "Introduzca un correo electrónico válido",
         "email_or_phone_blank": "Ingrese un correo electrónico o número de teléfono móvil",
-        "email_or_phone_invalid": "Ingrese un correo electrónico válido o un número de teléfono móvil"
+        "email_or_phone_invalid": "Ingrese un correo electrónico válido o un número de teléfono móvil",
+        "gift_card_already_applied": "Esta tarjeta de regalo ya se ha aplicado a su pedido.",
+        "gift_card_currency_mismatch": "Solo tarjetas regalo en %{checkout_currency} se puede usar con este pedido"
       }
     }
   }
