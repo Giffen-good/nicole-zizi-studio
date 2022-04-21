@@ -291,7 +291,7 @@
     },
     "addresses": {
       "title": "Direcciones",
-      "default": "Predeterminada",
+      "default": "Defecto",
       "add_new": "añadir una nueva dirección",
       "edit_address": "Editar dirección",
       "first_name": "Nombre",
