@@ -76,7 +76,7 @@
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Más información: {{ title }}",
+      "read_more_title": "Lee mas:{{ title }}",
       "comments": {
         "one": "{{ count }} comentario",
         "other": "{{ count }} comentarios"
@@ -88,7 +88,7 @@
       "message": "Comentario",
       "post": "Publicar comentario",
       "back_to_blog": "volver al blog",
-      "share": "Compartir este artículo",
+      "share": "Comparte este artículo",
       "success": "Tu comentario se publicó correctamente. ¡Gracias!",
       "success_moderated": "Tu comentario se publicó correctamente. Lo publicaremos en breve, cuando se modere nuestro blog."
     }
