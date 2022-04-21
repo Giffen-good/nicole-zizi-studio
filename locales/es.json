@@ -1566,7 +1566,8 @@
         "fulfillment_status": {
           "complete": "Completar",
           "fulfilled": "Cumplido",
-          "partial": "Parcial"
+          "partial": "Parcial",
+          "restocked": "Reabastecido"
         }
       }
     }
