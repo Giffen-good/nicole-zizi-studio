@@ -639,7 +639,8 @@
         "page_title": "El pago no pudo ser procesado",
         "payment_not_processed_text": "No has sido acusado. Regrese a su carrito para completar su compra.",
         "payment_not_processed_title": "Su pago no pudo ser procesado",
-        "return_to_cart_button_label": "Volver al carrito"
+        "return_to_cart_button_label": "Volver al carrito",
+        "title": "El pago no pudo ser procesado"
       }
     }
   }
