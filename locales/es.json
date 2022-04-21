@@ -1483,6 +1483,11 @@
     },
     "feed": {
       "more": "Más"
+    },
+    "filters": {
+      "availability": {
+        "label": "Disponibilidad"
+      }
     }
   }
 }
