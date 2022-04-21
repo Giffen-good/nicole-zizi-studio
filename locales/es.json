@@ -1206,7 +1206,11 @@
         "product_column_header": "Productos",
         "quantity_column_header": "Cantidad",
         "reduced_with_quantity_label": "Solamente %{quantity_available} izquierda",
-        "removed_from_cart_notice": "Retirado del carrito"
+        "removed_from_cart_notice": "Retirado del carrito",
+        "remove_from_cart_button_label": "Eliminar del carrito",
+        "sold_out_label": "Agotado",
+        "status_column_header": "Estado",
+        "title": "Agotado"
       }
     }
   }
