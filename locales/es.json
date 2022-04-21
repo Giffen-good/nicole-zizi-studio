@@ -1216,6 +1216,9 @@
         "recurring_total_intervals": {
           "day": {
             "other": "%{count} dias"
+          },
+          "month": {
+            "other": "%{count} meses"
           }
         }
       }
