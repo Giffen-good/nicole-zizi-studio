@@ -1562,6 +1562,9 @@
           "refunded": "Reintegrado",
           "unpaid": "No pagado",
           "voided": "Anulado"
+        },
+        "fulfillment_status": {
+          "complete": "Completar"
         }
       }
     }
