@@ -1302,7 +1302,12 @@
           "shipping": "Dirección de Envío"
         },
         "non_shippable_title": "Su orden esta completa",
-        "opt_in_message_html": "Su información se guardó correctamente con %{shopify_pay}"
+        "opt_in_message_html": "Su información se guardó correctamente con %{shopify_pay}",
+        "order_number_label": "Número de orden",
+        "order_status_confirmed_order_local": "Estamos preparando su pedido para la entrega.",
+        "order_status_confirmed_order_with_email": "Recibirá un correo electrónico cuando su pedido esté listo.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Hiciste un pago en tu orden %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Hiciste un pago en tu orden %{date}."
       }
     }
   }
