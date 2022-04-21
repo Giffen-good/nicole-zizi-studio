@@ -604,7 +604,16 @@
         "zip_code_placeholder": "código postal"
       },
       "customer_account": {
-        "not_user_label": "No %{first_name}?"
+        "not_user_label": "No %{first_name}?",
+        "save_my_information_label": "Guarda esta información para la próxima vez",
+        "sign_in_link_label": "Iniciar sesión",
+        "sign_out_link_label": "Cerrar sesión"
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Hubo un problema procesando tu petición.",
+          "success_message": "Su método de pago se ha eliminado correctamente."
+        }
       }
     }
   }
