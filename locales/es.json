@@ -875,6 +875,9 @@
           "content_html": "%{price}%{accessible_separator}%{per_unit}"
         },
         "vat_label_html": "Incluido %{amount} en impuestos"
+      },
+      "payment": {
+        "account_connected": "Cuenta conectada"
       }
     }
   }
