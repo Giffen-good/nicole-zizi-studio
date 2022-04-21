@@ -1284,7 +1284,8 @@
         "gift_card_sent_confirmation": "Tarjetas de regalo enviadas",
         "gift_card_title": "Tarjetas de regalo",
         "in_transit": "En su camino",
-        "in_transit_description_days": "Deberías recibir tu pedido en el próximo %{number} dias."
+        "in_transit_description_days": "Deberías recibir tu pedido en el próximo %{number} dias.",
+        "in_transit_description_today": "Debería recibir su pedido hoy."
       }
     }
   }
