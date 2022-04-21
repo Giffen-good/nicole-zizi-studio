@@ -1281,7 +1281,8 @@
         },
         "gift_card_confirmation_by_email": "Las tarjetas de regalo se envían por correo electrónico. Si no ha recibido el suyo, intente enviarlo nuevamente o contáctenos.",
         "gift_card_confirmation_by_text": "Las tarjetas de regalo se envían por mensaje de texto. Si no ha recibido el suyo, intente enviarlo nuevamente o contáctenos.",
-        "gift_card_sent_confirmation": "Tarjetas de regalo enviadas"
+        "gift_card_sent_confirmation": "Tarjetas de regalo enviadas",
+        "gift_card_title": "Tarjetas de regalo"
       }
     }
   }
