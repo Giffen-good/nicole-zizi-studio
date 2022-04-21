@@ -729,7 +729,8 @@
         "choose_payment_method": "Elija un método de pago",
         "choose_shipping_method": "Elige un método de envío",
         "close_modal_label": "Cerca",
-        "close_notice_label": "Cerca"
+        "close_notice_label": "Cerca",
+        "complete_purchase_button_label": "Orden completa"
       }
     }
   }
