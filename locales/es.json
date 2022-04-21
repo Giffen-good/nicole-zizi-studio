@@ -1524,7 +1524,10 @@
         "empty_update": "no se puede actualizar el carrito vacío",
         "generic_error": "Error de carro",
         "items_changed": "Uno o más artículos han cambiado.",
-        "link_expired": "Enlace expirado"
+        "link_expired": "Enlace expirado",
+        "link_no_longer_exists": "El enlace ya no existe.",
+        "only_n_items_available": "Solo puedes agregar %{count} %{name} al carrito",
+        "product_sold_out": "El producto '%{name}' ya está agotado."
       }
     }
   }
