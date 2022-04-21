@@ -827,7 +827,9 @@
         "free_total_label": "Gratis",
         "gift_card_and_discount_label": "Tarjeta de regalo o código de descuento",
         "gift_card_and_discount_placeholder": "Tarjeta de regalo o código de descuento",
-        "gift_card_ending": "Tarjeta de regalo que termina en %{last_characters}"
+        "gift_card_ending": "Tarjeta de regalo que termina en %{last_characters}",
+        "gift_card_has_been_applied": "Se ha aplicado la tarjeta de regalo.",
+        "gift_card_has_been_removed": "Se ha eliminado la tarjeta de regalo."
       }
     }
   }
