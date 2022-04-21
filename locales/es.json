@@ -518,7 +518,11 @@
       "email": "correo electrónico",
       "first_name": "nombre de pila",
       "last_name": "apellido",
-      "password": "contraseña"
+      "password": "contraseña",
+      "password_confirmation": "La confirmación de contraseña"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} se han aplicado descuentos"
     }
   }
 }
