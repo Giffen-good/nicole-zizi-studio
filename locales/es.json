@@ -1547,7 +1547,9 @@
         "cancel_reason": {
           "customer": "Cliente modificado \/ pedido cancelado",
           "declined": "Pago rechazado",
-          "fraud": "Orden fraudulenta"
+          "fraud": "Orden fraudulenta",
+          "inventory": "Artículos no disponibles",
+          "other": "Otro"
         }
       }
     }
