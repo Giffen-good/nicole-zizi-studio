@@ -764,7 +764,8 @@
         "pending_accept_marketing_checkbox_label": "Revisa tu correo electrónico para confirmar tu suscripción a noticias y ofertas",
         "sms": {
           "disclaimer": {
-            "description_html": "Al suscribirse por mensaje de texto, acepta recibir mensajes de marketing automatizados recurrentes, incluidos recordatorios del carrito, en el número de teléfono proporcionado. El consentimiento no es una condición de compra. Responda STOP para darse de baja. Responda AYUDA para obtener ayuda. La frecuencia de los mensajes varía. Se pueden aplicar tarifas de mensajes y datos. Ver nuestro %{privacy_policy_link} y %{terms_of_service_link}."
+            "description_html": "Al suscribirse por mensaje de texto, acepta recibir mensajes de marketing automatizados recurrentes, incluidos recordatorios del carrito, en el número de teléfono proporcionado. El consentimiento no es una condición de compra. Responda STOP para darse de baja. Responda AYUDA para obtener ayuda. La frecuencia de los mensajes varía. Se pueden aplicar tarifas de mensajes y datos. Ver nuestro %{privacy_policy_link} y %{terms_of_service_link}.",
+            "description_transactional_html": "Le enviaremos un recibo del pedido y actualizaciones periódicas de envío a través de un mensaje de texto. Responda STOP para darse de baja. Responda AYUDA para obtener ayuda. La frecuencia de los mensajes varía. Se pueden aplicar tarifas de mensajes y datos. Ver nuestro %{privacy_policy_modal_link} y %{terms_of_service_modal_link}."
           }
         }
       }
