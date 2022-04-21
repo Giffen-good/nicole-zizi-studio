@@ -1572,7 +1572,8 @@
         },
         "not_available": "Este pedido no está disponible.",
         "transaction_status": {
-          "error": "Error"
+          "error": "Error",
+          "failure": "Fracaso"
         }
       }
     }
