@@ -1205,7 +1205,8 @@
         "price_column_header": "Precio",
         "product_column_header": "Productos",
         "quantity_column_header": "Cantidad",
-        "reduced_with_quantity_label": "Solamente %{quantity_available} izquierda"
+        "reduced_with_quantity_label": "Solamente %{quantity_available} izquierda",
+        "removed_from_cart_notice": "Retirado del carrito"
       }
     }
   }
