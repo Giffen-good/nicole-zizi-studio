@@ -906,7 +906,11 @@
         "card_expiry_date_explanation": "Fecha de vencimiento de la tarjeta en formato: mes, mes, año, año",
         "card_expiry_label": "Fecha de vencimiento (MM \/ AA)",
         "card_expiry_placeholder": "Fecha de vencimiento (MM \/ AA)",
-        "card_fields_container_prefix": "Contenedor de campo para:"
+        "card_fields_container_prefix": "Contenedor de campo para:",
+        "card_fields_unavailable_html": {
+          "one": "Los pagos con tarjeta de crédito y débito no están disponibles en este momento.<br><a href=\"%{current_url}\">Actualizar esta página<\/a> o vuelve a intentarlo más tarde.",
+          "other": "Los pagos con tarjeta de crédito y débito no están disponibles en este momento.<br><a href=\"%{current_url}\">Actualizar esta página<\/a> o pruebe con otro método de pago."
+        }
       }
     }
   }
