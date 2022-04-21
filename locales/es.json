@@ -945,7 +945,9 @@
         "eps_label": "eps-Überweisung",
         "expiry_long": "(Caduca %{month}\/%{year})",
         "expiry_short": "(Exp %{month}\/%{year})",
-        "free_order_notice_html": "tu orden es <strong>gratis<\/strong> . No se requiere pago."
+        "free_order_notice_html": "tu orden es <strong>gratis<\/strong> . No se requiere pago.",
+        "ftd_vault_credit_card_label": "Guarde esta tarjeta de crédito en mi cuenta para pagar más rápido",
+        "generic_incorrect_card_info": "Sus detalles de pago no pudieron ser verificados. Verifique los detalles de su tarjeta e intente nuevamente."
       },
       "payment_errors": {
         "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
@@ -972,6 +974,12 @@
         "subscription_agreement_blank": "Para comprar una suscripción, debe guardar sus datos de pago. Para continuar, confirme que está de acuerdo o elimine los artículos de suscripción de su pedido.",
         "three_d_secure_failed": "Su pago no pudo ser verificado. Intente nuevamente o use un método de pago diferente.",
         "three_d_secure_failed_duplicate": "La autenticación 3D Secure de la tarjeta de crédito falló porque ya hay otra en progreso."
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Deposito bancario",
+        "cash_on_delivery_label": "Pago contra reembolso (COD)",
+        "credit_card_label": "Tarjeta de crédito",
+        "money_order_label": "Giro postal"
       }
     }
   }
