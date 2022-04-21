@@ -617,6 +617,10 @@
         "page_title": "Métodos de pago",
         "title": "Métodos de pago",
         "update_card_button_label": "Tarjeta de actualización"
+      },
+      "delivery_options": {
+        "free_total_label": "Gratis",
+        "pick_up": "Recoger"
       }
     }
   }
