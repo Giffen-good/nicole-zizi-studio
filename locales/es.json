@@ -1254,7 +1254,8 @@
         "confirmation_email_sent_text": "Se ha enviado un correo electrónico de confirmación a %{email}",
         "confirmed": "Confirmado",
         "confirmed_description": "Hemos aceptado su pedido y lo estamos preparando. Regrese a esta página para obtener actualizaciones sobre el estado de su envío.",
-        "confirmed_title": "Su orden es confirmada"
+        "confirmed_title": "Su orden es confirmada",
+        "contact_information_title": "Información del contacto"
       }
     }
   }
