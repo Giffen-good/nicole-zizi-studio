@@ -319,11 +319,11 @@
       "create_account": "Crear una cuenta",
       "email": "Email",
       "forgot_password": "¿Olvidaste tu contraseña?",
-      "guest_continue": "Continuar",
+      "guest_continue": "Seguir",
       "guest_title": "Continuar como invitado",
       "password": "Contraseña",
       "title": "Inicio de sesión",
-      "sign_in": "Iniciar sesión",
+      "sign_in": "Registrarse",
       "submit": "Enviar"
     },
     "orders": {
