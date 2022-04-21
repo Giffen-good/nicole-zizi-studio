@@ -1030,8 +1030,14 @@
       },
       "post_purchase": {
         "components": {
-          "close": "Cerca"
-        }
+          "close": "Cerca",
+          "expand": "Ver más",
+          "processing": "Procesando…",
+          "submit": "Enviar"
+        },
+        "escape_action": "Ver confirmación de pedido ›",
+        "escape_confirmation": "Has pagado tu pedido.",
+        "page_title": "Compra posterior"
       }
     }
   }
