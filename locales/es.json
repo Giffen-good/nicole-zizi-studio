@@ -282,7 +282,7 @@
     },
     "account_fallback": "Cuenta",
     "activate_account": {
-      "title": "Activar cuenta",
+      "title": "Activar la cuenta",
       "subtext": "Crea tu contraseña para activar tu cuenta.",
       "password": "Contraseña",
       "password_confirm": "Confirmar contraseña",
@@ -305,7 +305,7 @@
       "zip": "Código postal",
       "phone": "Teléfono",
       "set_default": "Establecer como dirección predeterminada",
-      "add": "Agregar dirección",
+      "add": "Añadir dirección",
       "update": "Actualizar dirección",
       "cancel": "Cancelar",
       "edit": "Editar",
