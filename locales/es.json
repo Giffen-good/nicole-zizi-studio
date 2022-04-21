@@ -641,6 +641,9 @@
         "payment_not_processed_title": "Su pago no pudo ser procesado",
         "return_to_cart_button_label": "Volver al carrito",
         "title": "El pago no pudo ser procesado"
+      },
+      "field_errors": {
+        "address_address1_blank": "Introduce una direccion"
       }
     }
   }
