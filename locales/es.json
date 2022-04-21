@@ -36,7 +36,7 @@
       "previous": "Pagina anterior"
     },
     "search": {
-      "search": "Búsqueda",
+      "search": "Buscar",
       "close": "Cerrar busqueda",
       "empty_search_message": "El campo de búsqueda no puede estar vacío",
       "heading": {
@@ -46,17 +46,19 @@
       "results_with_count": {
         "one": "{{ count }} resultado para \"{{ terms }}\"",
         "other": "{{ count }} resultados para \"{{ terms }}\""
-      }
+      },
+      "submit": "Enviar",
+      "title": "Busca en nuestro sitio"
     },
     "cart": {
       "view": "Ver mi carrito ({{ count }})",
       "item_added": "Artículo añadido a tu carrito"
     },
     "share": {
-      "copy_to_clipboard": "Copiar enlace",
+      "copy_to_clipboard": "Copiar link",
       "share_url": "Enlace",
       "success_message": "Enlace copiado al portapapeles",
-      "close": "Cerrar compartición"
+      "close": "Cerrar compartir"
     },
     "accessibility": {
       "close_modal": "Cerca",
