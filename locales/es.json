@@ -1219,6 +1219,26 @@
           },
           "month": {
             "other": "%{count} meses"
+          },
+          "week": {
+            "other": "%{count} semanas"
+          },
+          "year": {
+            "other": "%{count} años"
+          }
+        },
+        "recurring_totals": "%{total_price} todos %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Primer pago %{total_price_with_discount}, entonces %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", entonces %{count} pago en %{total_price}",
+            "other": ", entonces %{count} pagos al %{total_price} cada"
+          }
+        },
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Primer pago %{total_price}",
+            "other": "Primero %{count} pagos %{total_price} cada"
           }
         }
       }
