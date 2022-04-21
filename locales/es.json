@@ -1528,7 +1528,17 @@
         "link_no_longer_exists": "El enlace ya no existe.",
         "only_n_items_available": "Solo puedes agregar %{count} %{name} al carrito",
         "product_sold_out": "El producto '%{name}' ya está agotado.",
-        "selling_plan_not_applicable": "No se puede aplicar el plan de ventas a la variante"
+        "selling_plan_not_applicable": "No se puede aplicar el plan de ventas a la variante",
+        "selling_plan_not_available_for_company_locations": "Solo la compra única está disponible para pedidos B2B",
+        "shipping_address_invalid": "Hubo un problema al calcular sus tarifas de envío. Continúe con el pago para elegir una tarifa de envío antes de completar su pedido.",
+        "stock_problems_html": "Uno o más artículos ya no están disponibles. Hemos proporcionado un<a href='%{link}'>carrito actualizado<\/a>.",
+        "too_many_items_in_cart": "No puedes agregar más %{name} al carrito",
+        "too_many_line_items_error": "Tu carrito no puede contener más de %{max} artículos.",
+        "variant_not_found": "No se puede encontrar la variante",
+        "variant_requires_selling_plan": "La variante solo se puede comprar con un plan de venta."
+      },
+      "customer": {
+        "denylisted_reset_password": "No se pudo acceder a su cuenta porque la contraseña actual no es segura. Recibirás un correo electrónico para actualizar tu contraseña."
       }
     }
   }
