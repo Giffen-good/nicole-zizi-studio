@@ -727,7 +727,8 @@
         },
         "choose_billing_address": "Elija una dirección de facturación",
         "choose_payment_method": "Elija un método de pago",
-        "choose_shipping_method": "Elige un método de envío"
+        "choose_shipping_method": "Elige un método de envío",
+        "close_modal_label": "Cerca"
       }
     }
   }
