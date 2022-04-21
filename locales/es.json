@@ -636,7 +636,8 @@
         "shipping_address": "Dirección de Envío"
       },
       "failed_payment": {
-        "page_title": "El pago no pudo ser procesado"
+        "page_title": "El pago no pudo ser procesado",
+        "payment_not_processed_text": "No has sido acusado. Regrese a su carrito para completar su compra."
       }
     }
   }
