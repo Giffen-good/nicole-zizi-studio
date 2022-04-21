@@ -287,7 +287,7 @@
       "use_fewer_filters_html": "Utilice menos filtros o<a class=\"{{ class }}\" href=\"{{ link }}\">limpiar todo<\/a>"
     },
     "video": {
-      "load_video": "Cargar video: {{ description }}"
+      "load_video": "Cargar vídeo:{{ description }}"
     }
   },
   "localization": {
