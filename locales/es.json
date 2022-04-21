@@ -818,7 +818,13 @@
         "discount_label": "Código de descuento",
         "discount_requires_customer_notice": "Ingrese su información de envío para aplicar el<strong style=\"text-transform:uppercase\">%{code}<\/strong> código de descuento",
         "discount_savings_notice": "Después %{discount_amount} en descuentos",
-        "discount_title": "Descuento"
+        "discount_title": "Descuento",
+        "estimated_taxes_finalization_tooltip_content": "El impuesto final y el total se confirmarán por correo electrónico o mensaje de texto después de realizar el pedido.",
+        "estimated_taxes_label": "Impuestos estimados",
+        "estimated_tax_label": "Impuesto estimado",
+        "expand_order_summary": "Mostrar resumen de pedido",
+        "free_shipping_discount_label": "Envío gratis",
+        "free_total_label": "Gratis"
       }
     }
   }
