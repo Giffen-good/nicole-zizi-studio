@@ -1507,7 +1507,8 @@
       }
     },
     "links": {
-      "learn_more": "Aprende más"
+      "learn_more": "Aprende más",
+      "powered_by_shopify": "Desarrollado por Shopify"
     }
   }
 }
