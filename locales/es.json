@@ -332,7 +332,7 @@
       "order_number_link": "Número de pedido {{ number }}",
       "date": "Fecha",
       "payment_status": "Estado del pago",
-      "fulfillment_status": "Estado de preparación del pedido",
+      "fulfillment_status": "Estado de cumplimiento",
       "total": "Total",
       "none": "Aún no has realizado ningún pedido."
     },
@@ -363,7 +363,7 @@
       "cancelled_reason": "Razón:{{ reason }}",
       "billing_address": "Dirección de facturación",
       "payment_status": "Estado de pago",
-      "shipping_address": "Dirección de envío",
+      "shipping_address": "Dirección de Envío",
       "fulfillment_status": "Estado de cumplimiento",
       "discount": "Descuento",
       "shipping": "Envío",
