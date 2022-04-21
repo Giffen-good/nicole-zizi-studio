@@ -1105,7 +1105,22 @@
       "shipping": {
         "arrives_time": "llega %{time}",
         "arrives_time_range": "llega %{min_time}–%{max_time}",
-        "cheapest_rate_label": "Lo mas barato"
+        "cheapest_rate_label": "Lo mas barato",
+        "estimated_delivery_date": {
+          "one": "%{count} día laboral",
+          "other": "%{count} dias habiles"
+        }
+      },
+      "shipping_errors": {
+        "shipping_method": "Su carrito ha sido actualizado y la tarifa de envío anterior no es válida. Selecciona una nueva tarifa.",
+        "shipping_method_not_available": "Su carrito ha sido actualizado y los artículos que agregó no se pueden enviar a su dirección. Retire los artículos para completar su pedido.",
+        "shipping_method_not_available_generic": {
+          "one": "Este pedido no se puede enviar a la dirección que ingresó. Revise su dirección para asegurarse de que todos los campos se hayan ingresado correctamente y vuelva a intentarlo.",
+          "other": "Algunos artículos de su carrito no se pueden enviar a la dirección que ingresó. Revise su dirección para asegurarse de que todos los campos se hayan ingresado correctamente y vuelva a intentarlo."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "El artículo que agregaste no se envía a tu ubicación. Quítelo para pagar o póngase en contacto con la tienda."
+        }
       }
     }
   }
