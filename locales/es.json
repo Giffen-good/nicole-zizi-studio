@@ -1460,7 +1460,13 @@
       "email_domain_invalid": "el proveedor no es compatible",
       "empty": "no puede estar vacío",
       "expired": "ha expirado",
-      "full_name_required": "Ingrese un nombre y apellido"
+      "full_name_required": "Ingrese un nombre y apellido",
+      "gift_card_already_applied": "El código ya se ha aplicado a su pago",
+      "gift_card_currency_mismatch": "%{gift_card_currency} las tarjetas de regalo no se pueden aplicar en %{checkout_currency} pedidos",
+      "gift_card_depleted": "No quedan fondos en esta tarjeta de regalo",
+      "gift_card_disabled": "La tarjeta de regalo está desactivada",
+      "gift_card_expired": "Tarjeta de regalo caducada",
+      "invalid": "no es válido"
     }
   }
 }
