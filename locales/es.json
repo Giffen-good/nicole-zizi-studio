@@ -157,7 +157,10 @@
       "include_taxes": "Impuesto incluido.",
       "shipping_policy_html": "Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pago.",
       "back_to_collection": "De regreso{{ title }}",
-      "loader_label": "Agregar producto a su carrito"
+      "loader_label": "Agregar producto a su carrito",
+      "quantity_minimum_message": "La cantidad debe ser 1 o más",
+      "regular_price": "Precio regular",
+      "sale_price": "Precio de venta"
     },
     "modal": {
       "label": "Galería media"
