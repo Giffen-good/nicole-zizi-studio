@@ -862,7 +862,8 @@
         "shipping_pending_message": "No disponible aún",
         "shipping_pending_value": "-",
         "shipping_policy_link": "Costos de envío",
-        "shopping_cart_label": "Carrito de compras"
+        "shopping_cart_label": "Carrito de compras",
+        "subtotal_label": "Total parcial"
       }
     }
   }
