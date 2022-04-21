@@ -1353,7 +1353,10 @@
         "shipping_address_map_title": "Mapa de Google que muestra el punto de referencia de la dirección de envío: %{address}",
         "shipping_address_title": "Dirección de Envío",
         "shipping_information_title": "Información de envío",
-        "shipping_method_title": "Método de envío"
+        "shipping_method_title": "Método de envío",
+        "shopify_pay": {
+          "order_completed_html": "Pedido completado con %{shopify_pay}"
+        }
       }
     }
   }
