@@ -1261,7 +1261,13 @@
         "customer_information_hidden_fields_message": "Inicie sesión para ver toda la información del cliente.",
         "customer_information_title": "Información al cliente",
         "customer_validation_error": "Ingrese un correo electrónico válido o un número de pedido.",
-        "customer_validation_error_phone": "Ingrese un número de teléfono o pedido válido."
+        "customer_validation_error_phone": "Ingrese un número de teléfono o pedido válido.",
+        "delivered_description_html": "Su pedido ha sido entregado en la dirección que proporcionó. Si no lo ha recibido, o si tiene algún otro problema, %{contact_us}.",
+        "delivered_local_description_html": "No he recibido tu pedido %%{let_us_know}.",
+        "delivered_local_title": "Su pedido ha sido entregado",
+        "delivered_title": "Su pedido ha sido entregado",
+        "delivery_information_label": "Información de entrega:",
+        "estimated_arrival": "Fecha estimada de entrega:"
       }
     }
   }
