@@ -864,7 +864,8 @@
         "shipping_policy_link": "Costos de envío",
         "shopping_cart_label": "Carrito de compras",
         "subtotal_label": "Total parcial",
-        "taxes_label": "Impuestos"
+        "taxes_label": "Impuestos",
+        "tip_label": "Propina"
       }
     }
   }
