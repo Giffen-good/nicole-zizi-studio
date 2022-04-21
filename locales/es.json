@@ -838,7 +838,14 @@
         "information_estimated_taxes_label": "Impuestos (estimados)",
         "multiple_shipping_lines_label": "Total de envío",
         "order_name_label": "Pedido %{name}",
-        "order_total_updated_label": "Total actualizado"
+        "order_total_updated_label": "Total actualizado",
+        "original_price": "Precio original",
+        "paid_label": "Pagado",
+        "partial_total_label": "Total",
+        "payment_terms_totals": {
+          "due_later": "% total adeudado{due_at}"
+        },
+        "percent_off_shipping": "%{percent}% de descuento en el envío"
       }
     }
   }
