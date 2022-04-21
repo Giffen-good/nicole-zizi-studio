@@ -958,7 +958,8 @@
           "no_match": "Sin coincidencia",
           "transaction_declined": "La transacción ha sido rechazada"
         },
-        "generic_error": "Hubo un problema al procesar su pago. Intente nuevamente o use un método de pago diferente."
+        "generic_error": "Hubo un problema al procesar su pago. Intente nuevamente o use un método de pago diferente.",
+        "insufficient_funds": "Su pago fue rechazado debido a fondos insuficientes. Intente nuevamente o use un método de pago diferente."
       }
     }
   }
