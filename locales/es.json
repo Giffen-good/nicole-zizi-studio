@@ -1189,7 +1189,8 @@
         }
       },
       "shop_policies": {
-        "legal_notice": "Aviso Legal"
+        "legal_notice": "Aviso Legal",
+        "privacy_policy": "Política de privacidad"
       }
     }
   }
