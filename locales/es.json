@@ -917,7 +917,13 @@
         "card_number_label": "Número de tarjeta",
         "card_number_placeholder": "Número de tarjeta",
         "card_pay_with": "Pagar con:",
-        "card_security_notice": "Todas las transacciones son seguras y encriptadas."
+        "card_security_notice": "Todas las transacciones son seguras y encriptadas.",
+        "card_security_vault_notice": "Necesitamos sus datos para pagos futuros. Todas las transacciones son seguras y encriptadas.",
+        "card_start_label": "Fecha de emisión (MM \/ AA)",
+        "card_start_placeholder": "Fecha de emisión (MM \/ AA)",
+        "card_update_label": "Tarjeta de actualización",
+        "card_verification_confirm": "Para fines de verificación, ingrese el código de seguridad de su tarjeta.",
+        "card_verification_value_explanation": "El código de seguridad de 3 dígitos generalmente se encuentra en el reverso de su tarjeta. Las tarjetas American Express tienen un código de 4 dígitos ubicado en el frente."
       }
     }
   }
