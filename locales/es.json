@@ -501,7 +501,8 @@
     "addresses": {
       "confirm": "¿Estás seguro de que deseas eliminar esta dirección?",
       "county": "Condado",
-      "emirate": "Emirato"
+      "emirate": "Emirato",
+      "governorate": "Gobernación"
     }
   }
 }
