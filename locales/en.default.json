@@ -86,7 +86,7 @@
       "vendor": "Vendor",
       "quantity_minimum_message": "Quantity must be 1 or more",
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "shipping_policy_html": "",
       "unit_price_label": "Unit price",
       "view_cart": "View cart",
       "description": "Description",
