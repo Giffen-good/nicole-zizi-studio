@@ -662,7 +662,9 @@
         "address_country_blank": "Selecciona un país \/ región",
         "address_country_not_supported": "No realizamos envíos a este país o región. Introduce una nueva dirección de envío e inténtalo de nuevo.",
         "address_first_name_blank": "Ingrese un nombre",
-        "address_first_name_contains_emojis": "El nombre no puede contener emojis"
+        "address_first_name_contains_emojis": "El nombre no puede contener emojis",
+        "address_first_name_contains_html_tags": "El nombre no puede contener etiquetas HTML.",
+        "address_first_name_too_long": "El nombre es demasiado largo (el máximo es 255 caracteres)"
       }
     }
   }
