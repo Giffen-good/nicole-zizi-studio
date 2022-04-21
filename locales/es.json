@@ -1505,6 +1505,9 @@
       "vendor": {
         "label": "Marca"
       }
+    },
+    "links": {
+      "learn_more": "Aprende más"
     }
   }
 }
