@@ -342,7 +342,7 @@
       "success": "Le enviamos un correo electrónico con un enlace para actualizar su contraseña."
     },
     "register": {
-      "title": "Crear cuenta",
+      "title": "Crear una cuenta",
       "first_name": "Nombre de pila",
       "last_name": "Apellido",
       "email": "Email",
