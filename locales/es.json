@@ -951,8 +951,11 @@
         "gift_card_balance_label": "Equilibrar:",
         "gift_card_code_label": "Código de tarjeta de regalo",
         "google": {
-          "connect": "Haga clic para conectarse con su cuenta de Google Pay"
-        }
+          "connect": "Haga clic para conectarse con su cuenta de Google Pay",
+          "error_authorizing": "Error al autorizar el pago"
+        },
+        "ideal_label": "ideal",
+        "klarna_label": "Klarna"
       },
       "payment_errors": {
         "checkout_amount_changed": "Su pago no se pudo procesar porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
