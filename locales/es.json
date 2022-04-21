@@ -1514,7 +1514,9 @@
       "address": {
         "created": "Dirección creada con éxito",
         "deleted": "Dirección eliminada exitosamente",
-        "error_creating": "Error al crear la dirección."
+        "error_creating": "Error al crear la dirección.",
+        "error_deleting": "Error al eliminar la dirección",
+        "error_updating": "Error al actualizar la dirección"
       }
     }
   }
