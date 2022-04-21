@@ -302,7 +302,7 @@
       "city": "Ciudad",
       "country": "País\/región",
       "province": "Provincia",
-      "zip": "Código postal",
+      "zip": "Código postal\/ZIP",
       "phone": "Teléfono",
       "set_default": "Establecer como dirección predeterminada",
       "add": "Añadir dirección",
