@@ -292,7 +292,7 @@
     "addresses": {
       "title": "Direcciones",
       "default": "Predeterminada",
-      "add_new": "Agregar una nueva dirección",
+      "add_new": "añadir una nueva dirección",
       "edit_address": "Editar dirección",
       "first_name": "Nombre",
       "last_name": "Apellido",
