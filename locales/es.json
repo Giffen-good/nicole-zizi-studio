@@ -1352,7 +1352,8 @@
         "return_to_store_link_label": "Seguir comprando",
         "shipping_address_map_title": "Mapa de Google que muestra el punto de referencia de la dirección de envío: %{address}",
         "shipping_address_title": "Dirección de Envío",
-        "shipping_information_title": "Información de envío"
+        "shipping_information_title": "Información de envío",
+        "shipping_method_title": "Método de envío"
       }
     }
   }
