@@ -1553,7 +1553,9 @@
         },
         "cash_on_delivery": "Pago contra reembolso (COD)",
         "financial_status": {
-          "authorized": "Autorizado"
+          "authorized": "Autorizado",
+          "expired": "Caducado",
+          "paid": "Pagado"
         }
       }
     }
