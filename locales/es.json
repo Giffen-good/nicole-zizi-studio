@@ -1343,7 +1343,14 @@
           "subtitle": "Escanee el código con la cámara de su teléfono para rastrearlo con Shop.",
           "title": "Seguimiento en su teléfono"
         },
-        "ready_for_delivery_description": "Hemos preparado tu pedido."
+        "ready_for_delivery_description": "Hemos preparado tu pedido.",
+        "ready_for_delivery_title": "Su pedido está listo para la entrega.",
+        "ready_for_pickup_description": "Su pedido está listo para ser recogido. Por favor traiga su confirmación de pedido cuando recoja su pedido.",
+        "ready_for_pickup_title": "Su pedido está listo para ser recogido.",
+        "re-order": "Reordenar los mismos artículos",
+        "resend_gift_cards": "Reenviar tarjetas de regalo",
+        "return_to_store_link_label": "Seguir comprando",
+        "shipping_address_map_title": "Mapa de Google que muestra el punto de referencia de la dirección de envío: %{address}"
       }
     }
   }
