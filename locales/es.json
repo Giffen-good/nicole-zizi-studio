@@ -515,7 +515,8 @@
     },
     "attributes": {
       "body": "cuerpo",
-      "email": "correo electrónico"
+      "email": "correo electrónico",
+      "first_name": "nombre de pila"
     }
   }
 }
