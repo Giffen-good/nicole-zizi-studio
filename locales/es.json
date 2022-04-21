@@ -1501,6 +1501,9 @@
       },
       "product_type": {
         "label": "Tipo de producto"
+      },
+      "vendor": {
+        "label": "Marca"
       }
     }
   }
