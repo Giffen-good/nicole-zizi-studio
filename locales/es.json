@@ -1056,8 +1056,17 @@
           "medium": {
             "one": "Tu pedido está siendo procesado. El tiempo de espera estimado es %{count} minuto.",
             "other": "Tu pedido está siendo procesado. El tiempo de espera estimado es %{count} minutos."
-          }
-        }
+          },
+          "no_auto_refresh_html": "Si no eres redirigido automáticamente, %{link}.",
+          "refresh_this_page": "actualiza esta página",
+          "short": "Su pedido está siendo procesado."
+        },
+        "your_order_has_been_received_title": "Gracias por tu orden",
+        "you_will_not_be_charged": "Aún no se te cobrará",
+        "you_will_receive_confirmation": "Estamos recibiendo muchos pedidos en este momento. Debería recibir confirmación por correo electrónico o mensaje de texto pronto. Si no lo recibe en la próxima hora, avísenos."
+      },
+      "remember_me": {
+        "description_html": "La próxima vez que visite aquí o en otras tiendas con tecnología de Shopify, recibirá un código por mensaje de texto para comprar de forma segura con Shop Pay."
       }
     }
   }
