@@ -877,7 +877,13 @@
         "vat_label_html": "Incluido %{amount} en impuestos"
       },
       "payment": {
-        "account_connected": "Cuenta conectada"
+        "account_connected": "Cuenta conectada",
+        "amazon_payments_abandoned_mfa_challenge": "Su pago no se pudo completar. Pruebe con un método de pago diferente o póngase en contacto con su banco o emisor de la tarjeta.",
+        "amazon_payments_could_not_enqueue_authorize": "Hubo un problema al procesar su pago. Intente nuevamente o use un método de pago diferente.",
+        "amazon_payments_failed_mfa_challenge": "No se pudo utilizar el método de pago seleccionado. Seleccione un método diferente o contacte a su banco o emisor de la tarjeta.",
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Se le pedirá que inicie sesión con Amazon.",
+        "amazon_payments_logout": "Cerrar sesión en Amazon Pay"
       }
     }
   }
