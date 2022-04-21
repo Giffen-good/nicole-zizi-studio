@@ -117,7 +117,7 @@
     "product": {
       "add_to_cart": "Agregar al carrito",
       "description": "Descripción",
-      "on_sale": "En oferta",
+      "on_sale": "Rebaja",
       "product_variants": "Variantes de producto",
       "quantity": {
         "label": "Cantidad",
@@ -140,18 +140,18 @@
       "xr_button_label": "Ver en tu espacio, carga el artículo en la ventana de realidad aumentada",
       "pickup_availability": {
         "view_store_info": "Ver información de la tienda",
-        "check_other_stores": "Verificar disponibilidad en otras tiendas",
+        "check_other_stores": "Consultar disponibilidad en otras tiendas",
         "pick_up_available": "Retiro disponible",
-        "pick_up_available_at_html": "Retiro disponible en <span class=\"color-foreground\">{{ location_name }}<\/span>",
-        "pick_up_unavailable_at_html": "Retiro no disponible actualmente en <span class=\"color-foreground\">{{ location_name }}<\/span>",
-        "unavailable": "No se pudo cargar la disponibilidad de retiro",
+        "pick_up_available_at_html": "recogida disponible en<span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Recogida actualmente no disponible en<span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "No se pudo cargar la disponibilidad de recogida",
         "refresh": "Actualizar"
       },
       "media": {
         "open_featured_media": "Abrir elemento multimedia destacado en vista de galería",
         "open_media": "medios abiertos{{ index }} en vista de galería",
         "play_model": "Reproducir Visor 3D",
-        "play_video": "Reproducir video"
+        "play_video": "Reproduce el video"
       },
       "view_full_details": "Ver todos los detalles",
       "include_taxes": "Impuesto incluido.",
