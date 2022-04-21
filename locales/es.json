@@ -1123,7 +1123,8 @@
         "no_rates_for_country_notice": "No se encontraron tarifas de envío para esta dirección.",
         "one_time_purchase_shipping": "Envío único",
         "other_method": {
-          "one": "%{count} otro método disponible en"
+          "one": "%{count} otro método disponible en",
+          "other": "%{count} otros métodos disponibles a partir de"
         }
       },
       "shipping_errors": {
