@@ -1081,7 +1081,16 @@
         "mobile_phone_number": "Número de teléfono móvil",
         "privacy_policy": "Política de privacidad",
         "save": "Salvar",
-        "terms_and_privacy_html": "Al continuar, aceptas el % de Shop Pay{privacy_href} y %{terms_href}."
+        "terms_and_privacy_html": "Al continuar, aceptas el % de Shop Pay{privacy_href} y %{terms_href}.",
+        "terms_of_service": "Términos de servicio",
+        "title_with_logo_html": "Recuérdame con %{shopify_pay}"
+      },
+      "review": {
+        "blocks": {
+          "billing_address_title": "Facturación",
+          "change_billing_address_link_label": "Cambiar dirección de facturación",
+          "change_contact_method_link_label": "Cambiar información de contacto"
+        }
       }
     }
   }
