@@ -950,7 +950,10 @@
         "deferred_amount_changed": "No se pudo procesar su pago porque el monto del pago diferido cambió. Por favor, compruebe su pedido y vuelva a intentarlo.",
         "deferred_date_changed": "No se pudo procesar su pago porque la fecha de pago diferido ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
         "deferred_payment_not_allowed": "No se permiten pagos diferidos. Por favor, compruebe su pedido y vuelva a intentarlo.",
-        "deferred_payment_required": "Este pedido requiere un pago diferido. Por favor, compruebe su pedido y vuelva a intentarlo."
+        "deferred_payment_required": "Este pedido requiere un pago diferido. Por favor, compruebe su pedido y vuelva a intentarlo.",
+        "fraud_payment_errors": {
+          "address_mismatch": "La dirección y el código postal no coinciden."
+        }
       }
     }
   }
