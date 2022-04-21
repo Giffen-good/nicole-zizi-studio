@@ -1039,6 +1039,9 @@
         "escape_confirmation": "Has pagado tu pedido.",
         "page_title": "Compra posterior",
         "title": "Compra posterior"
+      },
+      "processing": {
+        "complete_your_purchase_title": "Completa tu compra"
       }
     }
   }
