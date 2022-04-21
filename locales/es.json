@@ -1211,6 +1211,13 @@
         "sold_out_label": "Agotado",
         "status_column_header": "Estado",
         "title": "Agotado"
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "other": "%{count} dias"
+          }
+        }
       }
     }
   }
