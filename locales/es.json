@@ -682,7 +682,9 @@
         "credit_card_number_invalid": "Ingrese un número de tarjeta válido",
         "credit_card_start_invalid": "Ingrese una fecha de inicio de tarjeta válida",
         "credit_card_start_month_invalid": "Ingrese un mes de inicio de tarjeta válido",
-        "credit_card_start_year_invalid": "Ingrese un año de inicio de tarjeta válido"
+        "credit_card_start_year_invalid": "Ingrese un año de inicio de tarjeta válido",
+        "credit_card_verification_value_blank": "Ingrese el CVV o el código de seguridad en su tarjeta",
+        "credit_card_year_invalid": "Ingrese un año de vencimiento válido de la tarjeta"
       }
     }
   }
