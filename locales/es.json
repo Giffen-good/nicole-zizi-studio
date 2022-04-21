@@ -1404,7 +1404,8 @@
         "best_selling": "Más vendido",
         "date_ascending": "Fecha, viejo a nuevo",
         "date_descending": "Fecha, de nuevo a viejo",
-        "manual": "Destacados"
+        "manual": "Destacados",
+        "price_ascending": "Precios de barato a caro"
       }
     }
   }
