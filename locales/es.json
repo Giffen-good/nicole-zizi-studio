@@ -620,7 +620,9 @@
       },
       "delivery_options": {
         "free_total_label": "Gratis",
-        "pick_up": "Recoger"
+        "pick_up": "Recoger",
+        "pick_up_immediately": "Listo para recoger ahora",
+        "pick_up_in_five_or_more_days": "Generalmente listo en más de 5 días"
       }
     }
   }
