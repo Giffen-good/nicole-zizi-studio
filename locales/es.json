@@ -766,8 +766,24 @@
           "disclaimer": {
             "description_html": "Al suscribirse por mensaje de texto, acepta recibir mensajes de marketing automatizados recurrentes, incluidos recordatorios del carrito, en el número de teléfono proporcionado. El consentimiento no es una condición de compra. Responda STOP para darse de baja. Responda AYUDA para obtener ayuda. La frecuencia de los mensajes varía. Se pueden aplicar tarifas de mensajes y datos. Ver nuestro %{privacy_policy_link} y %{terms_of_service_link}.",
             "description_transactional_html": "Le enviaremos un recibo del pedido y actualizaciones periódicas de envío a través de un mensaje de texto. Responda STOP para darse de baja. Responda AYUDA para obtener ayuda. La frecuencia de los mensajes varía. Se pueden aplicar tarifas de mensajes y datos. Ver nuestro %{privacy_policy_modal_link} y %{terms_of_service_modal_link}.",
-            "privacy_policy": "Política de privacidad"
+            "privacy_policy": "Política de privacidad",
+            "terms_of_service": "Términos de servicio"
           }
+        },
+        "unsubscribe": {
+          "description": "No recibirá más recordatorios de nuestro carrito.",
+          "title": "Te has dado de baja"
+        }
+      },
+      "mor_policies": {
+        "privacy_policy": "Política de privacidad del comerciante registrado",
+        "terms_and_conditions": "Términos y condiciones del comerciante registrado"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Compra %{product_name} y %{count} otro item",
+          "other": "Compra %{product_name} y %{count} otros elementos",
+          "zero": "Compra %{product_name}"
         }
       }
     }
