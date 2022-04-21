@@ -667,7 +667,8 @@
         "address_first_name_too_long": "El nombre es demasiado largo (el máximo es 255 caracteres)",
         "address_last_name_blank": "Ingrese un apellido",
         "address_last_name_contains_emojis": "El apellido no puede contener emojis",
-        "address_last_name_contains_html_tags": "El apellido no puede contener etiquetas HTML."
+        "address_last_name_contains_html_tags": "El apellido no puede contener etiquetas HTML.",
+        "address_last_name_too_long": "El apellido es demasiado largo (el máximo es 255 caracteres)"
       }
     }
   }
