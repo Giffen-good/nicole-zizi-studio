@@ -1491,6 +1491,9 @@
           "in_stock": "En stock",
           "out_of_stock": "Agotado"
         }
+      },
+      "boolean": {
+        "false_label": "No"
       }
     }
   }
