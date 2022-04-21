@@ -516,7 +516,9 @@
     "attributes": {
       "body": "cuerpo",
       "email": "correo electrónico",
-      "first_name": "nombre de pila"
+      "first_name": "nombre de pila",
+      "last_name": "apellido",
+      "password": "contraseña"
     }
   }
 }
