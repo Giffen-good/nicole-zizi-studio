@@ -262,8 +262,8 @@
       },
       "update": "Actualizar",
       "login": {
-        "title": "¿Tienes una cuenta?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Inicia sesión<\/a> para finalizar tus compras con mayor rapidez."
+        "title": "¿Tener una cuenta?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Iniciar sesión<\/a> para pagar más rápido."
       }
     },
     "footer": {
