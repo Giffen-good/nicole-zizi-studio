@@ -1570,7 +1570,10 @@
           "restocked": "Reabastecido",
           "unfulfilled": "No cumplido"
         },
-        "not_available": "Este pedido no está disponible."
+        "not_available": "Este pedido no está disponible.",
+        "transaction_status": {
+          "error": "Error"
+        }
       }
     }
   }
