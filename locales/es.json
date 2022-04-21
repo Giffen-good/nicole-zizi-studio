@@ -832,7 +832,13 @@
         "gift_card_has_been_removed": "Se ha eliminado la tarjeta de regalo.",
         "gift_card_label": "Tarjeta de regalo",
         "gift_card_savings_notice": "Después %{gift_card_amount} en tarjetas de regalo",
-        "gift_card_subscriptions_notice": "Las tarjetas de regalo solo se aplicarán a su primer pago"
+        "gift_card_subscriptions_notice": "Las tarjetas de regalo solo se aplicarán a su primer pago",
+        "gift_card_title": "Tarjeta de regalo",
+        "higher_value_discount_already_applied": "Ya se ha aplicado un descuento de mayor valor.",
+        "information_estimated_taxes_label": "Impuestos (estimados)",
+        "multiple_shipping_lines_label": "Total de envío",
+        "order_name_label": "Pedido %{name}",
+        "order_total_updated_label": "Total actualizado"
       }
     }
   }
