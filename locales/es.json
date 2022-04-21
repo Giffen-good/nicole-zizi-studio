@@ -695,7 +695,8 @@
         "gift_card_expired": "Esta tarjeta de regalo ha caducado",
         "handle_email_invalid": "Introduzca un correo electrónico válido",
         "handle_phone_invalid": "Ingrese un número de teléfono válido",
-        "payment_gateway_incompatible_with_multi_currency": "Para completar este pago en su moneda local, debe pagar con tarjeta de crédito."
+        "payment_gateway_incompatible_with_multi_currency": "Para completar este pago en su moneda local, debe pagar con tarjeta de crédito.",
+        "payment_gateway_needs_paid_plan_error": "Este método de pago no está disponible en la tienda en este momento"
       }
     }
   }
