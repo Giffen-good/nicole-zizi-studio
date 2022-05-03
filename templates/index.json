@@ -27,28 +27,6 @@
     "1651587347ff930ce0": {
       "type": "generic-content",
       "blocks": {
-        "9c520f54-6f59-458c-afcf-86caf03568f2": {
-          "type": "generic-content",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZiZi_Edits-17_e25138fb-16d8-445f-9728-0b2d6a18f1ae.jpg",
-            "cropped": true,
-            "video_url": "",
-            "highlighter_color": "#000000",
-            "bg_color": "#fff",
-            "highlighter_opacity": 0,
-            "text_color": "#fff",
-            "blur_effect": false,
-            "has_overlay": false,
-            "vertical_text_alignment": "bottom",
-            "horizontal_text_alignment": "left",
-            "highlighter_text": "Capsule Collection",
-            "body_text": "",
-            "cta": "View More",
-            "has_arrow": true,
-            "cta_text_color": "#fff",
-            "link": "shopify:\/\/collections\/capsule-collection"
-          }
-        },
         "d1d309a8-82a0-4c0e-b233-13bc997eab8e": {
           "type": "generic-content",
           "settings": {
@@ -56,9 +34,9 @@
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "highlighter_opacity": 0,
-            "text_color": "#fff",
+            "text_color": "#ffffff",
             "blur_effect": false,
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
@@ -67,14 +45,36 @@
             "body_text": "",
             "cta": "",
             "has_arrow": false,
-            "cta_text_color": "#fff",
+            "cta_text_color": "#ffffff",
             "link": ""
+          }
+        },
+        "9c520f54-6f59-458c-afcf-86caf03568f2": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZiZi_Edits-17_e25138fb-16d8-445f-9728-0b2d6a18f1ae.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "",
+            "body_text": "",
+            "cta": "",
+            "has_arrow": false,
+            "cta_text_color": "#ffffff",
+            "link": "shopify:\/\/collections\/capsule-collection"
           }
         }
       },
       "block_order": [
-        "9c520f54-6f59-458c-afcf-86caf03568f2",
-        "d1d309a8-82a0-4c0e-b233-13bc997eab8e"
+        "d1d309a8-82a0-4c0e-b233-13bc997eab8e",
+        "9c520f54-6f59-458c-afcf-86caf03568f2"
       ],
       "settings": {
         "section_margin": "none",
