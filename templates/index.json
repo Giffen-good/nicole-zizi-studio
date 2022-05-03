@@ -30,7 +30,7 @@
         "d1d309a8-82a0-4c0e-b233-13bc997eab8e": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/custom_resized_9829efda-34e5-44e5-8adb-1e5569ff8e38.jpg",
+            "image": "shopify:\/\/shop_images\/ZiZi-Edits-6-v2_b843f13d-3c8b-4847-a364-8dbb18065978.png",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -41,9 +41,9 @@
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
             "horizontal_text_alignment": "left",
-            "highlighter_text": "",
+            "highlighter_text": "Cactus Leather Bags",
             "body_text": "",
-            "cta": "",
+            "cta": "Shop Now",
             "has_arrow": true,
             "cta_text_color": "#ffffff",
             "link": ""
