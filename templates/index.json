@@ -44,7 +44,7 @@
             "highlighter_text": "",
             "body_text": "",
             "cta": "",
-            "has_arrow": false,
+            "has_arrow": true,
             "cta_text_color": "#ffffff",
             "link": ""
           }
@@ -63,10 +63,10 @@
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
             "horizontal_text_alignment": "left",
-            "highlighter_text": "",
+            "highlighter_text": "Capsule Collection",
             "body_text": "",
-            "cta": "",
-            "has_arrow": false,
+            "cta": "View More",
+            "has_arrow": true,
             "cta_text_color": "#ffffff",
             "link": "shopify:\/\/collections\/capsule-collection"
           }
