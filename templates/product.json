@@ -3,24 +3,24 @@
     "1651586830e3a8f294": {
       "type": "marquee",
       "blocks": {
-        "e10f97fb-7e75-41dd-b0ce-b48a49e8479c": {
+        "3d9dcc7c-6583-4ad6-83dd-04d66cedf6c8": {
           "type": "marquee-text",
           "settings": {
             "text": "Sign Up for 10% Off Your First Order & College Students Receive 10% Off",
             "font_color": "#fff",
-            "color_scheme": "accent-2",
+            "color_scheme": "accent-1",
             "link": ""
           }
         }
       },
       "block_order": [
-        "e10f97fb-7e75-41dd-b0ce-b48a49e8479c"
+        "3d9dcc7c-6583-4ad6-83dd-04d66cedf6c8"
       ],
       "settings": {
         "link": "",
-        "section_margin": "large",
-        "marquee_speed": 4,
-        "marquee_height": 100,
+        "section_margin": "small",
+        "marquee_speed": 1,
+        "marquee_height": 30,
         "color_scheme": "accent-1"
       }
     },
