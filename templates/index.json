@@ -19,7 +19,7 @@
       "settings": {
         "link": "shopify:\/\/collections\/denim-capsule-collection",
         "section_margin": "none",
-        "marquee_speed": 4,
+        "marquee_speed": 1,
         "marquee_height": 30,
         "color_scheme": "accent-2"
       }
@@ -30,7 +30,7 @@
         "36c7a85d-08a9-4fe5-9b65-6917cb88cf71": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZiZi-Edits-5_2x_994fe8fa-fe39-4f7f-9299-1f09703e96d1.png",
+            "image": "shopify:\/\/shop_images\/Collage-1.png",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -55,7 +55,7 @@
       ],
       "settings": {
         "section_margin": "none",
-        "height": "large",
+        "height": "extra-large",
         "hide": false,
         "gutter": false,
         "block_size": "large"
