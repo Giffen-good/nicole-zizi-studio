@@ -19,7 +19,7 @@
       "settings": {
         "link": "shopify:\/\/collections\/denim-capsule-collection",
         "section_margin": "none",
-        "marquee_speed": 1,
+        "marquee_speed": 2,
         "marquee_height": 60,
         "color_scheme": "accent-2"
       }
