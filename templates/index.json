@@ -105,7 +105,7 @@
         "8a30eb51-1a8e-47fc-b7e1-d824105dffec": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZiZi_Edits-21.jpg_2_2x_01038833-b74b-4cbe-b628-914f9689473e.png",
+            "image": "shopify:\/\/shop_images\/ZiZi-Edits-4-v2_25b0a26e-2d02-4ce8-ab5b-fd87607834a9.png",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -116,12 +116,12 @@
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
             "horizontal_text_alignment": "left",
-            "highlighter_text": "Capsule Collection",
+            "highlighter_text": "T-Shirts",
             "body_text": "",
             "cta": "View",
             "has_arrow": true,
             "cta_text_color": "#ffffff",
-            "link": "shopify:\/\/collections\/capsule-collection"
+            "link": "shopify:\/\/collections\/t-shirts"
           }
         }
       },
@@ -131,7 +131,7 @@
       ],
       "settings": {
         "section_margin": "large",
-        "height": "medium",
+        "height": "large",
         "hide": false,
         "gutter": false,
         "block_size": "large"
