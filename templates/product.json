@@ -6,9 +6,9 @@
         "3d9dcc7c-6583-4ad6-83dd-04d66cedf6c8": {
           "type": "marquee-text",
           "settings": {
-            "text": "Sign Up for 10% Off Your First Order & College Students Receive 10% Off",
+            "text": "Sign Up for 10% Off Your First Order + College Students Receive 10% Off",
             "font_color": "#fff",
-            "color_scheme": "accent-1",
+            "color_scheme": "accent-2",
             "link": ""
           }
         }
