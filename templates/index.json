@@ -140,7 +140,7 @@
     "1639938714e1783b31": {
       "type": "horizontal-slider",
       "settings": {
-        "title": "Box Logo Collection",
+        "title": "T-Shirt Collection",
         "collection": "t-shirts",
         "products_to_show": 6,
         "include_fabric": true,
