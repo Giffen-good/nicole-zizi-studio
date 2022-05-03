@@ -2,6 +2,20 @@
   "sections": {
     "1651586830e3a8f294": {
       "type": "marquee",
+      "blocks": {
+        "e10f97fb-7e75-41dd-b0ce-b48a49e8479c": {
+          "type": "marquee-text",
+          "settings": {
+            "text": "Sign Up for 10% Off Your First Order & College Students Receive 10% Off",
+            "font_color": "#fff",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "e10f97fb-7e75-41dd-b0ce-b48a49e8479c"
+      ],
       "settings": {
         "link": "",
         "section_margin": "large",
