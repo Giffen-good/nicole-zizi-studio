@@ -86,12 +86,11 @@
     },
     "163993857803f831c6": {
       "type": "generic-content",
-      "disabled": true,
       "blocks": {
         "36c7a85d-08a9-4fe5-9b65-6917cb88cf71": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Collage-1.png",
+            "image": "shopify:\/\/shop_images\/Blue_Dream-8.jpg",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -102,12 +101,12 @@
             "has_overlay": false,
             "vertical_text_alignment": "bottom",
             "horizontal_text_alignment": "left",
-            "highlighter_text": "Denim Collection",
+            "highlighter_text": "NICOLE ZÏZI STUDIO\/ Elie Lescot iii",
             "body_text": "",
-            "cta": "Shop Now",
+            "cta": "Subscribe for Updates",
             "has_arrow": true,
             "cta_text_color": "#ffffff",
-            "link": "shopify:\/\/collections\/denim-capsule-collection"
+            "link": ""
           }
         }
       },
