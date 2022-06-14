@@ -27,28 +27,6 @@
     "1651587347ff930ce0": {
       "type": "generic-content",
       "blocks": {
-        "d1d309a8-82a0-4c0e-b233-13bc997eab8e": {
-          "type": "generic-content",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZiZi-Edits-6-v2_b843f13d-3c8b-4847-a364-8dbb18065978.png",
-            "cropped": true,
-            "video_url": "",
-            "highlighter_color": "#000000",
-            "bg_color": "#ffffff",
-            "highlighter_opacity": 0,
-            "text_color": "#ffffff",
-            "blur_effect": false,
-            "has_overlay": false,
-            "vertical_text_alignment": "bottom",
-            "horizontal_text_alignment": "left",
-            "highlighter_text": "Cactus Leather Bags",
-            "body_text": "",
-            "cta": "Shop Now",
-            "has_arrow": true,
-            "cta_text_color": "#ffffff",
-            "link": "shopify:\/\/collections\/bags"
-          }
-        },
         "9c520f54-6f59-458c-afcf-86caf03568f2": {
           "type": "generic-content",
           "settings": {
@@ -70,11 +48,33 @@
             "cta_text_color": "#ffffff",
             "link": "shopify:\/\/collections\/capsule-collection"
           }
+        },
+        "d1d309a8-82a0-4c0e-b233-13bc997eab8e": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZiZi-Edits-6-v2_b843f13d-3c8b-4847-a364-8dbb18065978.png",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Cactus Leather Bags",
+            "body_text": "",
+            "cta": "Shop Now",
+            "has_arrow": true,
+            "cta_text_color": "#ffffff",
+            "link": "shopify:\/\/collections\/bags"
+          }
         }
       },
       "block_order": [
-        "d1d309a8-82a0-4c0e-b233-13bc997eab8e",
-        "9c520f54-6f59-458c-afcf-86caf03568f2"
+        "9c520f54-6f59-458c-afcf-86caf03568f2",
+        "d1d309a8-82a0-4c0e-b233-13bc997eab8e"
       ],
       "settings": {
         "section_margin": "none",
@@ -115,7 +115,7 @@
       ],
       "settings": {
         "section_margin": "none",
-        "height": "extra-large",
+        "height": "large",
         "hide": false,
         "gutter": false,
         "block_size": "large"
