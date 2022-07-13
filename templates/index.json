@@ -200,8 +200,8 @@
     "1639938714e1783b31": {
       "type": "horizontal-slider",
       "settings": {
-        "title": "T-Shirt Collection",
-        "collection": "t-shirts",
+        "title": "",
+        "collection": "sale",
         "products_to_show": 6,
         "include_fabric": true,
         "include_price": false,
