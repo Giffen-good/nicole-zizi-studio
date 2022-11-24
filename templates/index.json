@@ -55,7 +55,7 @@
       ],
       "settings": {
         "section_margin": "none",
-        "height": "medium",
+        "height": "large",
         "hide": false,
         "gutter": false,
         "block_size": "small"
