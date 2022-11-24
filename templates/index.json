@@ -2,6 +2,7 @@
   "sections": {
     "16409005273141708f": {
       "type": "marquee",
+      "disabled": true,
       "blocks": {
         "11e7466a-fc42-4117-a946-af9397b0aa2a": {
           "type": "marquee-text",
@@ -200,8 +201,8 @@
     "1639938714e1783b31": {
       "type": "horizontal-slider",
       "settings": {
-        "title": "T-Shirt Collection",
-        "collection": "t-shirts",
+        "title": "Éli Lescot III\/NICOLE ZÏZI STUDIO™ Limited Collection",
+        "collection": "nicole-zizi-studio™-elie-lescot-iii",
         "products_to_show": 6,
         "include_fabric": true,
         "include_price": false,
