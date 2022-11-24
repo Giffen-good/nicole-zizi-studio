@@ -194,6 +194,28 @@
     "1639938668eff14c97": {
       "type": "generic-content",
       "blocks": {
+        "8a30eb51-1a8e-47fc-b7e1-d824105dffec": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZiZi_Denim1_21.jpg",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Home Goods",
+            "body_text": "",
+            "cta": "View",
+            "has_arrow": true,
+            "cta_text_color": "#ffffff",
+            "link": "shopify:\/\/collections\/t-shirts"
+          }
+        },
         "d6cb64c1-4646-4676-a778-812688b65474": {
           "type": "generic-content",
           "settings": {
@@ -215,33 +237,11 @@
             "cta_text_color": "#ffffff",
             "link": "shopify:\/\/collections\/denim-capsule-collection"
           }
-        },
-        "8a30eb51-1a8e-47fc-b7e1-d824105dffec": {
-          "type": "generic-content",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZiZi-Edits-4-v2_25b0a26e-2d02-4ce8-ab5b-fd87607834a9.png",
-            "cropped": true,
-            "video_url": "",
-            "highlighter_color": "#000000",
-            "bg_color": "#ffffff",
-            "highlighter_opacity": 0,
-            "text_color": "#ffffff",
-            "blur_effect": false,
-            "has_overlay": false,
-            "vertical_text_alignment": "bottom",
-            "horizontal_text_alignment": "left",
-            "highlighter_text": "T-Shirts",
-            "body_text": "",
-            "cta": "View",
-            "has_arrow": true,
-            "cta_text_color": "#ffffff",
-            "link": "shopify:\/\/collections\/t-shirts"
-          }
         }
       },
       "block_order": [
-        "d6cb64c1-4646-4676-a778-812688b65474",
-        "8a30eb51-1a8e-47fc-b7e1-d824105dffec"
+        "8a30eb51-1a8e-47fc-b7e1-d824105dffec",
+        "d6cb64c1-4646-4676-a778-812688b65474"
       ],
       "settings": {
         "section_margin": "large",
