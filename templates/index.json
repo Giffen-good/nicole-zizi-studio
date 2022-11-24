@@ -18,7 +18,7 @@
       ],
       "settings": {
         "link": "",
-        "section_margin": "large",
+        "section_margin": "none",
         "marquee_speed": 2,
         "marquee_height": 30,
         "color_scheme": "accent-1"
@@ -54,7 +54,7 @@
         "733d833f-364d-42be-8a5c-ffaf3aacee37"
       ],
       "settings": {
-        "section_margin": "large",
+        "section_margin": "none",
         "height": "large",
         "hide": false,
         "gutter": false,
