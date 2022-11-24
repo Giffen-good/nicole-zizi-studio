@@ -2,13 +2,12 @@
   "sections": {
     "16409005273141708f": {
       "type": "marquee",
-      "disabled": true,
       "blocks": {
         "11e7466a-fc42-4117-a946-af9397b0aa2a": {
           "type": "marquee-text",
           "settings": {
-            "text": "Scroll To Bottom and Sign Up for 10% Off Your First Order + College Students Receive 10% Off",
-            "font_color": "#ffffff",
+            "text": "WE THANK YOU FOR YOUR SUPPORT! SUBSCRIBE BELOW FOR EXCLUSIVE DETAILS ON LAUNCHES, AND RESTOCKS.WE THANK YOU FOR YOUR SUPPORT!",
+            "font_color": "#0671b9",
             "color_scheme": "accent-2",
             "link": ""
           }
