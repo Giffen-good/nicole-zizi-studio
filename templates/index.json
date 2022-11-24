@@ -19,8 +19,8 @@
       "settings": {
         "link": "",
         "section_margin": "large",
-        "marquee_speed": 4,
-        "marquee_height": 100,
+        "marquee_speed": 2,
+        "marquee_height": 30,
         "color_scheme": "accent-1"
       }
     },
