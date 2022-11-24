@@ -170,7 +170,7 @@
       ],
       "settings": {
         "section_margin": "none",
-        "height": "large",
+        "height": "extra-large",
         "hide": false,
         "gutter": false,
         "block_size": "large"
