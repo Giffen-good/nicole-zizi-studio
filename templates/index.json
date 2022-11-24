@@ -85,6 +85,22 @@
         "block_size": "large"
       }
     },
+    "1639938714e1783b31": {
+      "type": "horizontal-slider",
+      "settings": {
+        "title": "Éli Lescot III\/NICOLE ZÏZI STUDIO™ Limited Collection",
+        "collection": "nicole-zizi-studio™-elie-lescot-iii",
+        "products_to_show": 6,
+        "include_fabric": true,
+        "include_price": false,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "163993857803f831c6": {
       "type": "generic-content",
       "blocks": {
@@ -198,29 +214,50 @@
         "block_size": "large"
       }
     },
-    "1639938714e1783b31": {
-      "type": "horizontal-slider",
+    "2be85169-d86a-49f6-99f1-82bf20f04755": {
+      "type": "generic-content",
+      "blocks": {
+        "733d833f-364d-42be-8a5c-ffaf3aacee37": {
+          "type": "generic-content",
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Header",
+            "body_text": "",
+            "cta": "Read More",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "733d833f-364d-42be-8a5c-ffaf3aacee37"
+      ],
       "settings": {
-        "title": "Éli Lescot III\/NICOLE ZÏZI STUDIO™ Limited Collection",
-        "collection": "nicole-zizi-studio™-elie-lescot-iii",
-        "products_to_show": 6,
-        "include_fabric": true,
-        "include_price": false,
-        "image_ratio": "portrait",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
+        "section_margin": "large",
+        "height": "extra-large",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
       }
     }
   },
   "order": [
     "16409005273141708f",
     "1651587347ff930ce0",
+    "1639938714e1783b31",
     "163993857803f831c6",
     "1639938599ef30f08e",
     "1639938668eff14c97",
-    "1639938714e1783b31"
+    "2be85169-d86a-49f6-99f1-82bf20f04755"
   ]
 }
