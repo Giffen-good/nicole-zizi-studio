@@ -25,8 +25,46 @@
         "color_scheme": "accent-2"
       }
     },
+    "2be85169-d86a-49f6-99f1-82bf20f04755": {
+      "type": "generic-content",
+      "blocks": {
+        "733d833f-364d-42be-8a5c-ffaf3aacee37": {
+          "type": "generic-content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_fa6a2850-8b4f-4035-aae7-423d8c04becd.gif",
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#ffffff",
+            "highlighter_opacity": 0,
+            "text_color": "#ffffff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "CAPSULE COLLECTION",
+            "body_text": "",
+            "cta": "VIEW NOW",
+            "has_arrow": true,
+            "cta_text_color": "#ffffff",
+            "link": "shopify:\/\/collections\/capsule-collection"
+          }
+        }
+      },
+      "block_order": [
+        "733d833f-364d-42be-8a5c-ffaf3aacee37"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "extra-large",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    },
     "1651587347ff930ce0": {
       "type": "generic-content",
+      "disabled": true,
       "blocks": {
         "9c520f54-6f59-458c-afcf-86caf03568f2": {
           "type": "generic-content",
@@ -213,51 +251,15 @@
         "gutter": false,
         "block_size": "large"
       }
-    },
-    "2be85169-d86a-49f6-99f1-82bf20f04755": {
-      "type": "generic-content",
-      "blocks": {
-        "733d833f-364d-42be-8a5c-ffaf3aacee37": {
-          "type": "generic-content",
-          "settings": {
-            "cropped": true,
-            "video_url": "",
-            "highlighter_color": "#000000",
-            "bg_color": "#fff",
-            "highlighter_opacity": 0,
-            "text_color": "#fff",
-            "blur_effect": false,
-            "has_overlay": false,
-            "vertical_text_alignment": "bottom",
-            "horizontal_text_alignment": "left",
-            "highlighter_text": "Header",
-            "body_text": "",
-            "cta": "Read More",
-            "has_arrow": true,
-            "cta_text_color": "#fff",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "733d833f-364d-42be-8a5c-ffaf3aacee37"
-      ],
-      "settings": {
-        "section_margin": "large",
-        "height": "extra-large",
-        "hide": false,
-        "gutter": false,
-        "block_size": "large"
-      }
     }
   },
   "order": [
     "16409005273141708f",
+    "2be85169-d86a-49f6-99f1-82bf20f04755",
     "1651587347ff930ce0",
     "1639938714e1783b31",
     "163993857803f831c6",
     "1639938599ef30f08e",
-    "1639938668eff14c97",
-    "2be85169-d86a-49f6-99f1-82bf20f04755"
+    "1639938668eff14c97"
   ]
 }
