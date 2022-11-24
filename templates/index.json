@@ -145,7 +145,7 @@
         "36c7a85d-08a9-4fe5-9b65-6917cb88cf71": {
           "type": "generic-content",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Blue_Dream-8.jpg",
+            "image": "shopify:\/\/shop_images\/Blue_Dream-10_copy.jpg",
             "cropped": true,
             "video_url": "",
             "highlighter_color": "#000000",
@@ -158,10 +158,10 @@
             "horizontal_text_alignment": "left",
             "highlighter_text": "NICOLE ZÏZI STUDIO\/ Elie Lescot iii",
             "body_text": "",
-            "cta": "Coming Soon!",
-            "has_arrow": false,
+            "cta": "SHOP NOW",
+            "has_arrow": true,
             "cta_text_color": "#ffffff",
-            "link": ""
+            "link": "shopify:\/\/collections\/nicole-zizi-studio™-elie-lescot-iii"
           }
         }
       },
