@@ -6,7 +6,7 @@
         "7042b8df-7685-42c6-8c9f-f8e7c7a77183": {
           "type": "marquee-text",
           "settings": {
-            "text": "THANK YOU FOR YOUR  CONTINOUS SUPPORT THIS YEAR! SUBSCRIBE BELOW FOR EXCLUSIVE DETAILS ON LAUNCHES, AND RESTOCK! WE THANK YOU FOR YOUR SUPPORT!",
+            "text": "THANK YOU FOR YOUR CONTINUOUS SUPPORT THIS YEAR! SUBSCRIBE BELOW FOR EXCLUSIVE DETAILS ON LAUNCHES AND RESTOCKING! THANK YOU FOR YOUR CONTINUOUS SUPPORT THIS YEAR!",
             "font_color": "#ffffff",
             "color_scheme": "accent-2",
             "link": ""
@@ -55,7 +55,7 @@
       ],
       "settings": {
         "section_margin": "none",
-        "height": "large",
+        "height": "medium",
         "hide": false,
         "gutter": false,
         "block_size": "small"
