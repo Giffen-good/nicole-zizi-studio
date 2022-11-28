@@ -44,7 +44,7 @@
           "disabled": true,
           "settings": {
             "border": "none",
-            "title": "Shoe Gallery Miami",
+            "title": "Wolf and Badger",
             "text": "<p>shoegallerymiami.com<\/p>",
             "link_label": "",
             "link": ""
@@ -58,11 +58,11 @@
         "1640960852a55159cc-2"
       ],
       "settings": {
-        "section_margin": "small",
+        "section_margin": "none",
         "page_width": "wide",
         "title": "Online",
         "image_width": "half",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
@@ -88,7 +88,7 @@
           "settings": {
             "border": "none",
             "title": "Wolf and Badger",
-            "text": "",
+            "text": "<p>95 Grand St, <\/p><p>New York, NY 10013<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -112,10 +112,10 @@
       ],
       "settings": {
         "section_margin": "large",
-        "page_width": "wide",
+        "page_width": "narrow",
         "title": "In-store",
         "image_width": "half",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
