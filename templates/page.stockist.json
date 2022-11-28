@@ -9,6 +9,16 @@
     "1640960852abf85410": {
       "type": "multicolumn",
       "blocks": {
+        "edcbd859-91f4-4d46-b017-f948e267393d": {
+          "type": "column",
+          "settings": {
+            "border": "none",
+            "title": "Verishop",
+            "text": "<p>verishop.com<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "1640960852a55159cc-0": {
           "type": "column",
           "settings": {
@@ -29,16 +39,6 @@
             "link": ""
           }
         },
-        "edcbd859-91f4-4d46-b017-f948e267393d": {
-          "type": "column",
-          "settings": {
-            "border": "none",
-            "title": "Verishop",
-            "text": "<p>verishop.com<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "1640960852a55159cc-2": {
           "type": "column",
           "disabled": true,
@@ -52,9 +52,9 @@
         }
       },
       "block_order": [
+        "edcbd859-91f4-4d46-b017-f948e267393d",
         "1640960852a55159cc-0",
         "1640960852a55159cc-1",
-        "edcbd859-91f4-4d46-b017-f948e267393d",
         "1640960852a55159cc-2"
       ],
       "settings": {
