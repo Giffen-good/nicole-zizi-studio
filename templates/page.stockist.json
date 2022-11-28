@@ -29,6 +29,16 @@
             "link": ""
           }
         },
+        "edcbd859-91f4-4d46-b017-f948e267393d": {
+          "type": "column",
+          "settings": {
+            "border": "none",
+            "title": "Verishop",
+            "text": "<p>verishop.com<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "1640960852a55159cc-2": {
           "type": "column",
           "disabled": true,
@@ -44,10 +54,11 @@
       "block_order": [
         "1640960852a55159cc-0",
         "1640960852a55159cc-1",
+        "edcbd859-91f4-4d46-b017-f948e267393d",
         "1640960852a55159cc-2"
       ],
       "settings": {
-        "section_margin": "large",
+        "section_margin": "small",
         "page_width": "wide",
         "title": "Online",
         "image_width": "half",
@@ -72,6 +83,16 @@
             "link": ""
           }
         },
+        "164096108500708b54-2": {
+          "type": "column",
+          "settings": {
+            "border": "none",
+            "title": "Wolf and Badger",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "164096108500708b54-1": {
           "type": "column",
           "disabled": true,
@@ -82,22 +103,12 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "164096108500708b54-2": {
-          "type": "column",
-          "settings": {
-            "border": "none",
-            "title": "Wolf and Badger",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "164096108500708b54-0",
-        "164096108500708b54-1",
-        "164096108500708b54-2"
+        "164096108500708b54-2",
+        "164096108500708b54-1"
       ],
       "settings": {
         "section_margin": "large",
