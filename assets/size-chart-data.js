@@ -1,4 +1,4 @@
 
   AVADA_SC.campaigns = [];
-  AVADA_SC.settings = {};
+  AVADA_SC.settings = {"id":"90JVAndyUT4B6Vtq6OAt","modalOverlayColor":"#7b7b7b","position":"","modalHeight":64,"shopId":"fXqYFALEZOvHMvf0nrDr","linkTextColor":"#232323","buttonHeight":"35","inlinePosition":"after","collectionPageInlinePosition":"after","buttonRotation":true,"enableGa":false,"modalPosition":"modal-center","tableAnimation":true,"mobilePosition":"top","collectionPagePosition":"","modalWidth":84,"showMobile":true,"homePageInlinePosition":"after","buttonWidth":"80","linkBgColor":"#FFFFFF","createdAt":{"_seconds":1669596548,"_nanoseconds":629000000},"modalBgColor":"#FFFFFF","homePagePosition":"","shopDomain":"nicolezizi.myshopify.com","modalTop":18,"tableHoverColor":"#bdbdbd","showAdvanced":false,"customIcon":false,"displayType":"float-button","modalTextColor":"#232323","linkIcon":"","linkText":"Size chart","hideText":true,"customCss":"","buttonPosition":"middle-right","modalLeft":8,"modalShadow":true,"modalHeader":"Size guides","buttonInlinePosition":"before-add-cart","modalBorderRadius":10,"buttonBorderRadius":10};
   
