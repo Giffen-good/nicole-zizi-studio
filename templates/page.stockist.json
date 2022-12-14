@@ -29,6 +29,16 @@
             "link": ""
           }
         },
+        "9b76b5f7-2763-48a8-a4e1-76e79ca7def8": {
+          "type": "column",
+          "settings": {
+            "border": "none",
+            "title": "Wolf and Badger",
+            "text": "<p>wolfandbadger.com<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "1640960852a55159cc-1": {
           "type": "column",
           "settings": {
@@ -54,6 +64,7 @@
       "block_order": [
         "edcbd859-91f4-4d46-b017-f948e267393d",
         "1640960852a55159cc-0",
+        "9b76b5f7-2763-48a8-a4e1-76e79ca7def8",
         "1640960852a55159cc-1",
         "1640960852a55159cc-2"
       ],
@@ -83,12 +94,22 @@
             "link": ""
           }
         },
+        "a684d695-1d22-45fd-b0e3-54244b92512d": {
+          "type": "column",
+          "settings": {
+            "border": "none",
+            "title": "Hey I Like it Here \/Hotel Saint George",
+            "text": "<p>105 S Highland Ave, Marfa, TX 79843<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "164096108500708b54-2": {
           "type": "column",
           "settings": {
             "border": "none",
-            "title": "Wolf and Badger",
-            "text": "<p>95 Grand St, <\/p><p>New York, NY 10013<\/p>",
+            "title": "Wonderlikewander",
+            "text": "<p>2506 La Branch Street<\/p><p>Houston, TX 77004<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -107,6 +128,7 @@
       },
       "block_order": [
         "164096108500708b54-0",
+        "a684d695-1d22-45fd-b0e3-54244b92512d",
         "164096108500708b54-2",
         "164096108500708b54-1"
       ],

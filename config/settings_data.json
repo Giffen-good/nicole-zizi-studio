@@ -145,25 +145,29 @@
             "announcement-bar-0": {
               "type": "announcement",
               "settings": {
-                "color_scheme": "accent-2"
+                "color_scheme": "accent-2",
+                "font_color": "#fff"
               }
             },
             "announcement-bar-1": {
               "type": "announcement",
               "settings": {
-                "color_scheme": "accent-2"
+                "color_scheme": "accent-2",
+                "font_color": "#fff"
               }
             },
             "announcement-bar-2": {
               "type": "announcement",
               "settings": {
-                "color_scheme": "accent-2"
+                "color_scheme": "accent-2",
+                "font_color": "#fff"
               }
             },
             "announcement-bar-3": {
               "type": "announcement",
               "settings": {
-                "color_scheme": "accent-2"
+                "color_scheme": "accent-2",
+                "font_color": "#fff"
               }
             }
           },
