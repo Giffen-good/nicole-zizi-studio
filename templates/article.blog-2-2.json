@@ -1,0 +1,103 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "content",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "c9c4debe-f14b-4b47-9141-39d4f1739401": {
+      "type": "generic-content",
+      "blocks": {
+        "3de63cc6-4cae-4067-be10-cd6862f599dd": {
+          "type": "generic-content",
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Header",
+            "body_text": "",
+            "cta": "Read More",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        },
+        "b39af067-fb57-4754-ba42-6d5ada27d695": {
+          "type": "generic-content",
+          "settings": {
+            "cropped": true,
+            "video_url": "",
+            "highlighter_color": "#000000",
+            "bg_color": "#fff",
+            "highlighter_opacity": 0,
+            "text_color": "#fff",
+            "blur_effect": false,
+            "has_overlay": false,
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "highlighter_text": "Header",
+            "body_text": "",
+            "cta": "Read More",
+            "has_arrow": true,
+            "cta_text_color": "#fff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "3de63cc6-4cae-4067-be10-cd6862f599dd",
+        "b39af067-fb57-4754-ba42-6d5ada27d695"
+      ],
+      "settings": {
+        "section_margin": "large",
+        "height": "medium",
+        "hide": false,
+        "gutter": false,
+        "block_size": "large"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c9c4debe-f14b-4b47-9141-39d4f1739401"
+  ]
+}
